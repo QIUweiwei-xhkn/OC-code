@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EDB2AB2D2AAC2FA100478057 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AB2C2AAC2FA100478057 /* main.m */; };
-		EDB2AB3B2AADAEFC00478057 /* C.c in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AB3A2AADAEFC00478057 /* C.c */; };
+		EDB2AB5C2AADC5B900478057 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AB5B2AADC5B900478057 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EDB2AB272AAC2FA100478057 /* CopyFiles */ = {
+		EDB2AB562AADC5B900478057 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EDB2AB292AAC2FA100478057 /* 01-第一个OC程序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01-第一个OC程序"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDB2AB2C2AAC2FA100478057 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EDB2AB392AADAEFC00478057 /* C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C.h; path = "01-第一个OC程序/C.h"; sourceTree = "<group>"; };
-		EDB2AB3A2AADAEFC00478057 /* C.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = C.c; path = "01-第一个OC程序/C.c"; sourceTree = "<group>"; };
+		EDB2AB582AADC5B900478057 /* 03-第一个OC方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-第一个OC方法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB2AB5B2AADC5B900478057 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EDB2AB262AAC2FA100478057 /* Frameworks */ = {
+		EDB2AB552AADC5B900478057 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,67 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EDB2AB202AAC2FA100478057 = {
+		EDB2AB4F2AADC5B900478057 = {
 			isa = PBXGroup;
 			children = (
-				EDB2AB392AADAEFC00478057 /* C.h */,
-				EDB2AB3A2AADAEFC00478057 /* C.c */,
-				EDB2AB2B2AAC2FA100478057 /* 01-第一个OC程序 */,
-				EDB2AB2A2AAC2FA100478057 /* Products */,
+				EDB2AB5A2AADC5B900478057 /* 03-第一个OC方法 */,
+				EDB2AB592AADC5B900478057 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EDB2AB2A2AAC2FA100478057 /* Products */ = {
+		EDB2AB592AADC5B900478057 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EDB2AB292AAC2FA100478057 /* 01-第一个OC程序 */,
+				EDB2AB582AADC5B900478057 /* 03-第一个OC方法 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EDB2AB2B2AAC2FA100478057 /* 01-第一个OC程序 */ = {
+		EDB2AB5A2AADC5B900478057 /* 03-第一个OC方法 */ = {
 			isa = PBXGroup;
 			children = (
-				EDB2AB2C2AAC2FA100478057 /* main.m */,
+				EDB2AB5B2AADC5B900478057 /* main.m */,
 			);
-			path = "01-第一个OC程序";
+			path = "03-第一个OC方法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EDB2AB282AAC2FA100478057 /* 01-第一个OC程序 */ = {
+		EDB2AB572AADC5B900478057 /* 03-第一个OC方法 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDB2AB302AAC2FA100478057 /* Build configuration list for PBXNativeTarget "01-第一个OC程序" */;
+			buildConfigurationList = EDB2AB5F2AADC5B900478057 /* Build configuration list for PBXNativeTarget "03-第一个OC方法" */;
 			buildPhases = (
-				EDB2AB252AAC2FA100478057 /* Sources */,
-				EDB2AB262AAC2FA100478057 /* Frameworks */,
-				EDB2AB272AAC2FA100478057 /* CopyFiles */,
+				EDB2AB542AADC5B900478057 /* Sources */,
+				EDB2AB552AADC5B900478057 /* Frameworks */,
+				EDB2AB562AADC5B900478057 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "01-第一个OC程序";
-			productName = "01-第一个OC程序";
-			productReference = EDB2AB292AAC2FA100478057 /* 01-第一个OC程序 */;
+			name = "03-第一个OC方法";
+			productName = "03-第一个OC方法";
+			productReference = EDB2AB582AADC5B900478057 /* 03-第一个OC方法 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EDB2AB212AAC2FA100478057 /* Project object */ = {
+		EDB2AB502AADC5B900478057 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					EDB2AB282AAC2FA100478057 = {
+					EDB2AB572AADC5B900478057 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = EDB2AB242AAC2FA100478057 /* Build configuration list for PBXProject "01-第一个OC程序" */;
+			buildConfigurationList = EDB2AB532AADC5B900478057 /* Build configuration list for PBXProject "03-第一个OC方法" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,30 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = EDB2AB202AAC2FA100478057;
-			productRefGroup = EDB2AB2A2AAC2FA100478057 /* Products */;
+			mainGroup = EDB2AB4F2AADC5B900478057;
+			productRefGroup = EDB2AB592AADC5B900478057 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EDB2AB282AAC2FA100478057 /* 01-第一个OC程序 */,
+				EDB2AB572AADC5B900478057 /* 03-第一个OC方法 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EDB2AB252AAC2FA100478057 /* Sources */ = {
+		EDB2AB542AADC5B900478057 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDB2AB2D2AAC2FA100478057 /* main.m in Sources */,
-				EDB2AB3B2AADAEFC00478057 /* C.c in Sources */,
+				EDB2AB5C2AADC5B900478057 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EDB2AB2E2AAC2FA100478057 /* Debug */ = {
+		EDB2AB5D2AADC5B900478057 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -190,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		EDB2AB2F2AAC2FA100478057 /* Release */ = {
+		EDB2AB5E2AADC5B900478057 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +235,7 @@
 			};
 			name = Release;
 		};
-		EDB2AB312AAC2FA100478057 /* Debug */ = {
+		EDB2AB602AADC5B900478057 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -249,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		EDB2AB322AAC2FA100478057 /* Release */ = {
+		EDB2AB612AADC5B900478057 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -260,25 +254,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EDB2AB242AAC2FA100478057 /* Build configuration list for PBXProject "01-第一个OC程序" */ = {
+		EDB2AB532AADC5B900478057 /* Build configuration list for PBXProject "03-第一个OC方法" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDB2AB2E2AAC2FA100478057 /* Debug */,
-				EDB2AB2F2AAC2FA100478057 /* Release */,
+				EDB2AB5D2AADC5B900478057 /* Debug */,
+				EDB2AB5E2AADC5B900478057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDB2AB302AAC2FA100478057 /* Build configuration list for PBXNativeTarget "01-第一个OC程序" */ = {
+		EDB2AB5F2AADC5B900478057 /* Build configuration list for PBXNativeTarget "03-第一个OC方法" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDB2AB312AAC2FA100478057 /* Debug */,
-				EDB2AB322AAC2FA100478057 /* Release */,
+				EDB2AB602AADC5B900478057 /* Debug */,
+				EDB2AB612AADC5B900478057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EDB2AB212AAC2FA100478057 /* Project object */;
+	rootObject = EDB2AB502AADC5B900478057 /* Project object */;
 }
