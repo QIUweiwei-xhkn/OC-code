@@ -17,6 +17,7 @@ int main(int argc, const char * argv[]) {
     
     // 4.查看子弹的剩余数据(获取成员变量的值)
     //    NSLog(@"bullet = %i", gp->_bullet);
+    NSLog(@"NSstring");
         NSLog(@"bullet = %i", [gp getBullet]);
     return 0;
 }
