@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EDB2ABBB2AAF51D100478057 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2ABBA2AAF51D100478057 /* main.m */; };
-		EDB2AC7B2AB09DA700478057 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AC7A2AB09DA700478057 /* test.m */; };
+		EDB2AC1A2AB0782D00478057 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AC192AB0782D00478057 /* main.m */; };
+		EDB2AC2B2AB0807900478057 /* Gun.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AC262AB07A2800478057 /* Gun.m */; };
+		EDB2AC2D2AB0807900478057 /* Soldier.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AC282AB07B9000478057 /* Soldier.m */; };
+		EDB2AC2E2AB0807900478057 /* Shop.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AC2A2AB07E5A00478057 /* Shop.m */; };
+		EDB2AC322AB081EF00478057 /* Clip.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AC312AB081EF00478057 /* Clip.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EDB2ABB52AAF51D100478057 /* CopyFiles */ = {
+		EDB2AC142AB0782D00478057 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,13 +27,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EDB2ABB72AAF51D100478057 /* 03-结构体作为对象属性 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-结构体作为对象属性"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDB2ABBA2AAF51D100478057 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EDB2AC7A2AB09DA700478057 /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		EDB2AC162AB0782D00478057 /* 08-OC多文件开发 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "08-OC多文件开发"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB2AC192AB0782D00478057 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDB2AC252AB07A2800478057 /* Gun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gun.h; sourceTree = "<group>"; };
+		EDB2AC262AB07A2800478057 /* Gun.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gun.m; sourceTree = "<group>"; };
+		EDB2AC272AB07B9000478057 /* Soldier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Soldier.h; sourceTree = "<group>"; };
+		EDB2AC282AB07B9000478057 /* Soldier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Soldier.m; sourceTree = "<group>"; };
+		EDB2AC292AB07E5A00478057 /* Shop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shop.h; sourceTree = "<group>"; };
+		EDB2AC2A2AB07E5A00478057 /* Shop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shop.m; sourceTree = "<group>"; };
+		EDB2AC302AB081EF00478057 /* Clip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Clip.h; sourceTree = "<group>"; };
+		EDB2AC312AB081EF00478057 /* Clip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Clip.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EDB2ABB42AAF51D100478057 /* Frameworks */ = {
+		EDB2AC132AB0782D00478057 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,66 +50,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EDB2ABAE2AAF51D100478057 = {
+		EDB2AC0D2AB0782D00478057 = {
 			isa = PBXGroup;
 			children = (
-				EDB2ABB92AAF51D100478057 /* 03-结构体作为对象属性 */,
-				EDB2ABB82AAF51D100478057 /* Products */,
+				EDB2AC182AB0782D00478057 /* 08-OC多文件开发 */,
+				EDB2AC172AB0782D00478057 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EDB2ABB82AAF51D100478057 /* Products */ = {
+		EDB2AC172AB0782D00478057 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EDB2ABB72AAF51D100478057 /* 03-结构体作为对象属性 */,
+				EDB2AC162AB0782D00478057 /* 08-OC多文件开发 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EDB2ABB92AAF51D100478057 /* 03-结构体作为对象属性 */ = {
+		EDB2AC182AB0782D00478057 /* 08-OC多文件开发 */ = {
 			isa = PBXGroup;
 			children = (
-				EDB2ABBA2AAF51D100478057 /* main.m */,
-				EDB2AC7A2AB09DA700478057 /* test.m */,
+				EDB2AC272AB07B9000478057 /* Soldier.h */,
+				EDB2AC282AB07B9000478057 /* Soldier.m */,
+				EDB2AC292AB07E5A00478057 /* Shop.h */,
+				EDB2AC2A2AB07E5A00478057 /* Shop.m */,
+				EDB2AC252AB07A2800478057 /* Gun.h */,
+				EDB2AC262AB07A2800478057 /* Gun.m */,
+				EDB2AC192AB0782D00478057 /* main.m */,
+				EDB2AC302AB081EF00478057 /* Clip.h */,
+				EDB2AC312AB081EF00478057 /* Clip.m */,
 			);
-			path = "03-结构体作为对象属性";
+			path = "08-OC多文件开发";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EDB2ABB62AAF51D100478057 /* 03-结构体作为对象属性 */ = {
+		EDB2AC152AB0782D00478057 /* 08-OC多文件开发 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDB2ABBE2AAF51D100478057 /* Build configuration list for PBXNativeTarget "03-结构体作为对象属性" */;
+			buildConfigurationList = EDB2AC1D2AB0782D00478057 /* Build configuration list for PBXNativeTarget "08-OC多文件开发" */;
 			buildPhases = (
-				EDB2ABB32AAF51D100478057 /* Sources */,
-				EDB2ABB42AAF51D100478057 /* Frameworks */,
-				EDB2ABB52AAF51D100478057 /* CopyFiles */,
+				EDB2AC122AB0782D00478057 /* Sources */,
+				EDB2AC132AB0782D00478057 /* Frameworks */,
+				EDB2AC142AB0782D00478057 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "03-结构体作为对象属性";
-			productName = "03-结构体作为对象属性";
-			productReference = EDB2ABB72AAF51D100478057 /* 03-结构体作为对象属性 */;
+			name = "08-OC多文件开发";
+			productName = "08-OC多文件开发";
+			productReference = EDB2AC162AB0782D00478057 /* 08-OC多文件开发 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EDB2ABAF2AAF51D100478057 /* Project object */ = {
+		EDB2AC0E2AB0782D00478057 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					EDB2ABB62AAF51D100478057 = {
+					EDB2AC152AB0782D00478057 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = EDB2ABB22AAF51D100478057 /* Build configuration list for PBXProject "03-结构体作为对象属性" */;
+			buildConfigurationList = EDB2AC112AB0782D00478057 /* Build configuration list for PBXProject "08-OC多文件开发" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,30 +124,33 @@
 				en,
 				Base,
 			);
-			mainGroup = EDB2ABAE2AAF51D100478057;
-			productRefGroup = EDB2ABB82AAF51D100478057 /* Products */;
+			mainGroup = EDB2AC0D2AB0782D00478057;
+			productRefGroup = EDB2AC172AB0782D00478057 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EDB2ABB62AAF51D100478057 /* 03-结构体作为对象属性 */,
+				EDB2AC152AB0782D00478057 /* 08-OC多文件开发 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EDB2ABB32AAF51D100478057 /* Sources */ = {
+		EDB2AC122AB0782D00478057 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDB2ABBB2AAF51D100478057 /* main.m in Sources */,
-				EDB2AC7B2AB09DA700478057 /* test.m in Sources */,
+				EDB2AC322AB081EF00478057 /* Clip.m in Sources */,
+				EDB2AC2E2AB0807900478057 /* Shop.m in Sources */,
+				EDB2AC2B2AB0807900478057 /* Gun.m in Sources */,
+				EDB2AC2D2AB0807900478057 /* Soldier.m in Sources */,
+				EDB2AC1A2AB0782D00478057 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EDB2ABBC2AAF51D100478057 /* Debug */ = {
+		EDB2AC1B2AB0782D00478057 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		EDB2ABBD2AAF51D100478057 /* Release */ = {
+		EDB2AC1C2AB0782D00478057 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -239,7 +259,7 @@
 			};
 			name = Release;
 		};
-		EDB2ABBF2AAF51D100478057 /* Debug */ = {
+		EDB2AC1E2AB0782D00478057 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -247,7 +267,7 @@
 			};
 			name = Debug;
 		};
-		EDB2ABC02AAF51D100478057 /* Release */ = {
+		EDB2AC1F2AB0782D00478057 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -258,25 +278,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EDB2ABB22AAF51D100478057 /* Build configuration list for PBXProject "03-结构体作为对象属性" */ = {
+		EDB2AC112AB0782D00478057 /* Build configuration list for PBXProject "08-OC多文件开发" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDB2ABBC2AAF51D100478057 /* Debug */,
-				EDB2ABBD2AAF51D100478057 /* Release */,
+				EDB2AC1B2AB0782D00478057 /* Debug */,
+				EDB2AC1C2AB0782D00478057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDB2ABBE2AAF51D100478057 /* Build configuration list for PBXNativeTarget "03-结构体作为对象属性" */ = {
+		EDB2AC1D2AB0782D00478057 /* Build configuration list for PBXNativeTarget "08-OC多文件开发" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDB2ABBF2AAF51D100478057 /* Debug */,
-				EDB2ABC02AAF51D100478057 /* Release */,
+				EDB2AC1E2AB0782D00478057 /* Debug */,
+				EDB2AC1F2AB0782D00478057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EDB2ABAF2AAF51D100478057 /* Project object */;
+	rootObject = EDB2AC0E2AB0782D00478057 /* Project object */;
 }
