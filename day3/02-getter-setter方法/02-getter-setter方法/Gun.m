@@ -35,4 +35,13 @@
 - (int)getBullet {
     return _bullet;
 }
+
+-(void)setSize:(int)size {
+    //成员变量以下划线开头的好处,就是可以区分局部变量和成员变量
+    _size = size;
+}
+
+-(int)size {
+    return _size;
+}
 @end

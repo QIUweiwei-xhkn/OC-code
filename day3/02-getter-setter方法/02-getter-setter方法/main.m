@@ -10,14 +10,9 @@
 
 int main(int argc, const char * argv[]) {
     Gun *gp = [Gun new];
-//    gp->_bullet = -10;
-    // 引发这个问题的原因: 因为成员变量是public, 给成员变量赋值的时, 赋值的值不受我们的约束
-    [gp addBulle:10];
-    [gp shoot];
+    [gp setSize:5];
+        NSLog(@"size = %i", [gp size]);
+        return 0;
     
-    // 4.查看子弹的剩余数据(获取成员变量的值)
-    //    NSLog(@"bullet = %i", gp->_bullet);
-    NSLog(@"NSstring");
-        NSLog(@"bullet = %i", [gp getBullet]);
     return 0;
 }
