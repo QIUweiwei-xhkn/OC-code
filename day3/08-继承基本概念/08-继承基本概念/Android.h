@@ -19,7 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 //
 //- (void)sendMessageWithNumber:(NSString*)number andContent:(NSString *)content;
 
-
+- (void)setCpu:(int)cpu;
+- (int)cpu;
 @end
 
 NS_ASSUME_NONNULL_END

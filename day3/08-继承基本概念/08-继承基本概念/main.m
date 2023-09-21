@@ -15,7 +15,10 @@ int main(int argc, const char * argv[]) {
     [p signalWithNumer:@"123567"];
     Android * an = [Android new];
     [an sendMessageWithNumber:@"o12394949" andContent:@"哈哈哈哈"];
+    [Iphone brand];
+    [Android brand];
     
-//    [p brand];
+    [an setCpu:100];
+    NSLog(@"cpu = %i", [an cpu]);
     return 0;
 }
