@@ -8,52 +8,13 @@
 #import "Person.h"
 
 @implementation Person
-/*
- @synthesize是一个编译器指令, 它可以简化我们getter/setter方法的实现
- 
- 什么是实现:
- 在声明后面写上大括号就代表着实现
- 
- 1.在@synthesize后面告诉编译器, 需要实现哪个@property生成的声明
- 2. 告诉@synthesize, 需要将传入的值赋值给谁和返回谁的值给调用者
- 
- - (void)setAge:(int)age
- {
-    _age = age;
- }
- - (int)age
- {
-    return _age;
- }
- */
-//@synthesize age = _age;
-
-/*
- - (void)setAge:(int)age
- {
-    _number = age;
- }
- - (int)age
- {
-    return _number
- ;
- }
- */
-//@synthesize age = _number;
-
-
-// 如果在@synthesize后面没有告诉系统将传入的值赋值给谁, 系统默认会赋值给和@synthesize后面写得名称相同的成员变量
-// _age? age;
-@synthesize age;
-
-/*
-- (void)setAge:(int)age
-{
+// 如果重写了setter方法, 那么property就只会生成getter方法
+// 如果重写了getter方法, 那么property就只会生成setter方法
+// 如果同时重写了getter/setter方法, 那么property就不会自动帮我们生成私有的成员变量
+-(void)setAge:(int)age {
+    if(age < 0) {
+        age = 0;
+    }
     _age = age;
 }
-
-- (int)age
-{
-    return _age;
-}
- */@end
+@end
