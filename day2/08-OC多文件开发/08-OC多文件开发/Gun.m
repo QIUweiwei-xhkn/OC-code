@@ -2,12 +2,17 @@
 //  Gun.m
 //  08-OC多文件开发
 //
-//  Created by wei wei on 2023/9/12.
+//  Created by wei wei on 2023/9/13.
 //
 
 #import "Gun.h"
 
 @implementation Gun
+/**
+ *  射击
+ *
+ *  @param c 弹夹
+ */
 - (void)shoot:(Clip *)c
 {
     // 判断有没有弹夹

@@ -8,6 +8,9 @@
 #import "Kline.h"
 
 @implementation Kline
+- (instancetype)init{
+    return self;
+}
 -(void)setMax:(int)max {
     _max = max;
     // 每次重新设置最大值, 那么就重新计算平均值

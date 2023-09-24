@@ -2,7 +2,7 @@
 //  Soldier.h
 //  08-OC多文件开发
 //
-//  Created by wei wei on 2023/9/12.
+//  Created by wei wei on 2023/9/13.
 //
 
 #import <Foundation/Foundation.h>
@@ -18,9 +18,6 @@ NS_ASSUME_NONNULL_BEGIN
     double _height;
     double _weight;
 }
-// 开火
-//- (void)fire:(Gun *)gun;
-
 // 开火, 给士兵一把枪和一个弹夹
 - (void)fire:(Gun *)gun clip:(Clip *)clip;
 @end

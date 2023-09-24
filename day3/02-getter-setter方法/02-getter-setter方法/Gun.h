@@ -1,8 +1,8 @@
 //
 //  Gun.h
-//  01-封装基本概念
+//  02-getter-setter方法
 //
-//  Created by wei wei on 2023/9/12.
+//  Created by wei wei on 2023/9/13.
 //
 
 #import <Foundation/Foundation.h>
@@ -11,25 +11,27 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Gun : NSObject
 {
-    //    @public
-    int _bullet;
-    // 虽然成员变量不是public之后外界不能直接访问了, 但是还是可以在本类的对象方法中直接访问
-    int _size;
-    NSString *_model;
-    int _color;
-    double _weight;
+    int _bullet; // 子弹
     /*
      由于将来我们经常需要定义一些方法来操作成员变量,而每个方法都必须有一个有意义的名称,而想名字非常难,所以就有了getter-setter方法
      getter-setter方法格式和写法都是固定的,所以只要有getter-setter方法我们就不用煞费心思的去想方法名称了,解决我们起名字难问题
      并且getter-setter方法还是程序员之间的一种规范,以后别人只要想给属性赋值立刻就会想到getter-setter方法,这样降低了程序员之间的沟通成本
      
      */
+    int _size; //尺寸
+    NSString *_model;//型号
+    int _color; //颜色
+    double _weight; // 重量
     
 }
--(void)shoot;
+/**
+ *  射击方法
+ */
+- (void)shoot;
+
 
 // 提供一个方法用于设置成员变量的值
--(void)addBulle:(int)count;
+- (void)addBullet:(int)count;
 
 // 提供一个方法用于返回成员变量的值
 - (int)getBullet;
@@ -42,8 +44,8 @@ NS_ASSUME_NONNULL_BEGIN
  2. 一定没有返回值
  3. 一定以set开头, 并且set后面跟上需要设置的成员变量的名称去掉下划线, 并且首字母大写
  4. 一定有参数, 参数类型一定和需要设置的成员变量的类型一致, 并且参数名称就是成员变量的名称去掉下划线
- */
--(void)setSize:(int)size;
+*/
+- (void)setSize:(int)size;
 
 /*
  getter方法:
@@ -54,7 +56,7 @@ NS_ASSUME_NONNULL_BEGIN
  3.方法名称就是获取的成员变量的名称去掉下划线
  4. 一定没有参数
  */
--(int)size;
+- (int)size;
 @end
 
 NS_ASSUME_NONNULL_END

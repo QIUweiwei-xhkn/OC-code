@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EDB2AC782AB09B7100478057 /* Gun.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AC762AB09B7100478057 /* Gun.m */; };
-		EDB2AC7E2AB09FF500478057 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AC7D2AB09FF400478057 /* main.m */; };
+		EDB2ACF32AB176C200478057 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2ACF22AB176C200478057 /* main.m */; };
+		EDB2ACFB2AB177D100478057 /* Gun.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2ACFA2AB177D100478057 /* Gun.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EDB2AC692AB09AF300478057 /* CopyFiles */ = {
+		EDB2ACED2AB176C200478057 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EDB2AC6B2AB09AF300478057 /* 02-getter-setter方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02-getter-setter方法"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDB2AC752AB09B7100478057 /* Gun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gun.h; sourceTree = "<group>"; };
-		EDB2AC762AB09B7100478057 /* Gun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gun.m; sourceTree = "<group>"; };
-		EDB2AC7D2AB09FF400478057 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDB2ACEF2AB176C200478057 /* 02-getter-setter方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02-getter-setter方法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB2ACF22AB176C200478057 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDB2ACF92AB177D100478057 /* Gun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gun.h; sourceTree = "<group>"; };
+		EDB2ACFA2AB177D100478057 /* Gun.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gun.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EDB2AC682AB09AF300478057 /* Frameworks */ = {
+		EDB2ACEC2AB176C200478057 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,28 +41,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EDB2AC622AB09AF300478057 = {
+		EDB2ACE62AB176C200478057 = {
 			isa = PBXGroup;
 			children = (
-				EDB2AC6D2AB09AF300478057 /* 02-getter-setter方法 */,
-				EDB2AC6C2AB09AF300478057 /* Products */,
+				EDB2ACF12AB176C200478057 /* 02-getter-setter方法 */,
+				EDB2ACF02AB176C200478057 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EDB2AC6C2AB09AF300478057 /* Products */ = {
+		EDB2ACF02AB176C200478057 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EDB2AC6B2AB09AF300478057 /* 02-getter-setter方法 */,
+				EDB2ACEF2AB176C200478057 /* 02-getter-setter方法 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EDB2AC6D2AB09AF300478057 /* 02-getter-setter方法 */ = {
+		EDB2ACF12AB176C200478057 /* 02-getter-setter方法 */ = {
 			isa = PBXGroup;
 			children = (
-				EDB2AC752AB09B7100478057 /* Gun.h */,
-				EDB2AC762AB09B7100478057 /* Gun.m */,
-				EDB2AC7D2AB09FF400478057 /* main.m */,
+				EDB2ACF22AB176C200478057 /* main.m */,
+				EDB2ACF92AB177D100478057 /* Gun.h */,
+				EDB2ACFA2AB177D100478057 /* Gun.m */,
 			);
 			path = "02-getter-setter方法";
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EDB2AC6A2AB09AF300478057 /* 02-getter-setter方法 */ = {
+		EDB2ACEE2AB176C200478057 /* 02-getter-setter方法 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDB2AC722AB09AF300478057 /* Build configuration list for PBXNativeTarget "02-getter-setter方法" */;
+			buildConfigurationList = EDB2ACF62AB176C200478057 /* Build configuration list for PBXNativeTarget "02-getter-setter方法" */;
 			buildPhases = (
-				EDB2AC672AB09AF300478057 /* Sources */,
-				EDB2AC682AB09AF300478057 /* Frameworks */,
-				EDB2AC692AB09AF300478057 /* CopyFiles */,
+				EDB2ACEB2AB176C200478057 /* Sources */,
+				EDB2ACEC2AB176C200478057 /* Frameworks */,
+				EDB2ACED2AB176C200478057 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -84,24 +84,24 @@
 			);
 			name = "02-getter-setter方法";
 			productName = "02-getter-setter方法";
-			productReference = EDB2AC6B2AB09AF300478057 /* 02-getter-setter方法 */;
+			productReference = EDB2ACEF2AB176C200478057 /* 02-getter-setter方法 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EDB2AC632AB09AF300478057 /* Project object */ = {
+		EDB2ACE72AB176C200478057 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					EDB2AC6A2AB09AF300478057 = {
+					EDB2ACEE2AB176C200478057 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = EDB2AC662AB09AF300478057 /* Build configuration list for PBXProject "02-getter-setter方法" */;
+			buildConfigurationList = EDB2ACEA2AB176C200478057 /* Build configuration list for PBXProject "02-getter-setter方法" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,30 +109,30 @@
 				en,
 				Base,
 			);
-			mainGroup = EDB2AC622AB09AF300478057;
-			productRefGroup = EDB2AC6C2AB09AF300478057 /* Products */;
+			mainGroup = EDB2ACE62AB176C200478057;
+			productRefGroup = EDB2ACF02AB176C200478057 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EDB2AC6A2AB09AF300478057 /* 02-getter-setter方法 */,
+				EDB2ACEE2AB176C200478057 /* 02-getter-setter方法 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EDB2AC672AB09AF300478057 /* Sources */ = {
+		EDB2ACEB2AB176C200478057 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDB2AC7E2AB09FF500478057 /* main.m in Sources */,
-				EDB2AC782AB09B7100478057 /* Gun.m in Sources */,
+				EDB2ACFB2AB177D100478057 /* Gun.m in Sources */,
+				EDB2ACF32AB176C200478057 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EDB2AC702AB09AF300478057 /* Debug */ = {
+		EDB2ACF42AB176C200478057 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -190,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		EDB2AC712AB09AF300478057 /* Release */ = {
+		EDB2ACF52AB176C200478057 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +241,7 @@
 			};
 			name = Release;
 		};
-		EDB2AC732AB09AF300478057 /* Debug */ = {
+		EDB2ACF72AB176C200478057 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -249,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		EDB2AC742AB09AF300478057 /* Release */ = {
+		EDB2ACF82AB176C200478057 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -260,25 +260,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EDB2AC662AB09AF300478057 /* Build configuration list for PBXProject "02-getter-setter方法" */ = {
+		EDB2ACEA2AB176C200478057 /* Build configuration list for PBXProject "02-getter-setter方法" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDB2AC702AB09AF300478057 /* Debug */,
-				EDB2AC712AB09AF300478057 /* Release */,
+				EDB2ACF42AB176C200478057 /* Debug */,
+				EDB2ACF52AB176C200478057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDB2AC722AB09AF300478057 /* Build configuration list for PBXNativeTarget "02-getter-setter方法" */ = {
+		EDB2ACF62AB176C200478057 /* Build configuration list for PBXNativeTarget "02-getter-setter方法" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDB2AC732AB09AF300478057 /* Debug */,
-				EDB2AC742AB09AF300478057 /* Release */,
+				EDB2ACF72AB176C200478057 /* Debug */,
+				EDB2ACF82AB176C200478057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EDB2AC632AB09AF300478057 /* Project object */;
+	rootObject = EDB2ACE72AB176C200478057 /* Project object */;
 }

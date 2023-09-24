@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EDB2AC402AB0836E00478057 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AC3F2AB0836E00478057 /* main.m */; };
-		EDB2AC482AB0841400478057 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AC472AB0841400478057 /* Person.m */; };
-		EDB2AC4B2AB087BE00478057 /* Iphone.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AC4A2AB087BE00478057 /* Iphone.m */; };
+		EDB2ACC42AB1490900478057 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2ACC32AB1490900478057 /* main.m */; };
+		EDB2ACCC2AB149F100478057 /* Ipone.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2ACCB2AB149F100478057 /* Ipone.m */; };
+		EDB2ACCF2AB1719000478057 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2ACCE2AB1719000478057 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EDB2AC3A2AB0836E00478057 /* CopyFiles */ = {
+		EDB2ACBE2AB1490900478057 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,16 +25,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EDB2AC3C2AB0836E00478057 /* 09-匿名对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "09-匿名对象"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDB2AC3F2AB0836E00478057 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EDB2AC462AB0841400478057 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		EDB2AC472AB0841400478057 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		EDB2AC492AB087BE00478057 /* Iphone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Iphone.h; sourceTree = "<group>"; };
-		EDB2AC4A2AB087BE00478057 /* Iphone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Iphone.m; sourceTree = "<group>"; };
+		EDB2ACC02AB1490900478057 /* 09-匿名对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "09-匿名对象"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB2ACC32AB1490900478057 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDB2ACCA2AB149F100478057 /* Ipone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ipone.h; sourceTree = "<group>"; };
+		EDB2ACCB2AB149F100478057 /* Ipone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ipone.m; sourceTree = "<group>"; };
+		EDB2ACCD2AB1719000478057 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		EDB2ACCE2AB1719000478057 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EDB2AC392AB0836E00478057 /* Frameworks */ = {
+		EDB2ACBD2AB1490900478057 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,30 +44,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EDB2AC332AB0836E00478057 = {
+		EDB2ACB72AB1490900478057 = {
 			isa = PBXGroup;
 			children = (
-				EDB2AC3E2AB0836E00478057 /* 09-匿名对象 */,
-				EDB2AC3D2AB0836E00478057 /* Products */,
+				EDB2ACC22AB1490900478057 /* 09-匿名对象 */,
+				EDB2ACC12AB1490900478057 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EDB2AC3D2AB0836E00478057 /* Products */ = {
+		EDB2ACC12AB1490900478057 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EDB2AC3C2AB0836E00478057 /* 09-匿名对象 */,
+				EDB2ACC02AB1490900478057 /* 09-匿名对象 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EDB2AC3E2AB0836E00478057 /* 09-匿名对象 */ = {
+		EDB2ACC22AB1490900478057 /* 09-匿名对象 */ = {
 			isa = PBXGroup;
 			children = (
-				EDB2AC492AB087BE00478057 /* Iphone.h */,
-				EDB2AC4A2AB087BE00478057 /* Iphone.m */,
-				EDB2AC462AB0841400478057 /* Person.h */,
-				EDB2AC472AB0841400478057 /* Person.m */,
-				EDB2AC3F2AB0836E00478057 /* main.m */,
+				EDB2ACCA2AB149F100478057 /* Ipone.h */,
+				EDB2ACCB2AB149F100478057 /* Ipone.m */,
+				EDB2ACC32AB1490900478057 /* main.m */,
+				EDB2ACCD2AB1719000478057 /* Person.h */,
+				EDB2ACCE2AB1719000478057 /* Person.m */,
 			);
 			path = "09-匿名对象";
 			sourceTree = "<group>";
@@ -75,13 +75,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EDB2AC3B2AB0836E00478057 /* 09-匿名对象 */ = {
+		EDB2ACBF2AB1490900478057 /* 09-匿名对象 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDB2AC432AB0836E00478057 /* Build configuration list for PBXNativeTarget "09-匿名对象" */;
+			buildConfigurationList = EDB2ACC72AB1490900478057 /* Build configuration list for PBXNativeTarget "09-匿名对象" */;
 			buildPhases = (
-				EDB2AC382AB0836E00478057 /* Sources */,
-				EDB2AC392AB0836E00478057 /* Frameworks */,
-				EDB2AC3A2AB0836E00478057 /* CopyFiles */,
+				EDB2ACBC2AB1490900478057 /* Sources */,
+				EDB2ACBD2AB1490900478057 /* Frameworks */,
+				EDB2ACBE2AB1490900478057 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -89,24 +89,24 @@
 			);
 			name = "09-匿名对象";
 			productName = "09-匿名对象";
-			productReference = EDB2AC3C2AB0836E00478057 /* 09-匿名对象 */;
+			productReference = EDB2ACC02AB1490900478057 /* 09-匿名对象 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EDB2AC342AB0836E00478057 /* Project object */ = {
+		EDB2ACB82AB1490900478057 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					EDB2AC3B2AB0836E00478057 = {
+					EDB2ACBF2AB1490900478057 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = EDB2AC372AB0836E00478057 /* Build configuration list for PBXProject "09-匿名对象" */;
+			buildConfigurationList = EDB2ACBB2AB1490900478057 /* Build configuration list for PBXProject "09-匿名对象" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,31 +114,31 @@
 				en,
 				Base,
 			);
-			mainGroup = EDB2AC332AB0836E00478057;
-			productRefGroup = EDB2AC3D2AB0836E00478057 /* Products */;
+			mainGroup = EDB2ACB72AB1490900478057;
+			productRefGroup = EDB2ACC12AB1490900478057 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EDB2AC3B2AB0836E00478057 /* 09-匿名对象 */,
+				EDB2ACBF2AB1490900478057 /* 09-匿名对象 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EDB2AC382AB0836E00478057 /* Sources */ = {
+		EDB2ACBC2AB1490900478057 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDB2AC482AB0841400478057 /* Person.m in Sources */,
-				EDB2AC402AB0836E00478057 /* main.m in Sources */,
-				EDB2AC4B2AB087BE00478057 /* Iphone.m in Sources */,
+				EDB2ACCF2AB1719000478057 /* Person.m in Sources */,
+				EDB2ACC42AB1490900478057 /* main.m in Sources */,
+				EDB2ACCC2AB149F100478057 /* Ipone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EDB2AC412AB0836E00478057 /* Debug */ = {
+		EDB2ACC52AB1490900478057 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -196,7 +196,7 @@
 			};
 			name = Debug;
 		};
-		EDB2AC422AB0836E00478057 /* Release */ = {
+		EDB2ACC62AB1490900478057 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -247,7 +247,7 @@
 			};
 			name = Release;
 		};
-		EDB2AC442AB0836E00478057 /* Debug */ = {
+		EDB2ACC82AB1490900478057 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -255,7 +255,7 @@
 			};
 			name = Debug;
 		};
-		EDB2AC452AB0836E00478057 /* Release */ = {
+		EDB2ACC92AB1490900478057 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -266,25 +266,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EDB2AC372AB0836E00478057 /* Build configuration list for PBXProject "09-匿名对象" */ = {
+		EDB2ACBB2AB1490900478057 /* Build configuration list for PBXProject "09-匿名对象" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDB2AC412AB0836E00478057 /* Debug */,
-				EDB2AC422AB0836E00478057 /* Release */,
+				EDB2ACC52AB1490900478057 /* Debug */,
+				EDB2ACC62AB1490900478057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDB2AC432AB0836E00478057 /* Build configuration list for PBXNativeTarget "09-匿名对象" */ = {
+		EDB2ACC72AB1490900478057 /* Build configuration list for PBXNativeTarget "09-匿名对象" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDB2AC442AB0836E00478057 /* Debug */,
-				EDB2AC452AB0836E00478057 /* Release */,
+				EDB2ACC82AB1490900478057 /* Debug */,
+				EDB2ACC92AB1490900478057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EDB2AC342AB0836E00478057 /* Project object */;
+	rootObject = EDB2ACB82AB1490900478057 /* Project object */;
 }
