@@ -7,7 +7,6 @@
 
 #import "Gun.h"
 
-
 @implementation Gun
 /**
  *  射击

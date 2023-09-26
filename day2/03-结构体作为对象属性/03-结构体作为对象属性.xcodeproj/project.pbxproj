@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EDB2ABBB2AAF51D100478057 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2ABBA2AAF51D100478057 /* main.m */; };
+		EDB2AC7B2AB09DA700478057 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AC7A2AB09DA700478057 /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		EDB2ABB72AAF51D100478057 /* 03-结构体作为对象属性 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-结构体作为对象属性"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB2ABBA2AAF51D100478057 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDB2AC7A2AB09DA700478057 /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				EDB2ABBA2AAF51D100478057 /* main.m */,
+				EDB2AC7A2AB09DA700478057 /* test.m */,
 			);
 			path = "03-结构体作为对象属性";
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDB2ABBB2AAF51D100478057 /* main.m in Sources */,
+				EDB2AC7B2AB09DA700478057 /* test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

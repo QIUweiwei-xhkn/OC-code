@@ -21,5 +21,4 @@
     [clip addBullet];
     return clip;
 }
-
 @end

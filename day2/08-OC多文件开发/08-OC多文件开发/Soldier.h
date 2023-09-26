@@ -7,6 +7,8 @@
 
 #import <Foundation/Foundation.h>
 #import "Gun.h"
+#import "Clip.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Soldier : NSObject

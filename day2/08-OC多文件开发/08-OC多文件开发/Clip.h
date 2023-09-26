@@ -2,8 +2,7 @@
 //  Clip.h
 //  08-OC多文件开发
 //
-//  Created by wei wei on 2023/9/13.
-//
+//  Created by wei wei on 2023/9/12.
 
 #import <Foundation/Foundation.h>
 
@@ -14,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @public
     int _bullet; // 子弹
 }
+
 
 /**
  *  上子弹

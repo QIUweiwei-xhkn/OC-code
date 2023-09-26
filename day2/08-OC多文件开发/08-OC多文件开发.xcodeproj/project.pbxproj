@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+
 		EDB2ACA22AB141E600478057 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2ACA12AB141E600478057 /* main.m */; };
 		EDB2ACAA2AB1439F00478057 /* Clip.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2ACA92AB1439F00478057 /* Clip.m */; };
 		EDB2ACB02AB143E100478057 /* Gun.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2ACAF2AB143E100478057 /* Gun.m */; };
@@ -50,6 +51,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+
 		EDB2AC952AB141E600478057 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +107,7 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
+
 		EDB2AC962AB141E600478057 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
@@ -116,6 +119,7 @@
 					};
 				};
 			};
+
 			buildConfigurationList = EDB2AC992AB141E600478057 /* Build configuration list for PBXProject "08-OC多文件开发" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
@@ -124,6 +128,7 @@
 				en,
 				Base,
 			);
+
 			mainGroup = EDB2AC952AB141E600478057;
 			productRefGroup = EDB2AC9F2AB141E600478057 /* Products */;
 			projectDirPath = "";
@@ -135,6 +140,7 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+
 		EDB2AC9A2AB141E600478057 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;

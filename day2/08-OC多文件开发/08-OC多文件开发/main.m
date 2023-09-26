@@ -24,5 +24,6 @@ int main(int argc, const char * argv[]) {
         // 4.让士兵开枪
         [sp fire:gp clip:clip];
         [sp fire:gp clip:clip];
+>>>>>>> main
     return 0;
 }
