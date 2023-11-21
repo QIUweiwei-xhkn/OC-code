@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDD3033E2AEDFC7B001BC942 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD3033D2AEDFC7B001BC942 /* main.m */; };
+		EDD303462AEE00A8001BC942 /* Baby.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD303452AEE00A8001BC942 /* Baby.m */; };
+		EDD303492AEE0114001BC942 /* Nanny.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD303482AEE0114001BC942 /* Nanny.m */; };
+		EDD3034C2AEE030C001BC942 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD3034B2AEE030C001BC942 /* Student.m */; };
+		EDD303502AEE05B3001BC942 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD3034F2AEE05B3001BC942 /* Teacher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EDD303382AEDFC7B001BC942 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EDD3033A2AEDFC7B001BC942 /* 04-protocol应用场景2-代理设计模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-protocol应用场景2-代理设计模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD3033D2AEDFC7B001BC942 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDD303442AEE00A8001BC942 /* Baby.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Baby.h; sourceTree = "<group>"; };
+		EDD303452AEE00A8001BC942 /* Baby.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Baby.m; sourceTree = "<group>"; };
+		EDD303472AEE0114001BC942 /* Nanny.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nanny.h; sourceTree = "<group>"; };
+		EDD303482AEE0114001BC942 /* Nanny.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nanny.m; sourceTree = "<group>"; };
+		EDD3034A2AEE030C001BC942 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		EDD3034B2AEE030C001BC942 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		EDD3034D2AEE0476001BC942 /* babyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = babyProtocol.h; sourceTree = "<group>"; };
+		EDD3034E2AEE05B3001BC942 /* Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		EDD3034F2AEE05B3001BC942 /* Teacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDD303372AEDFC7B001BC942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDD303312AEDFC7B001BC942 = {
+			isa = PBXGroup;
+			children = (
+				EDD3033C2AEDFC7B001BC942 /* 04-protocol应用场景2-代理设计模式 */,
+				EDD3033B2AEDFC7B001BC942 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDD3033B2AEDFC7B001BC942 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDD3033A2AEDFC7B001BC942 /* 04-protocol应用场景2-代理设计模式 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDD3033C2AEDFC7B001BC942 /* 04-protocol应用场景2-代理设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+				EDD3033D2AEDFC7B001BC942 /* main.m */,
+				EDD3034E2AEE05B3001BC942 /* Teacher.h */,
+				EDD3034F2AEE05B3001BC942 /* Teacher.m */,
+				EDD3034D2AEE0476001BC942 /* babyProtocol.h */,
+				EDD3034A2AEE030C001BC942 /* Student.h */,
+				EDD3034B2AEE030C001BC942 /* Student.m */,
+				EDD303442AEE00A8001BC942 /* Baby.h */,
+				EDD303452AEE00A8001BC942 /* Baby.m */,
+				EDD303472AEE0114001BC942 /* Nanny.h */,
+				EDD303482AEE0114001BC942 /* Nanny.m */,
+			);
+			path = "04-protocol应用场景2-代理设计模式";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDD303392AEDFC7B001BC942 /* 04-protocol应用场景2-代理设计模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD303412AEDFC7B001BC942 /* Build configuration list for PBXNativeTarget "04-protocol应用场景2-代理设计模式" */;
+			buildPhases = (
+				EDD303362AEDFC7B001BC942 /* Sources */,
+				EDD303372AEDFC7B001BC942 /* Frameworks */,
+				EDD303382AEDFC7B001BC942 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-protocol应用场景2-代理设计模式";
+			productName = "04-protocol应用场景2-代理设计模式";
+			productReference = EDD3033A2AEDFC7B001BC942 /* 04-protocol应用场景2-代理设计模式 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDD303322AEDFC7B001BC942 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EDD303392AEDFC7B001BC942 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = EDD303352AEDFC7B001BC942 /* Build configuration list for PBXProject "04-protocol应用场景2-代理设计模式" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDD303312AEDFC7B001BC942;
+			productRefGroup = EDD3033B2AEDFC7B001BC942 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDD303392AEDFC7B001BC942 /* 04-protocol应用场景2-代理设计模式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDD303362AEDFC7B001BC942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD303492AEE0114001BC942 /* Nanny.m in Sources */,
+				EDD3033E2AEDFC7B001BC942 /* main.m in Sources */,
+				EDD303462AEE00A8001BC942 /* Baby.m in Sources */,
+				EDD303502AEE05B3001BC942 /* Teacher.m in Sources */,
+				EDD3034C2AEE030C001BC942 /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EDD3033F2AEDFC7B001BC942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EDD303402AEDFC7B001BC942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EDD303422AEDFC7B001BC942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDD303432AEDFC7B001BC942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDD303352AEDFC7B001BC942 /* Build configuration list for PBXProject "04-protocol应用场景2-代理设计模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD3033F2AEDFC7B001BC942 /* Debug */,
+				EDD303402AEDFC7B001BC942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD303412AEDFC7B001BC942 /* Build configuration list for PBXNativeTarget "04-protocol应用场景2-代理设计模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD303422AEDFC7B001BC942 /* Debug */,
+				EDD303432AEDFC7B001BC942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDD303322AEDFC7B001BC942 /* Project object */;
+}
