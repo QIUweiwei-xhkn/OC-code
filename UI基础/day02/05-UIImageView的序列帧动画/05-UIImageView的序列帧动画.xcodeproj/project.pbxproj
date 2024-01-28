@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED8D2B972B63B57400CAD760 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8D2B962B63B57400CAD760 /* AppDelegate.m */; };
+		ED8D2B9A2B63B57400CAD760 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8D2B992B63B57400CAD760 /* SceneDelegate.m */; };
+		ED8D2B9D2B63B57400CAD760 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8D2B9C2B63B57400CAD760 /* ViewController.m */; };
+		ED8D2BA02B63B57400CAD760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8D2B9E2B63B57400CAD760 /* Main.storyboard */; };
+		ED8D2BA22B63B57500CAD760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8D2BA12B63B57500CAD760 /* Assets.xcassets */; };
+		ED8D2BA52B63B57500CAD760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8D2BA32B63B57500CAD760 /* LaunchScreen.storyboard */; };
+		ED8D2BA82B63B57500CAD760 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8D2BA72B63B57500CAD760 /* main.m */; };
+		ED8D2BB22B63B57500CAD760 /* _5_UIImageView______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8D2BB12B63B57500CAD760 /* _5_UIImageView______Tests.m */; };
+		ED8D2BBC2B63B57500CAD760 /* _5_UIImageView______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8D2BBB2B63B57500CAD760 /* _5_UIImageView______UITests.m */; };
+		ED8D2BBE2B63B57500CAD760 /* _5_UIImageView______UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8D2BBD2B63B57500CAD760 /* _5_UIImageView______UITestsLaunchTests.m */; };
+		ED8D2C1E2B63D51800CAD760 /* panda_8.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8D2C122B63D51700CAD760 /* panda_8.png */; };
+		ED8D2C1F2B63D51800CAD760 /* panda_3.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8D2C132B63D51700CAD760 /* panda_3.png */; };
+		ED8D2C202B63D51800CAD760 /* panda_4.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8D2C142B63D51700CAD760 /* panda_4.png */; };
+		ED8D2C212B63D51800CAD760 /* panda_5.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8D2C152B63D51700CAD760 /* panda_5.png */; };
+		ED8D2C222B63D51800CAD760 /* panda_12.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8D2C162B63D51700CAD760 /* panda_12.png */; };
+		ED8D2C232B63D51800CAD760 /* panda_10.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8D2C172B63D51700CAD760 /* panda_10.png */; };
+		ED8D2C242B63D51800CAD760 /* panda_2.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8D2C182B63D51800CAD760 /* panda_2.png */; };
+		ED8D2C252B63D51800CAD760 /* panda_1.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8D2C192B63D51800CAD760 /* panda_1.png */; };
+		ED8D2C262B63D51800CAD760 /* panda_7.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8D2C1A2B63D51800CAD760 /* panda_7.png */; };
+		ED8D2C272B63D51800CAD760 /* panda_6.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8D2C1B2B63D51800CAD760 /* panda_6.png */; };
+		ED8D2C282B63D51800CAD760 /* panda_9.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8D2C1C2B63D51800CAD760 /* panda_9.png */; };
+		ED8D2C292B63D51800CAD760 /* panda_11.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8D2C1D2B63D51800CAD760 /* panda_11.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED8D2BAE2B63B57500CAD760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8D2B8A2B63B57400CAD760 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8D2B912B63B57400CAD760;
+			remoteInfo = "05-UIImageView的序列帧动画";
+		};
+		ED8D2BB82B63B57500CAD760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8D2B8A2B63B57400CAD760 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8D2B912B63B57400CAD760;
+			remoteInfo = "05-UIImageView的序列帧动画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED8D2B922B63B57400CAD760 /* 05-UIImageView的序列帧动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "05-UIImageView的序列帧动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8D2B952B63B57400CAD760 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED8D2B962B63B57400CAD760 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED8D2B982B63B57400CAD760 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		ED8D2B992B63B57400CAD760 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		ED8D2B9B2B63B57400CAD760 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED8D2B9C2B63B57400CAD760 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED8D2B9F2B63B57400CAD760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED8D2BA12B63B57500CAD760 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED8D2BA42B63B57500CAD760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED8D2BA62B63B57500CAD760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8D2BA72B63B57500CAD760 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED8D2BAD2B63B57500CAD760 /* 05-UIImageView的序列帧动画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "05-UIImageView的序列帧动画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8D2BB12B63B57500CAD760 /* _5_UIImageView______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_5_UIImageView______Tests.m"; sourceTree = "<group>"; };
+		ED8D2BB72B63B57500CAD760 /* 05-UIImageView的序列帧动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "05-UIImageView的序列帧动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8D2BBB2B63B57500CAD760 /* _5_UIImageView______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_5_UIImageView______UITests.m"; sourceTree = "<group>"; };
+		ED8D2BBD2B63B57500CAD760 /* _5_UIImageView______UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_5_UIImageView______UITestsLaunchTests.m"; sourceTree = "<group>"; };
+		ED8D2C122B63D51700CAD760 /* panda_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda_8.png; sourceTree = SOURCE_ROOT; };
+		ED8D2C132B63D51700CAD760 /* panda_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda_3.png; sourceTree = SOURCE_ROOT; };
+		ED8D2C142B63D51700CAD760 /* panda_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda_4.png; sourceTree = SOURCE_ROOT; };
+		ED8D2C152B63D51700CAD760 /* panda_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda_5.png; sourceTree = SOURCE_ROOT; };
+		ED8D2C162B63D51700CAD760 /* panda_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda_12.png; sourceTree = SOURCE_ROOT; };
+		ED8D2C172B63D51700CAD760 /* panda_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda_10.png; sourceTree = SOURCE_ROOT; };
+		ED8D2C182B63D51800CAD760 /* panda_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda_2.png; sourceTree = SOURCE_ROOT; };
+		ED8D2C192B63D51800CAD760 /* panda_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda_1.png; sourceTree = SOURCE_ROOT; };
+		ED8D2C1A2B63D51800CAD760 /* panda_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda_7.png; sourceTree = SOURCE_ROOT; };
+		ED8D2C1B2B63D51800CAD760 /* panda_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda_6.png; sourceTree = SOURCE_ROOT; };
+		ED8D2C1C2B63D51800CAD760 /* panda_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda_9.png; sourceTree = SOURCE_ROOT; };
+		ED8D2C1D2B63D51800CAD760 /* panda_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda_11.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED8D2B8F2B63B57400CAD760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8D2BAA2B63B57500CAD760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8D2BB42B63B57500CAD760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED8D2B892B63B57400CAD760 = {
+			isa = PBXGroup;
+			children = (
+				ED8D2B942B63B57400CAD760 /* 05-UIImageView的序列帧动画 */,
+				ED8D2BB02B63B57500CAD760 /* 05-UIImageView的序列帧动画Tests */,
+				ED8D2BBA2B63B57500CAD760 /* 05-UIImageView的序列帧动画UITests */,
+				ED8D2B932B63B57400CAD760 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED8D2B932B63B57400CAD760 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED8D2B922B63B57400CAD760 /* 05-UIImageView的序列帧动画.app */,
+				ED8D2BAD2B63B57500CAD760 /* 05-UIImageView的序列帧动画Tests.xctest */,
+				ED8D2BB72B63B57500CAD760 /* 05-UIImageView的序列帧动画UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED8D2B942B63B57400CAD760 /* 05-UIImageView的序列帧动画 */ = {
+			isa = PBXGroup;
+			children = (
+				ED8D2B952B63B57400CAD760 /* AppDelegate.h */,
+				ED8D2B962B63B57400CAD760 /* AppDelegate.m */,
+				ED8D2B982B63B57400CAD760 /* SceneDelegate.h */,
+				ED8D2B992B63B57400CAD760 /* SceneDelegate.m */,
+				ED8D2B9B2B63B57400CAD760 /* ViewController.h */,
+				ED8D2B9C2B63B57400CAD760 /* ViewController.m */,
+				ED8D2B9E2B63B57400CAD760 /* Main.storyboard */,
+				ED8D2BA12B63B57500CAD760 /* Assets.xcassets */,
+				ED8D2BA32B63B57500CAD760 /* LaunchScreen.storyboard */,
+				ED8D2BA62B63B57500CAD760 /* Info.plist */,
+				ED8D2BA72B63B57500CAD760 /* main.m */,
+			);
+			path = "05-UIImageView的序列帧动画";
+			sourceTree = "<group>";
+		};
+		ED8D2BB02B63B57500CAD760 /* 05-UIImageView的序列帧动画Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ED8D2BB12B63B57500CAD760 /* _5_UIImageView______Tests.m */,
+			);
+			path = "05-UIImageView的序列帧动画Tests";
+			sourceTree = "<group>";
+		};
+		ED8D2BBA2B63B57500CAD760 /* 05-UIImageView的序列帧动画UITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED8D2BBB2B63B57500CAD760 /* _5_UIImageView______UITests.m */,
+				ED8D2BBD2B63B57500CAD760 /* _5_UIImageView______UITestsLaunchTests.m */,
+				ED8D2C192B63D51800CAD760 /* panda_1.png */,
+				ED8D2C182B63D51800CAD760 /* panda_2.png */,
+				ED8D2C132B63D51700CAD760 /* panda_3.png */,
+				ED8D2C142B63D51700CAD760 /* panda_4.png */,
+				ED8D2C152B63D51700CAD760 /* panda_5.png */,
+				ED8D2C1B2B63D51800CAD760 /* panda_6.png */,
+				ED8D2C1A2B63D51800CAD760 /* panda_7.png */,
+				ED8D2C122B63D51700CAD760 /* panda_8.png */,
+				ED8D2C1C2B63D51800CAD760 /* panda_9.png */,
+				ED8D2C172B63D51700CAD760 /* panda_10.png */,
+				ED8D2C1D2B63D51800CAD760 /* panda_11.png */,
+				ED8D2C162B63D51700CAD760 /* panda_12.png */,
+			);
+			path = "05-UIImageView的序列帧动画UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED8D2B912B63B57400CAD760 /* 05-UIImageView的序列帧动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8D2BC12B63B57500CAD760 /* Build configuration list for PBXNativeTarget "05-UIImageView的序列帧动画" */;
+			buildPhases = (
+				ED8D2B8E2B63B57400CAD760 /* Sources */,
+				ED8D2B8F2B63B57400CAD760 /* Frameworks */,
+				ED8D2B902B63B57400CAD760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05-UIImageView的序列帧动画";
+			productName = "05-UIImageView的序列帧动画";
+			productReference = ED8D2B922B63B57400CAD760 /* 05-UIImageView的序列帧动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED8D2BAC2B63B57500CAD760 /* 05-UIImageView的序列帧动画Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8D2BC42B63B57500CAD760 /* Build configuration list for PBXNativeTarget "05-UIImageView的序列帧动画Tests" */;
+			buildPhases = (
+				ED8D2BA92B63B57500CAD760 /* Sources */,
+				ED8D2BAA2B63B57500CAD760 /* Frameworks */,
+				ED8D2BAB2B63B57500CAD760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED8D2BAF2B63B57500CAD760 /* PBXTargetDependency */,
+			);
+			name = "05-UIImageView的序列帧动画Tests";
+			productName = "05-UIImageView的序列帧动画Tests";
+			productReference = ED8D2BAD2B63B57500CAD760 /* 05-UIImageView的序列帧动画Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED8D2BB62B63B57500CAD760 /* 05-UIImageView的序列帧动画UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8D2BC72B63B57500CAD760 /* Build configuration list for PBXNativeTarget "05-UIImageView的序列帧动画UITests" */;
+			buildPhases = (
+				ED8D2BB32B63B57500CAD760 /* Sources */,
+				ED8D2BB42B63B57500CAD760 /* Frameworks */,
+				ED8D2BB52B63B57500CAD760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED8D2BB92B63B57500CAD760 /* PBXTargetDependency */,
+			);
+			name = "05-UIImageView的序列帧动画UITests";
+			productName = "05-UIImageView的序列帧动画UITests";
+			productReference = ED8D2BB72B63B57500CAD760 /* 05-UIImageView的序列帧动画UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED8D2B8A2B63B57400CAD760 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					ED8D2B912B63B57400CAD760 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					ED8D2BAC2B63B57500CAD760 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = ED8D2B912B63B57400CAD760;
+					};
+					ED8D2BB62B63B57500CAD760 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = ED8D2B912B63B57400CAD760;
+					};
+				};
+			};
+			buildConfigurationList = ED8D2B8D2B63B57400CAD760 /* Build configuration list for PBXProject "05-UIImageView的序列帧动画" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED8D2B892B63B57400CAD760;
+			productRefGroup = ED8D2B932B63B57400CAD760 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED8D2B912B63B57400CAD760 /* 05-UIImageView的序列帧动画 */,
+				ED8D2BAC2B63B57500CAD760 /* 05-UIImageView的序列帧动画Tests */,
+				ED8D2BB62B63B57500CAD760 /* 05-UIImageView的序列帧动画UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED8D2B902B63B57400CAD760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8D2BA52B63B57500CAD760 /* LaunchScreen.storyboard in Resources */,
+				ED8D2BA22B63B57500CAD760 /* Assets.xcassets in Resources */,
+				ED8D2BA02B63B57400CAD760 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8D2BAB2B63B57500CAD760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8D2BB52B63B57500CAD760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8D2C262B63D51800CAD760 /* panda_7.png in Resources */,
+				ED8D2C272B63D51800CAD760 /* panda_6.png in Resources */,
+				ED8D2C202B63D51800CAD760 /* panda_4.png in Resources */,
+				ED8D2C242B63D51800CAD760 /* panda_2.png in Resources */,
+				ED8D2C292B63D51800CAD760 /* panda_11.png in Resources */,
+				ED8D2C252B63D51800CAD760 /* panda_1.png in Resources */,
+				ED8D2C232B63D51800CAD760 /* panda_10.png in Resources */,
+				ED8D2C1F2B63D51800CAD760 /* panda_3.png in Resources */,
+				ED8D2C212B63D51800CAD760 /* panda_5.png in Resources */,
+				ED8D2C222B63D51800CAD760 /* panda_12.png in Resources */,
+				ED8D2C1E2B63D51800CAD760 /* panda_8.png in Resources */,
+				ED8D2C282B63D51800CAD760 /* panda_9.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED8D2B8E2B63B57400CAD760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8D2B9D2B63B57400CAD760 /* ViewController.m in Sources */,
+				ED8D2B972B63B57400CAD760 /* AppDelegate.m in Sources */,
+				ED8D2BA82B63B57500CAD760 /* main.m in Sources */,
+				ED8D2B9A2B63B57400CAD760 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8D2BA92B63B57500CAD760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8D2BB22B63B57500CAD760 /* _5_UIImageView______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8D2BB32B63B57500CAD760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8D2BBC2B63B57500CAD760 /* _5_UIImageView______UITests.m in Sources */,
+				ED8D2BBE2B63B57500CAD760 /* _5_UIImageView______UITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED8D2BAF2B63B57500CAD760 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED8D2B912B63B57400CAD760 /* 05-UIImageView的序列帧动画 */;
+			targetProxy = ED8D2BAE2B63B57500CAD760 /* PBXContainerItemProxy */;
+		};
+		ED8D2BB92B63B57500CAD760 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED8D2B912B63B57400CAD760 /* 05-UIImageView的序列帧动画 */;
+			targetProxy = ED8D2BB82B63B57500CAD760 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED8D2B9E2B63B57400CAD760 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8D2B9F2B63B57400CAD760 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED8D2BA32B63B57500CAD760 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8D2BA42B63B57500CAD760 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED8D2BBF2B63B57500CAD760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED8D2BC02B63B57500CAD760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED8D2BC22B63B57500CAD760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "05-UIImageView的序列帧动画/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-5-UIImageView------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED8D2BC32B63B57500CAD760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "05-UIImageView的序列帧动画/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-5-UIImageView------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED8D2BC52B63B57500CAD760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-5-UIImageView------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/05-UIImageView的序列帧动画.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/05-UIImageView的序列帧动画";
+			};
+			name = Debug;
+		};
+		ED8D2BC62B63B57500CAD760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-5-UIImageView------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/05-UIImageView的序列帧动画.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/05-UIImageView的序列帧动画";
+			};
+			name = Release;
+		};
+		ED8D2BC82B63B57500CAD760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-5-UIImageView------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "05-UIImageView的序列帧动画";
+			};
+			name = Debug;
+		};
+		ED8D2BC92B63B57500CAD760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-5-UIImageView------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "05-UIImageView的序列帧动画";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED8D2B8D2B63B57400CAD760 /* Build configuration list for PBXProject "05-UIImageView的序列帧动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8D2BBF2B63B57500CAD760 /* Debug */,
+				ED8D2BC02B63B57500CAD760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8D2BC12B63B57500CAD760 /* Build configuration list for PBXNativeTarget "05-UIImageView的序列帧动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8D2BC22B63B57500CAD760 /* Debug */,
+				ED8D2BC32B63B57500CAD760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8D2BC42B63B57500CAD760 /* Build configuration list for PBXNativeTarget "05-UIImageView的序列帧动画Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8D2BC52B63B57500CAD760 /* Debug */,
+				ED8D2BC62B63B57500CAD760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8D2BC72B63B57500CAD760 /* Build configuration list for PBXNativeTarget "05-UIImageView的序列帧动画UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8D2BC82B63B57500CAD760 /* Debug */,
+				ED8D2BC92B63B57500CAD760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED8D2B8A2B63B57400CAD760 /* Project object */;
+}
