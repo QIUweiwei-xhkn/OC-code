@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED8D2C382B66236100CAD760 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8D2C372B66236100CAD760 /* AppDelegate.m */; };
+		ED8D2C3B2B66236100CAD760 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8D2C3A2B66236100CAD760 /* SceneDelegate.m */; };
+		ED8D2C3E2B66236100CAD760 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8D2C3D2B66236100CAD760 /* ViewController.m */; };
+		ED8D2C412B66236100CAD760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8D2C3F2B66236100CAD760 /* Main.storyboard */; };
+		ED8D2C432B66236200CAD760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8D2C422B66236200CAD760 /* Assets.xcassets */; };
+		ED8D2C462B66236200CAD760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8D2C442B66236200CAD760 /* LaunchScreen.storyboard */; };
+		ED8D2C492B66236200CAD760 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8D2C482B66236200CAD760 /* main.m */; };
+		ED8D2C532B66236300CAD760 /* _6_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8D2C522B66236300CAD760 /* _6_______Tests.m */; };
+		ED8D2C5D2B66236300CAD760 /* _6_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8D2C5C2B66236300CAD760 /* _6_______UITests.m */; };
+		ED8D2C5F2B66236300CAD760 /* _6_______UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8D2C5E2B66236300CAD760 /* _6_______UITestsLaunchTests.m */; };
+		ED8D2C6D2B662AC100CAD760 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ED8D2C6B2B662AC100CAD760 /* 2.jpeg */; };
+		ED8D2C6E2B662AC100CAD760 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ED8D2C6C2B662AC100CAD760 /* 1.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED8D2C4F2B66236300CAD760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8D2C2B2B66236100CAD760 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8D2C322B66236100CAD760;
+			remoteInfo = "06-资源存放问题";
+		};
+		ED8D2C592B66236300CAD760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8D2C2B2B66236100CAD760 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8D2C322B66236100CAD760;
+			remoteInfo = "06-资源存放问题";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED8D2C332B66236100CAD760 /* 06-资源存放问题.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "06-资源存放问题.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8D2C362B66236100CAD760 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED8D2C372B66236100CAD760 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED8D2C392B66236100CAD760 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		ED8D2C3A2B66236100CAD760 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		ED8D2C3C2B66236100CAD760 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED8D2C3D2B66236100CAD760 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED8D2C402B66236100CAD760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED8D2C422B66236200CAD760 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED8D2C452B66236200CAD760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED8D2C472B66236200CAD760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8D2C482B66236200CAD760 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED8D2C4E2B66236300CAD760 /* 06-资源存放问题Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "06-资源存放问题Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8D2C522B66236300CAD760 /* _6_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_6_______Tests.m"; sourceTree = "<group>"; };
+		ED8D2C582B66236300CAD760 /* 06-资源存放问题UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "06-资源存放问题UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8D2C5C2B66236300CAD760 /* _6_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_6_______UITests.m"; sourceTree = "<group>"; };
+		ED8D2C5E2B66236300CAD760 /* _6_______UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_6_______UITestsLaunchTests.m"; sourceTree = "<group>"; };
+		ED8D2C6B2B662AC100CAD760 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpeg; path = "../../04-UIImageView的frame设置/2.jpeg"; sourceTree = "<group>"; };
+		ED8D2C6C2B662AC100CAD760 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpeg; path = "../../04-UIImageView的frame设置/1.jpeg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED8D2C302B66236100CAD760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8D2C4B2B66236300CAD760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8D2C552B66236300CAD760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED8D2C2A2B66236100CAD760 = {
+			isa = PBXGroup;
+			children = (
+				ED8D2C352B66236100CAD760 /* 06-资源存放问题 */,
+				ED8D2C512B66236300CAD760 /* 06-资源存放问题Tests */,
+				ED8D2C5B2B66236300CAD760 /* 06-资源存放问题UITests */,
+				ED8D2C342B66236100CAD760 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED8D2C342B66236100CAD760 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED8D2C332B66236100CAD760 /* 06-资源存放问题.app */,
+				ED8D2C4E2B66236300CAD760 /* 06-资源存放问题Tests.xctest */,
+				ED8D2C582B66236300CAD760 /* 06-资源存放问题UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED8D2C352B66236100CAD760 /* 06-资源存放问题 */ = {
+			isa = PBXGroup;
+			children = (
+				ED8D2C362B66236100CAD760 /* AppDelegate.h */,
+				ED8D2C372B66236100CAD760 /* AppDelegate.m */,
+				ED8D2C392B66236100CAD760 /* SceneDelegate.h */,
+				ED8D2C3A2B66236100CAD760 /* SceneDelegate.m */,
+				ED8D2C3C2B66236100CAD760 /* ViewController.h */,
+				ED8D2C3D2B66236100CAD760 /* ViewController.m */,
+				ED8D2C3F2B66236100CAD760 /* Main.storyboard */,
+				ED8D2C422B66236200CAD760 /* Assets.xcassets */,
+				ED8D2C442B66236200CAD760 /* LaunchScreen.storyboard */,
+				ED8D2C472B66236200CAD760 /* Info.plist */,
+				ED8D2C482B66236200CAD760 /* main.m */,
+				ED8D2C6C2B662AC100CAD760 /* 1.jpeg */,
+				ED8D2C6B2B662AC100CAD760 /* 2.jpeg */,
+			);
+			path = "06-资源存放问题";
+			sourceTree = "<group>";
+		};
+		ED8D2C512B66236300CAD760 /* 06-资源存放问题Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ED8D2C522B66236300CAD760 /* _6_______Tests.m */,
+			);
+			path = "06-资源存放问题Tests";
+			sourceTree = "<group>";
+		};
+		ED8D2C5B2B66236300CAD760 /* 06-资源存放问题UITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED8D2C5C2B66236300CAD760 /* _6_______UITests.m */,
+				ED8D2C5E2B66236300CAD760 /* _6_______UITestsLaunchTests.m */,
+			);
+			path = "06-资源存放问题UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED8D2C322B66236100CAD760 /* 06-资源存放问题 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8D2C622B66236300CAD760 /* Build configuration list for PBXNativeTarget "06-资源存放问题" */;
+			buildPhases = (
+				ED8D2C2F2B66236100CAD760 /* Sources */,
+				ED8D2C302B66236100CAD760 /* Frameworks */,
+				ED8D2C312B66236100CAD760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "06-资源存放问题";
+			productName = "06-资源存放问题";
+			productReference = ED8D2C332B66236100CAD760 /* 06-资源存放问题.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED8D2C4D2B66236300CAD760 /* 06-资源存放问题Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8D2C652B66236300CAD760 /* Build configuration list for PBXNativeTarget "06-资源存放问题Tests" */;
+			buildPhases = (
+				ED8D2C4A2B66236300CAD760 /* Sources */,
+				ED8D2C4B2B66236300CAD760 /* Frameworks */,
+				ED8D2C4C2B66236300CAD760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED8D2C502B66236300CAD760 /* PBXTargetDependency */,
+			);
+			name = "06-资源存放问题Tests";
+			productName = "06-资源存放问题Tests";
+			productReference = ED8D2C4E2B66236300CAD760 /* 06-资源存放问题Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED8D2C572B66236300CAD760 /* 06-资源存放问题UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8D2C682B66236300CAD760 /* Build configuration list for PBXNativeTarget "06-资源存放问题UITests" */;
+			buildPhases = (
+				ED8D2C542B66236300CAD760 /* Sources */,
+				ED8D2C552B66236300CAD760 /* Frameworks */,
+				ED8D2C562B66236300CAD760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED8D2C5A2B66236300CAD760 /* PBXTargetDependency */,
+			);
+			name = "06-资源存放问题UITests";
+			productName = "06-资源存放问题UITests";
+			productReference = ED8D2C582B66236300CAD760 /* 06-资源存放问题UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED8D2C2B2B66236100CAD760 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					ED8D2C322B66236100CAD760 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					ED8D2C4D2B66236300CAD760 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = ED8D2C322B66236100CAD760;
+					};
+					ED8D2C572B66236300CAD760 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = ED8D2C322B66236100CAD760;
+					};
+				};
+			};
+			buildConfigurationList = ED8D2C2E2B66236100CAD760 /* Build configuration list for PBXProject "06-资源存放问题" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED8D2C2A2B66236100CAD760;
+			productRefGroup = ED8D2C342B66236100CAD760 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED8D2C322B66236100CAD760 /* 06-资源存放问题 */,
+				ED8D2C4D2B66236300CAD760 /* 06-资源存放问题Tests */,
+				ED8D2C572B66236300CAD760 /* 06-资源存放问题UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED8D2C312B66236100CAD760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8D2C6E2B662AC100CAD760 /* 1.jpeg in Resources */,
+				ED8D2C6D2B662AC100CAD760 /* 2.jpeg in Resources */,
+				ED8D2C462B66236200CAD760 /* LaunchScreen.storyboard in Resources */,
+				ED8D2C432B66236200CAD760 /* Assets.xcassets in Resources */,
+				ED8D2C412B66236100CAD760 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8D2C4C2B66236300CAD760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8D2C562B66236300CAD760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED8D2C2F2B66236100CAD760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8D2C3E2B66236100CAD760 /* ViewController.m in Sources */,
+				ED8D2C382B66236100CAD760 /* AppDelegate.m in Sources */,
+				ED8D2C492B66236200CAD760 /* main.m in Sources */,
+				ED8D2C3B2B66236100CAD760 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8D2C4A2B66236300CAD760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8D2C532B66236300CAD760 /* _6_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8D2C542B66236300CAD760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8D2C5D2B66236300CAD760 /* _6_______UITests.m in Sources */,
+				ED8D2C5F2B66236300CAD760 /* _6_______UITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED8D2C502B66236300CAD760 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED8D2C322B66236100CAD760 /* 06-资源存放问题 */;
+			targetProxy = ED8D2C4F2B66236300CAD760 /* PBXContainerItemProxy */;
+		};
+		ED8D2C5A2B66236300CAD760 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED8D2C322B66236100CAD760 /* 06-资源存放问题 */;
+			targetProxy = ED8D2C592B66236300CAD760 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED8D2C3F2B66236100CAD760 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8D2C402B66236100CAD760 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED8D2C442B66236200CAD760 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8D2C452B66236200CAD760 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED8D2C602B66236300CAD760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED8D2C612B66236300CAD760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED8D2C632B66236300CAD760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "06-资源存放问题/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-6-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED8D2C642B66236300CAD760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "06-资源存放问题/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-6-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED8D2C662B66236300CAD760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-6-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/06-资源存放问题.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/06-资源存放问题";
+			};
+			name = Debug;
+		};
+		ED8D2C672B66236300CAD760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-6-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/06-资源存放问题.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/06-资源存放问题";
+			};
+			name = Release;
+		};
+		ED8D2C692B66236300CAD760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-6-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "06-资源存放问题";
+			};
+			name = Debug;
+		};
+		ED8D2C6A2B66236300CAD760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-6-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "06-资源存放问题";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED8D2C2E2B66236100CAD760 /* Build configuration list for PBXProject "06-资源存放问题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8D2C602B66236300CAD760 /* Debug */,
+				ED8D2C612B66236300CAD760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8D2C622B66236300CAD760 /* Build configuration list for PBXNativeTarget "06-资源存放问题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8D2C632B66236300CAD760 /* Debug */,
+				ED8D2C642B66236300CAD760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8D2C652B66236300CAD760 /* Build configuration list for PBXNativeTarget "06-资源存放问题Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8D2C662B66236300CAD760 /* Debug */,
+				ED8D2C672B66236300CAD760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8D2C682B66236300CAD760 /* Build configuration list for PBXNativeTarget "06-资源存放问题UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8D2C692B66236300CAD760 /* Debug */,
+				ED8D2C6A2B66236300CAD760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED8D2C2B2B66236100CAD760 /* Project object */;
+}
