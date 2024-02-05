@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDA48E9E2B710B5E0029D954 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA48E9D2B710B5E0029D954 /* AppDelegate.m */; };
+		EDA48EA12B710B5E0029D954 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA48EA02B710B5E0029D954 /* SceneDelegate.m */; };
+		EDA48EA42B710B5E0029D954 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA48EA32B710B5E0029D954 /* ViewController.m */; };
+		EDA48EA72B710B5E0029D954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA48EA52B710B5E0029D954 /* Main.storyboard */; };
+		EDA48EA92B710B600029D954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA48EA82B710B600029D954 /* Assets.xcassets */; };
+		EDA48EAC2B710B600029D954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA48EAA2B710B600029D954 /* LaunchScreen.storyboard */; };
+		EDA48EAF2B710B600029D954 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA48EAE2B710B600029D954 /* main.m */; };
+		EDA48EB92B710B600029D954 /* _4_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA48EB82B710B600029D954 /* _4_____Tests.m */; };
+		EDA48EC32B710B600029D954 /* _4_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA48EC22B710B600029D954 /* _4_____UITests.m */; };
+		EDA48EC52B710B600029D954 /* _4_____UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA48EC42B710B600029D954 /* _4_____UITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDA48EB52B710B600029D954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA48E912B710B5E0029D954 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA48E982B710B5E0029D954;
+			remoteInfo = "04-渐变动画";
+		};
+		EDA48EBF2B710B600029D954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA48E912B710B5E0029D954 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA48E982B710B5E0029D954;
+			remoteInfo = "04-渐变动画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDA48E992B710B5E0029D954 /* 04-渐变动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-渐变动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA48E9C2B710B5E0029D954 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDA48E9D2B710B5E0029D954 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDA48E9F2B710B5E0029D954 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		EDA48EA02B710B5E0029D954 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		EDA48EA22B710B5E0029D954 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDA48EA32B710B5E0029D954 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDA48EA62B710B5E0029D954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDA48EA82B710B600029D954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDA48EAB2B710B600029D954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDA48EAD2B710B600029D954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA48EAE2B710B600029D954 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDA48EB42B710B600029D954 /* 04-渐变动画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-渐变动画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA48EB82B710B600029D954 /* _4_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4_____Tests.m"; sourceTree = "<group>"; };
+		EDA48EBE2B710B600029D954 /* 04-渐变动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-渐变动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA48EC22B710B600029D954 /* _4_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4_____UITests.m"; sourceTree = "<group>"; };
+		EDA48EC42B710B600029D954 /* _4_____UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4_____UITestsLaunchTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDA48E962B710B5E0029D954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA48EB12B710B600029D954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA48EBB2B710B600029D954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDA48E902B710B5E0029D954 = {
+			isa = PBXGroup;
+			children = (
+				EDA48E9B2B710B5E0029D954 /* 04-渐变动画 */,
+				EDA48EB72B710B600029D954 /* 04-渐变动画Tests */,
+				EDA48EC12B710B600029D954 /* 04-渐变动画UITests */,
+				EDA48E9A2B710B5E0029D954 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDA48E9A2B710B5E0029D954 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDA48E992B710B5E0029D954 /* 04-渐变动画.app */,
+				EDA48EB42B710B600029D954 /* 04-渐变动画Tests.xctest */,
+				EDA48EBE2B710B600029D954 /* 04-渐变动画UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDA48E9B2B710B5E0029D954 /* 04-渐变动画 */ = {
+			isa = PBXGroup;
+			children = (
+				EDA48E9C2B710B5E0029D954 /* AppDelegate.h */,
+				EDA48E9D2B710B5E0029D954 /* AppDelegate.m */,
+				EDA48E9F2B710B5E0029D954 /* SceneDelegate.h */,
+				EDA48EA02B710B5E0029D954 /* SceneDelegate.m */,
+				EDA48EA22B710B5E0029D954 /* ViewController.h */,
+				EDA48EA32B710B5E0029D954 /* ViewController.m */,
+				EDA48EA52B710B5E0029D954 /* Main.storyboard */,
+				EDA48EA82B710B600029D954 /* Assets.xcassets */,
+				EDA48EAA2B710B600029D954 /* LaunchScreen.storyboard */,
+				EDA48EAD2B710B600029D954 /* Info.plist */,
+				EDA48EAE2B710B600029D954 /* main.m */,
+			);
+			path = "04-渐变动画";
+			sourceTree = "<group>";
+		};
+		EDA48EB72B710B600029D954 /* 04-渐变动画Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA48EB82B710B600029D954 /* _4_____Tests.m */,
+			);
+			path = "04-渐变动画Tests";
+			sourceTree = "<group>";
+		};
+		EDA48EC12B710B600029D954 /* 04-渐变动画UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA48EC22B710B600029D954 /* _4_____UITests.m */,
+				EDA48EC42B710B600029D954 /* _4_____UITestsLaunchTests.m */,
+			);
+			path = "04-渐变动画UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDA48E982B710B5E0029D954 /* 04-渐变动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA48EC82B710B600029D954 /* Build configuration list for PBXNativeTarget "04-渐变动画" */;
+			buildPhases = (
+				EDA48E952B710B5E0029D954 /* Sources */,
+				EDA48E962B710B5E0029D954 /* Frameworks */,
+				EDA48E972B710B5E0029D954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-渐变动画";
+			productName = "04-渐变动画";
+			productReference = EDA48E992B710B5E0029D954 /* 04-渐变动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDA48EB32B710B600029D954 /* 04-渐变动画Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA48ECB2B710B600029D954 /* Build configuration list for PBXNativeTarget "04-渐变动画Tests" */;
+			buildPhases = (
+				EDA48EB02B710B600029D954 /* Sources */,
+				EDA48EB12B710B600029D954 /* Frameworks */,
+				EDA48EB22B710B600029D954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA48EB62B710B600029D954 /* PBXTargetDependency */,
+			);
+			name = "04-渐变动画Tests";
+			productName = "04-渐变动画Tests";
+			productReference = EDA48EB42B710B600029D954 /* 04-渐变动画Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDA48EBD2B710B600029D954 /* 04-渐变动画UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA48ECE2B710B600029D954 /* Build configuration list for PBXNativeTarget "04-渐变动画UITests" */;
+			buildPhases = (
+				EDA48EBA2B710B600029D954 /* Sources */,
+				EDA48EBB2B710B600029D954 /* Frameworks */,
+				EDA48EBC2B710B600029D954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA48EC02B710B600029D954 /* PBXTargetDependency */,
+			);
+			name = "04-渐变动画UITests";
+			productName = "04-渐变动画UITests";
+			productReference = EDA48EBE2B710B600029D954 /* 04-渐变动画UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDA48E912B710B5E0029D954 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					EDA48E982B710B5E0029D954 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					EDA48EB32B710B600029D954 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EDA48E982B710B5E0029D954;
+					};
+					EDA48EBD2B710B600029D954 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EDA48E982B710B5E0029D954;
+					};
+				};
+			};
+			buildConfigurationList = EDA48E942B710B5E0029D954 /* Build configuration list for PBXProject "04-渐变动画" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDA48E902B710B5E0029D954;
+			productRefGroup = EDA48E9A2B710B5E0029D954 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDA48E982B710B5E0029D954 /* 04-渐变动画 */,
+				EDA48EB32B710B600029D954 /* 04-渐变动画Tests */,
+				EDA48EBD2B710B600029D954 /* 04-渐变动画UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDA48E972B710B5E0029D954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA48EAC2B710B600029D954 /* LaunchScreen.storyboard in Resources */,
+				EDA48EA92B710B600029D954 /* Assets.xcassets in Resources */,
+				EDA48EA72B710B5E0029D954 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA48EB22B710B600029D954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA48EBC2B710B600029D954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDA48E952B710B5E0029D954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA48EA42B710B5E0029D954 /* ViewController.m in Sources */,
+				EDA48E9E2B710B5E0029D954 /* AppDelegate.m in Sources */,
+				EDA48EAF2B710B600029D954 /* main.m in Sources */,
+				EDA48EA12B710B5E0029D954 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA48EB02B710B600029D954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA48EB92B710B600029D954 /* _4_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA48EBA2B710B600029D954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA48EC32B710B600029D954 /* _4_____UITests.m in Sources */,
+				EDA48EC52B710B600029D954 /* _4_____UITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDA48EB62B710B600029D954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDA48E982B710B5E0029D954 /* 04-渐变动画 */;
+			targetProxy = EDA48EB52B710B600029D954 /* PBXContainerItemProxy */;
+		};
+		EDA48EC02B710B600029D954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDA48E982B710B5E0029D954 /* 04-渐变动画 */;
+			targetProxy = EDA48EBF2B710B600029D954 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDA48EA52B710B5E0029D954 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA48EA62B710B5E0029D954 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDA48EAA2B710B600029D954 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA48EAB2B710B600029D954 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDA48EC62B710B600029D954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDA48EC72B710B600029D954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDA48EC92B710B600029D954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "04-渐变动画/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-4-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDA48ECA2B710B600029D954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "04-渐变动画/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-4-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDA48ECC2B710B600029D954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-4-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04-渐变动画.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/04-渐变动画";
+			};
+			name = Debug;
+		};
+		EDA48ECD2B710B600029D954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-4-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04-渐变动画.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/04-渐变动画";
+			};
+			name = Release;
+		};
+		EDA48ECF2B710B600029D954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-4-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "04-渐变动画";
+			};
+			name = Debug;
+		};
+		EDA48ED02B710B600029D954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-4-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "04-渐变动画";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDA48E942B710B5E0029D954 /* Build configuration list for PBXProject "04-渐变动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA48EC62B710B600029D954 /* Debug */,
+				EDA48EC72B710B600029D954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA48EC82B710B600029D954 /* Build configuration list for PBXNativeTarget "04-渐变动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA48EC92B710B600029D954 /* Debug */,
+				EDA48ECA2B710B600029D954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA48ECB2B710B600029D954 /* Build configuration list for PBXNativeTarget "04-渐变动画Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA48ECC2B710B600029D954 /* Debug */,
+				EDA48ECD2B710B600029D954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA48ECE2B710B600029D954 /* Build configuration list for PBXNativeTarget "04-渐变动画UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA48ECF2B710B600029D954 /* Debug */,
+				EDA48ED02B710B600029D954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDA48E912B710B5E0029D954 /* Project object */;
+}
