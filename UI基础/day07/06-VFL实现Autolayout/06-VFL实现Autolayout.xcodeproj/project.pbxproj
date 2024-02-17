@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED05D2EA2B80D60A00E86BB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED05D2E92B80D60A00E86BB0 /* AppDelegate.m */; };
+		ED05D2ED2B80D60A00E86BB0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED05D2EC2B80D60A00E86BB0 /* SceneDelegate.m */; };
+		ED05D2F02B80D60A00E86BB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED05D2EF2B80D60A00E86BB0 /* ViewController.m */; };
+		ED05D2F32B80D60A00E86BB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED05D2F12B80D60A00E86BB0 /* Main.storyboard */; };
+		ED05D2F52B80D60C00E86BB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED05D2F42B80D60C00E86BB0 /* Assets.xcassets */; };
+		ED05D2F82B80D60C00E86BB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED05D2F62B80D60C00E86BB0 /* LaunchScreen.storyboard */; };
+		ED05D2FB2B80D60C00E86BB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED05D2FA2B80D60C00E86BB0 /* main.m */; };
+		ED05D3052B80D60C00E86BB0 /* _6_VFL__AutolayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED05D3042B80D60C00E86BB0 /* _6_VFL__AutolayoutTests.m */; };
+		ED05D30F2B80D60C00E86BB0 /* _6_VFL__AutolayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED05D30E2B80D60C00E86BB0 /* _6_VFL__AutolayoutUITests.m */; };
+		ED05D3112B80D60C00E86BB0 /* _6_VFL__AutolayoutUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED05D3102B80D60C00E86BB0 /* _6_VFL__AutolayoutUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED05D3012B80D60C00E86BB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED05D2DD2B80D60A00E86BB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED05D2E42B80D60A00E86BB0;
+			remoteInfo = "06-VFL实现Autolayout";
+		};
+		ED05D30B2B80D60C00E86BB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED05D2DD2B80D60A00E86BB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED05D2E42B80D60A00E86BB0;
+			remoteInfo = "06-VFL实现Autolayout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED05D2E52B80D60A00E86BB0 /* 06-VFL实现Autolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "06-VFL实现Autolayout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED05D2E82B80D60A00E86BB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED05D2E92B80D60A00E86BB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED05D2EB2B80D60A00E86BB0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		ED05D2EC2B80D60A00E86BB0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		ED05D2EE2B80D60A00E86BB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED05D2EF2B80D60A00E86BB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED05D2F22B80D60A00E86BB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED05D2F42B80D60C00E86BB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED05D2F72B80D60C00E86BB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED05D2F92B80D60C00E86BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED05D2FA2B80D60C00E86BB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED05D3002B80D60C00E86BB0 /* 06-VFL实现AutolayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "06-VFL实现AutolayoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED05D3042B80D60C00E86BB0 /* _6_VFL__AutolayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_VFL__AutolayoutTests.m; sourceTree = "<group>"; };
+		ED05D30A2B80D60C00E86BB0 /* 06-VFL实现AutolayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "06-VFL实现AutolayoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED05D30E2B80D60C00E86BB0 /* _6_VFL__AutolayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_VFL__AutolayoutUITests.m; sourceTree = "<group>"; };
+		ED05D3102B80D60C00E86BB0 /* _6_VFL__AutolayoutUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_VFL__AutolayoutUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED05D2E22B80D60A00E86BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED05D2FD2B80D60C00E86BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED05D3072B80D60C00E86BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED05D2DC2B80D60A00E86BB0 = {
+			isa = PBXGroup;
+			children = (
+				ED05D2E72B80D60A00E86BB0 /* 06-VFL实现Autolayout */,
+				ED05D3032B80D60C00E86BB0 /* 06-VFL实现AutolayoutTests */,
+				ED05D30D2B80D60C00E86BB0 /* 06-VFL实现AutolayoutUITests */,
+				ED05D2E62B80D60A00E86BB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED05D2E62B80D60A00E86BB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED05D2E52B80D60A00E86BB0 /* 06-VFL实现Autolayout.app */,
+				ED05D3002B80D60C00E86BB0 /* 06-VFL实现AutolayoutTests.xctest */,
+				ED05D30A2B80D60C00E86BB0 /* 06-VFL实现AutolayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED05D2E72B80D60A00E86BB0 /* 06-VFL实现Autolayout */ = {
+			isa = PBXGroup;
+			children = (
+				ED05D2E82B80D60A00E86BB0 /* AppDelegate.h */,
+				ED05D2E92B80D60A00E86BB0 /* AppDelegate.m */,
+				ED05D2EB2B80D60A00E86BB0 /* SceneDelegate.h */,
+				ED05D2EC2B80D60A00E86BB0 /* SceneDelegate.m */,
+				ED05D2EE2B80D60A00E86BB0 /* ViewController.h */,
+				ED05D2EF2B80D60A00E86BB0 /* ViewController.m */,
+				ED05D2F12B80D60A00E86BB0 /* Main.storyboard */,
+				ED05D2F42B80D60C00E86BB0 /* Assets.xcassets */,
+				ED05D2F62B80D60C00E86BB0 /* LaunchScreen.storyboard */,
+				ED05D2F92B80D60C00E86BB0 /* Info.plist */,
+				ED05D2FA2B80D60C00E86BB0 /* main.m */,
+			);
+			path = "06-VFL实现Autolayout";
+			sourceTree = "<group>";
+		};
+		ED05D3032B80D60C00E86BB0 /* 06-VFL实现AutolayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED05D3042B80D60C00E86BB0 /* _6_VFL__AutolayoutTests.m */,
+			);
+			path = "06-VFL实现AutolayoutTests";
+			sourceTree = "<group>";
+		};
+		ED05D30D2B80D60C00E86BB0 /* 06-VFL实现AutolayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED05D30E2B80D60C00E86BB0 /* _6_VFL__AutolayoutUITests.m */,
+				ED05D3102B80D60C00E86BB0 /* _6_VFL__AutolayoutUITestsLaunchTests.m */,
+			);
+			path = "06-VFL实现AutolayoutUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED05D2E42B80D60A00E86BB0 /* 06-VFL实现Autolayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED05D3142B80D60C00E86BB0 /* Build configuration list for PBXNativeTarget "06-VFL实现Autolayout" */;
+			buildPhases = (
+				ED05D2E12B80D60A00E86BB0 /* Sources */,
+				ED05D2E22B80D60A00E86BB0 /* Frameworks */,
+				ED05D2E32B80D60A00E86BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "06-VFL实现Autolayout";
+			productName = "06-VFL实现Autolayout";
+			productReference = ED05D2E52B80D60A00E86BB0 /* 06-VFL实现Autolayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED05D2FF2B80D60C00E86BB0 /* 06-VFL实现AutolayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED05D3172B80D60C00E86BB0 /* Build configuration list for PBXNativeTarget "06-VFL实现AutolayoutTests" */;
+			buildPhases = (
+				ED05D2FC2B80D60C00E86BB0 /* Sources */,
+				ED05D2FD2B80D60C00E86BB0 /* Frameworks */,
+				ED05D2FE2B80D60C00E86BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED05D3022B80D60C00E86BB0 /* PBXTargetDependency */,
+			);
+			name = "06-VFL实现AutolayoutTests";
+			productName = "06-VFL实现AutolayoutTests";
+			productReference = ED05D3002B80D60C00E86BB0 /* 06-VFL实现AutolayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED05D3092B80D60C00E86BB0 /* 06-VFL实现AutolayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED05D31A2B80D60C00E86BB0 /* Build configuration list for PBXNativeTarget "06-VFL实现AutolayoutUITests" */;
+			buildPhases = (
+				ED05D3062B80D60C00E86BB0 /* Sources */,
+				ED05D3072B80D60C00E86BB0 /* Frameworks */,
+				ED05D3082B80D60C00E86BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED05D30C2B80D60C00E86BB0 /* PBXTargetDependency */,
+			);
+			name = "06-VFL实现AutolayoutUITests";
+			productName = "06-VFL实现AutolayoutUITests";
+			productReference = ED05D30A2B80D60C00E86BB0 /* 06-VFL实现AutolayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED05D2DD2B80D60A00E86BB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					ED05D2E42B80D60A00E86BB0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					ED05D2FF2B80D60C00E86BB0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = ED05D2E42B80D60A00E86BB0;
+					};
+					ED05D3092B80D60C00E86BB0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = ED05D2E42B80D60A00E86BB0;
+					};
+				};
+			};
+			buildConfigurationList = ED05D2E02B80D60A00E86BB0 /* Build configuration list for PBXProject "06-VFL实现Autolayout" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED05D2DC2B80D60A00E86BB0;
+			productRefGroup = ED05D2E62B80D60A00E86BB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED05D2E42B80D60A00E86BB0 /* 06-VFL实现Autolayout */,
+				ED05D2FF2B80D60C00E86BB0 /* 06-VFL实现AutolayoutTests */,
+				ED05D3092B80D60C00E86BB0 /* 06-VFL实现AutolayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED05D2E32B80D60A00E86BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED05D2F82B80D60C00E86BB0 /* LaunchScreen.storyboard in Resources */,
+				ED05D2F52B80D60C00E86BB0 /* Assets.xcassets in Resources */,
+				ED05D2F32B80D60A00E86BB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED05D2FE2B80D60C00E86BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED05D3082B80D60C00E86BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED05D2E12B80D60A00E86BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED05D2F02B80D60A00E86BB0 /* ViewController.m in Sources */,
+				ED05D2EA2B80D60A00E86BB0 /* AppDelegate.m in Sources */,
+				ED05D2FB2B80D60C00E86BB0 /* main.m in Sources */,
+				ED05D2ED2B80D60A00E86BB0 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED05D2FC2B80D60C00E86BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED05D3052B80D60C00E86BB0 /* _6_VFL__AutolayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED05D3062B80D60C00E86BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED05D30F2B80D60C00E86BB0 /* _6_VFL__AutolayoutUITests.m in Sources */,
+				ED05D3112B80D60C00E86BB0 /* _6_VFL__AutolayoutUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED05D3022B80D60C00E86BB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED05D2E42B80D60A00E86BB0 /* 06-VFL实现Autolayout */;
+			targetProxy = ED05D3012B80D60C00E86BB0 /* PBXContainerItemProxy */;
+		};
+		ED05D30C2B80D60C00E86BB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED05D2E42B80D60A00E86BB0 /* 06-VFL实现Autolayout */;
+			targetProxy = ED05D30B2B80D60C00E86BB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED05D2F12B80D60A00E86BB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED05D2F22B80D60A00E86BB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED05D2F62B80D60C00E86BB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED05D2F72B80D60C00E86BB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED05D3122B80D60C00E86BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED05D3132B80D60C00E86BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED05D3152B80D60C00E86BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "06-VFL实现Autolayout/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-6-VFL--Autolayout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED05D3162B80D60C00E86BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "06-VFL实现Autolayout/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-6-VFL--Autolayout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED05D3182B80D60C00E86BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-6-VFL--AutolayoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/06-VFL实现Autolayout.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/06-VFL实现Autolayout";
+			};
+			name = Debug;
+		};
+		ED05D3192B80D60C00E86BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-6-VFL--AutolayoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/06-VFL实现Autolayout.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/06-VFL实现Autolayout";
+			};
+			name = Release;
+		};
+		ED05D31B2B80D60C00E86BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-6-VFL--AutolayoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "06-VFL实现Autolayout";
+			};
+			name = Debug;
+		};
+		ED05D31C2B80D60C00E86BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "weiwei.-6-VFL--AutolayoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "06-VFL实现Autolayout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED05D2E02B80D60A00E86BB0 /* Build configuration list for PBXProject "06-VFL实现Autolayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED05D3122B80D60C00E86BB0 /* Debug */,
+				ED05D3132B80D60C00E86BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED05D3142B80D60C00E86BB0 /* Build configuration list for PBXNativeTarget "06-VFL实现Autolayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED05D3152B80D60C00E86BB0 /* Debug */,
+				ED05D3162B80D60C00E86BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED05D3172B80D60C00E86BB0 /* Build configuration list for PBXNativeTarget "06-VFL实现AutolayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED05D3182B80D60C00E86BB0 /* Debug */,
+				ED05D3192B80D60C00E86BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED05D31A2B80D60C00E86BB0 /* Build configuration list for PBXNativeTarget "06-VFL实现AutolayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED05D31B2B80D60C00E86BB0 /* Debug */,
+				ED05D31C2B80D60C00E86BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED05D2DD2B80D60A00E86BB0 /* Project object */;
+}
