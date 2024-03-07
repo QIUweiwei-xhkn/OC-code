@@ -27,7 +27,6 @@
 		ED05D4B72B8101F200E86BB0 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = ED05D4AB2B8101F200E86BB0 /* MASConstraint.m */; };
 		ED05D4B82B8101F200E86BB0 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = ED05D4AD2B8101F200E86BB0 /* MASViewConstraint.m */; };
 		ED05D4B92B8101F200E86BB0 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ED05D4AE2B8101F200E86BB0 /* MASViewAttribute.m */; };
-		ED05D4BA2B8101F200E86BB0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED05D4AF2B8101F200E86BB0 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,7 +89,6 @@
 		ED05D4AC2B8101F200E86BB0 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		ED05D4AD2B8101F200E86BB0 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
 		ED05D4AE2B8101F200E86BB0 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
-		ED05D4AF2B8101F200E86BB0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,7 +200,6 @@
 				ED05D4AC2B8101F200E86BB0 /* ViewController+MASAdditions.h */,
 				ED05D4AD2B8101F200E86BB0 /* MASViewConstraint.m */,
 				ED05D4AE2B8101F200E86BB0 /* MASViewAttribute.m */,
-				ED05D4AF2B8101F200E86BB0 /* Info.plist */,
 			);
 			name = Masonry;
 			path = "../../Masonry-master/Masonry";
@@ -311,7 +308,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED05D4BA2B8101F200E86BB0 /* Info.plist in Resources */,
 				ED05D3FC2B80FA5200E86BB0 /* LaunchScreen.storyboard in Resources */,
 				ED05D3F92B80FA5200E86BB0 /* Assets.xcassets in Resources */,
 				ED05D3F72B80FA5100E86BB0 /* Main.storyboard in Resources */,
