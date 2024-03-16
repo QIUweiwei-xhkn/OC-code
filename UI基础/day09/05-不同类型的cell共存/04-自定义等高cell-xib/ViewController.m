@@ -9,6 +9,7 @@
 #import "Qtg.h"
 #import "MJExtension.h"
 #import "QtgTableViewCell.h"
+#import "QtextCell.h"
 
 @interface ViewController ()
 /** 所有团购数据   */
@@ -24,12 +25,15 @@
     return _tgs;
 }
 
-
+NSString *ID = @"tg";
+NSString *textID = @"text";
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.tableView setRowHeight:70];
 //    [self.tableView registerClass:[QtgTableViewCell class] forCellReuseIdentifier:ID];
-//    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([QtgTableViewCell class]) bundle:nil] forCellReuseIdentifier:ID];
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([QtgTableViewCell class]) bundle:nil] forCellReuseIdentifier:ID];
+    
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([QtextCell class]) bundle:nil] forCellReuseIdentifier:textID];
 }
 
 #pragma mark - 数据源代码
@@ -38,17 +42,16 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    static NSString *ID = @"tg";
-    // 访问缓存池
-    QtgTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
-    
-    if(cell == nil) {
-//        cell = [[QtgTableViewCell  alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
-        cell = [[[NSBundle mainBundle] loadNibNamed:NSStringFromClass([QtgTableViewCell class]) owner:nil options:nil] lastObject];
+    if(indexPath.row % 2 == 0) {
+        // 访问缓存池
+        QtgTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
+        // 设置数据(传递模型）
+        cell.tg = self.tgs[indexPath.row];
+        return cell;
+    }else {
+        QtextCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
+        return cell;
     }
     
-    // 设置数据(传递模型）
-    cell.tg = self.tgs[indexPath.row];
-    return cell;
 }
 @end
