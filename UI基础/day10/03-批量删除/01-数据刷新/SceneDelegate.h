@@ -1,0 +1,15 @@
+//
+//  SceneDelegate.h
+//  01-数据刷新
+//
+//  Created by wei wei on 2024/3/25.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+
+@property (strong, nonatomic) UIWindow * window;
+
+@end
+

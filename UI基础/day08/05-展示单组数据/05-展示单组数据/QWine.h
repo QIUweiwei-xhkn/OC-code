@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 /** 图片   */
 @property(nonatomic,copy) NSString *image;
 
+/** 记录打勾控件状态   */
+@property(nonatomic, assign, getter=isChecked) BOOL check;
 + (instancetype)wineWithDict: (NSDictionary *)dict;
 @end
 
