@@ -80,7 +80,6 @@
 		ED793BA82BB1C7510034D33F /* QWineCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QWineCell.h; sourceTree = "<group>"; };
 		ED793BA92BB1C7510034D33F /* QWineCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QWineCell.m; sourceTree = "<group>"; };
 		ED793BAB2BB1C9220034D33F /* wine.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = wine.plist; path = "../../../day08/05-展示单组数据/05-展示单组数据/wine.plist"; sourceTree = "<group>"; };
-		ED793BAD2BB1C9980034D33F /* QWine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QWine.h; path = "../../../day08/05-展示单组数据/05-展示单组数据/QWine.h"; sourceTree = "<group>"; };
 		ED793BAE2BB1C9980034D33F /* QWine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QWine.m; path = "../../../day08/05-展示单组数据/05-展示单组数据/QWine.m"; sourceTree = "<group>"; };
 		ED793BB12BB1C9D40034D33F /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
 		ED793BB22BB1C9D40034D33F /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
@@ -128,6 +127,7 @@
 		ED793C2F2BB1D13B0034D33F /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		ED793C302BB1D13B0034D33F /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
 		ED793C312BB1D13B0034D33F /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		ED793C882BBAF4B80034D33F /* QWine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QWine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,7 +188,7 @@
 				ED793B762BB1C3D50034D33F /* ViewController.h */,
 				ED793B772BB1C3D50034D33F /* ViewController.m */,
 				ED793B792BB1C3D50034D33F /* Main.storyboard */,
-				ED793BAD2BB1C9980034D33F /* QWine.h */,
+				ED793C882BBAF4B80034D33F /* QWine.h */,
 				ED793BAE2BB1C9980034D33F /* QWine.m */,
 				ED793BA82BB1C7510034D33F /* QWineCell.h */,
 				ED793BA92BB1C7510034D33F /* QWineCell.m */,
