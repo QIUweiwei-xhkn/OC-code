@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED35C0BB2BED17450077105E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED35C0BA2BED17450077105E /* AppDelegate.m */; };
+		ED35C0BE2BED17450077105E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED35C0BD2BED17450077105E /* SceneDelegate.m */; };
+		ED35C0C12BED17450077105E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED35C0C02BED17450077105E /* ViewController.m */; };
+		ED35C0C42BED17450077105E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED35C0C22BED17450077105E /* Main.storyboard */; };
+		ED35C0C62BED17460077105E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED35C0C52BED17460077105E /* Assets.xcassets */; };
+		ED35C0C92BED17460077105E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED35C0C72BED17460077105E /* LaunchScreen.storyboard */; };
+		ED35C0CC2BED17460077105E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED35C0CB2BED17460077105E /* main.m */; };
+		ED35C0D62BED17460077105E /* _9_loadView__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED35C0D52BED17460077105E /* _9_loadView__Tests.m */; };
+		ED35C0E02BED17460077105E /* _9_loadView__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED35C0DF2BED17460077105E /* _9_loadView__UITests.m */; };
+		ED35C0E22BED17460077105E /* _9_loadView__UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED35C0E12BED17460077105E /* _9_loadView__UITestsLaunchTests.m */; };
+		ED35C0F02BED17CC0077105E /* QViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED35C0EF2BED17CC0077105E /* QViewController.m */; };
+		ED35C0F22BED17DB0077105E /* QViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED35C0F12BED17DB0077105E /* QViewController.xib */; };
+		ED35C0F52BED1E6B0077105E /* QVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = ED35C0F42BED1E6B0077105E /* QVIew.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED35C0D22BED17460077105E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED35C0AE2BED17450077105E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED35C0B52BED17450077105E;
+			remoteInfo = "09-loadView方法";
+		};
+		ED35C0DC2BED17460077105E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED35C0AE2BED17450077105E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED35C0B52BED17450077105E;
+			remoteInfo = "09-loadView方法";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED35C0B62BED17450077105E /* 09-loadView方法.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "09-loadView方法.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED35C0B92BED17450077105E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED35C0BA2BED17450077105E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED35C0BC2BED17450077105E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		ED35C0BD2BED17450077105E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		ED35C0BF2BED17450077105E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED35C0C02BED17450077105E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED35C0C32BED17450077105E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED35C0C52BED17460077105E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED35C0C82BED17460077105E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED35C0CA2BED17460077105E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED35C0CB2BED17460077105E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED35C0D12BED17460077105E /* 09-loadView方法Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "09-loadView方法Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED35C0D52BED17460077105E /* _9_loadView__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _9_loadView__Tests.m; sourceTree = "<group>"; };
+		ED35C0DB2BED17460077105E /* 09-loadView方法UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "09-loadView方法UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED35C0DF2BED17460077105E /* _9_loadView__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _9_loadView__UITests.m; sourceTree = "<group>"; };
+		ED35C0E12BED17460077105E /* _9_loadView__UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _9_loadView__UITestsLaunchTests.m; sourceTree = "<group>"; };
+		ED35C0EE2BED17CC0077105E /* QViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QViewController.h; path = "../../08-通过Xib加载控制器/08-通过Xib加载控制器/QViewController.h"; sourceTree = "<group>"; };
+		ED35C0EF2BED17CC0077105E /* QViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QViewController.m; path = "../../08-通过Xib加载控制器/08-通过Xib加载控制器/QViewController.m"; sourceTree = "<group>"; };
+		ED35C0F12BED17DB0077105E /* QViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QViewController.xib; sourceTree = "<group>"; };
+		ED35C0F32BED1E6B0077105E /* QVIew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QVIew.h; sourceTree = "<group>"; };
+		ED35C0F42BED1E6B0077105E /* QVIew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QVIew.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED35C0B32BED17450077105E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED35C0CE2BED17460077105E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED35C0D82BED17460077105E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED35C0AD2BED17450077105E = {
+			isa = PBXGroup;
+			children = (
+				ED35C0B82BED17450077105E /* 09-loadView方法 */,
+				ED35C0D42BED17460077105E /* 09-loadView方法Tests */,
+				ED35C0DE2BED17460077105E /* 09-loadView方法UITests */,
+				ED35C0B72BED17450077105E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED35C0B72BED17450077105E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED35C0B62BED17450077105E /* 09-loadView方法.app */,
+				ED35C0D12BED17460077105E /* 09-loadView方法Tests.xctest */,
+				ED35C0DB2BED17460077105E /* 09-loadView方法UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED35C0B82BED17450077105E /* 09-loadView方法 */ = {
+			isa = PBXGroup;
+			children = (
+				ED35C0B92BED17450077105E /* AppDelegate.h */,
+				ED35C0BA2BED17450077105E /* AppDelegate.m */,
+				ED35C0BC2BED17450077105E /* SceneDelegate.h */,
+				ED35C0BD2BED17450077105E /* SceneDelegate.m */,
+				ED35C0BF2BED17450077105E /* ViewController.h */,
+				ED35C0C02BED17450077105E /* ViewController.m */,
+				ED35C0C22BED17450077105E /* Main.storyboard */,
+				ED35C0C52BED17460077105E /* Assets.xcassets */,
+				ED35C0C72BED17460077105E /* LaunchScreen.storyboard */,
+				ED35C0CA2BED17460077105E /* Info.plist */,
+				ED35C0CB2BED17460077105E /* main.m */,
+				ED35C0EE2BED17CC0077105E /* QViewController.h */,
+				ED35C0EF2BED17CC0077105E /* QViewController.m */,
+				ED35C0F32BED1E6B0077105E /* QVIew.h */,
+				ED35C0F42BED1E6B0077105E /* QVIew.m */,
+				ED35C0F12BED17DB0077105E /* QViewController.xib */,
+			);
+			path = "09-loadView方法";
+			sourceTree = "<group>";
+		};
+		ED35C0D42BED17460077105E /* 09-loadView方法Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ED35C0D52BED17460077105E /* _9_loadView__Tests.m */,
+			);
+			path = "09-loadView方法Tests";
+			sourceTree = "<group>";
+		};
+		ED35C0DE2BED17460077105E /* 09-loadView方法UITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED35C0DF2BED17460077105E /* _9_loadView__UITests.m */,
+				ED35C0E12BED17460077105E /* _9_loadView__UITestsLaunchTests.m */,
+			);
+			path = "09-loadView方法UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED35C0B52BED17450077105E /* 09-loadView方法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED35C0E52BED17460077105E /* Build configuration list for PBXNativeTarget "09-loadView方法" */;
+			buildPhases = (
+				ED35C0B22BED17450077105E /* Sources */,
+				ED35C0B32BED17450077105E /* Frameworks */,
+				ED35C0B42BED17450077105E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "09-loadView方法";
+			productName = "09-loadView方法";
+			productReference = ED35C0B62BED17450077105E /* 09-loadView方法.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED35C0D02BED17460077105E /* 09-loadView方法Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED35C0E82BED17460077105E /* Build configuration list for PBXNativeTarget "09-loadView方法Tests" */;
+			buildPhases = (
+				ED35C0CD2BED17460077105E /* Sources */,
+				ED35C0CE2BED17460077105E /* Frameworks */,
+				ED35C0CF2BED17460077105E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED35C0D32BED17460077105E /* PBXTargetDependency */,
+			);
+			name = "09-loadView方法Tests";
+			productName = "09-loadView方法Tests";
+			productReference = ED35C0D12BED17460077105E /* 09-loadView方法Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED35C0DA2BED17460077105E /* 09-loadView方法UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED35C0EB2BED17460077105E /* Build configuration list for PBXNativeTarget "09-loadView方法UITests" */;
+			buildPhases = (
+				ED35C0D72BED17460077105E /* Sources */,
+				ED35C0D82BED17460077105E /* Frameworks */,
+				ED35C0D92BED17460077105E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED35C0DD2BED17460077105E /* PBXTargetDependency */,
+			);
+			name = "09-loadView方法UITests";
+			productName = "09-loadView方法UITests";
+			productReference = ED35C0DB2BED17460077105E /* 09-loadView方法UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED35C0AE2BED17450077105E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					ED35C0B52BED17450077105E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					ED35C0D02BED17460077105E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = ED35C0B52BED17450077105E;
+					};
+					ED35C0DA2BED17460077105E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = ED35C0B52BED17450077105E;
+					};
+				};
+			};
+			buildConfigurationList = ED35C0B12BED17450077105E /* Build configuration list for PBXProject "09-loadView方法" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED35C0AD2BED17450077105E;
+			productRefGroup = ED35C0B72BED17450077105E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED35C0B52BED17450077105E /* 09-loadView方法 */,
+				ED35C0D02BED17460077105E /* 09-loadView方法Tests */,
+				ED35C0DA2BED17460077105E /* 09-loadView方法UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED35C0B42BED17450077105E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED35C0F22BED17DB0077105E /* QViewController.xib in Resources */,
+				ED35C0C92BED17460077105E /* LaunchScreen.storyboard in Resources */,
+				ED35C0C62BED17460077105E /* Assets.xcassets in Resources */,
+				ED35C0C42BED17450077105E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED35C0CF2BED17460077105E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED35C0D92BED17460077105E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED35C0B22BED17450077105E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED35C0F52BED1E6B0077105E /* QVIew.m in Sources */,
+				ED35C0C12BED17450077105E /* ViewController.m in Sources */,
+				ED35C0F02BED17CC0077105E /* QViewController.m in Sources */,
+				ED35C0BB2BED17450077105E /* AppDelegate.m in Sources */,
+				ED35C0CC2BED17460077105E /* main.m in Sources */,
+				ED35C0BE2BED17450077105E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED35C0CD2BED17460077105E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED35C0D62BED17460077105E /* _9_loadView__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED35C0D72BED17460077105E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED35C0E02BED17460077105E /* _9_loadView__UITests.m in Sources */,
+				ED35C0E22BED17460077105E /* _9_loadView__UITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED35C0D32BED17460077105E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED35C0B52BED17450077105E /* 09-loadView方法 */;
+			targetProxy = ED35C0D22BED17460077105E /* PBXContainerItemProxy */;
+		};
+		ED35C0DD2BED17460077105E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED35C0B52BED17450077105E /* 09-loadView方法 */;
+			targetProxy = ED35C0DC2BED17460077105E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED35C0C22BED17450077105E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED35C0C32BED17450077105E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED35C0C72BED17460077105E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED35C0C82BED17460077105E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED35C0E32BED17460077105E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED35C0E42BED17460077105E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED35C0E62BED17460077105E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "09-loadView方法/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-9-loadView--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED35C0E72BED17460077105E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "09-loadView方法/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-9-loadView--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED35C0E92BED17460077105E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-9-loadView--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/09-loadView方法.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/09-loadView方法";
+			};
+			name = Debug;
+		};
+		ED35C0EA2BED17460077105E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-9-loadView--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/09-loadView方法.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/09-loadView方法";
+			};
+			name = Release;
+		};
+		ED35C0EC2BED17460077105E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-9-loadView--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "09-loadView方法";
+			};
+			name = Debug;
+		};
+		ED35C0ED2BED17460077105E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-9-loadView--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "09-loadView方法";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED35C0B12BED17450077105E /* Build configuration list for PBXProject "09-loadView方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED35C0E32BED17460077105E /* Debug */,
+				ED35C0E42BED17460077105E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED35C0E52BED17460077105E /* Build configuration list for PBXNativeTarget "09-loadView方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED35C0E62BED17460077105E /* Debug */,
+				ED35C0E72BED17460077105E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED35C0E82BED17460077105E /* Build configuration list for PBXNativeTarget "09-loadView方法Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED35C0E92BED17460077105E /* Debug */,
+				ED35C0EA2BED17460077105E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED35C0EB2BED17460077105E /* Build configuration list for PBXNativeTarget "09-loadView方法UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED35C0EC2BED17460077105E /* Debug */,
+				ED35C0ED2BED17460077105E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED35C0AE2BED17450077105E /* Project object */;
+}
