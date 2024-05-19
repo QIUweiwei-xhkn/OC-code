@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>中国</string>
+		<key>icon</key>
+		<string>zhongguo</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>巴勒斯坦</string>
+		<key>icon</key>
+		<string>balesitang</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>叙利亚</string>
+		<key>icon</key>
+		<string>xuliya</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>马来西亚</string>
+		<key>icon</key>
+		<string>malaixiya</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>以色列</string>
+		<key>icon</key>
+		<string>yiselie</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>印度</string>
+		<key>icon</key>
+		<string>yingdu</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>xinjiapo</string>
+		<key>icon</key>
+		<string>xinjiapo</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>伊拉克</string>
+		<key>icon</key>
+		<string>yilake</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>朝鲜</string>
+		<key>icon</key>
+		<string>chaoxian</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>伊朗</string>
+		<key>icon</key>
+		<string>yilang</string>
+	</dict>
+</array>
+</plist>

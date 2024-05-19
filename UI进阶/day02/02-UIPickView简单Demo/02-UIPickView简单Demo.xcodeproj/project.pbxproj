@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED35C1452BEE5D410077105E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED35C1442BEE5D410077105E /* AppDelegate.m */; };
+		ED35C1482BEE5D410077105E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED35C1472BEE5D410077105E /* SceneDelegate.m */; };
+		ED35C14B2BEE5D410077105E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED35C14A2BEE5D410077105E /* ViewController.m */; };
+		ED35C14E2BEE5D410077105E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED35C14C2BEE5D410077105E /* Main.storyboard */; };
+		ED35C1502BEE5D420077105E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED35C14F2BEE5D420077105E /* Assets.xcassets */; };
+		ED35C1532BEE5D420077105E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED35C1512BEE5D420077105E /* LaunchScreen.storyboard */; };
+		ED35C1562BEE5D420077105E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED35C1552BEE5D420077105E /* main.m */; };
+		ED35C1602BEE5D420077105E /* _2_UIPickView__DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED35C15F2BEE5D420077105E /* _2_UIPickView__DemoTests.m */; };
+		ED35C16A2BEE5D420077105E /* _2_UIPickView__DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED35C1692BEE5D420077105E /* _2_UIPickView__DemoUITests.m */; };
+		ED35C16C2BEE5D420077105E /* _2_UIPickView__DemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED35C16B2BEE5D420077105E /* _2_UIPickView__DemoUITestsLaunchTests.m */; };
+		ED35C1792BEE5FEC0077105E /* foods.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED35C1782BEE5FEC0077105E /* foods.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED35C15C2BEE5D420077105E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED35C1382BEE5D410077105E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED35C13F2BEE5D410077105E;
+			remoteInfo = "02-UIPickView简单Demo";
+		};
+		ED35C1662BEE5D420077105E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED35C1382BEE5D410077105E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED35C13F2BEE5D410077105E;
+			remoteInfo = "02-UIPickView简单Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED35C1402BEE5D410077105E /* 02-UIPickView简单Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-UIPickView简单Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED35C1432BEE5D410077105E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED35C1442BEE5D410077105E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED35C1462BEE5D410077105E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		ED35C1472BEE5D410077105E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		ED35C1492BEE5D410077105E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED35C14A2BEE5D410077105E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED35C14D2BEE5D410077105E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED35C14F2BEE5D420077105E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED35C1522BEE5D420077105E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED35C1542BEE5D420077105E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED35C1552BEE5D420077105E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED35C15B2BEE5D420077105E /* 02-UIPickView简单DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-UIPickView简单DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED35C15F2BEE5D420077105E /* _2_UIPickView__DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_UIPickView__DemoTests.m; sourceTree = "<group>"; };
+		ED35C1652BEE5D420077105E /* 02-UIPickView简单DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-UIPickView简单DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED35C1692BEE5D420077105E /* _2_UIPickView__DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_UIPickView__DemoUITests.m; sourceTree = "<group>"; };
+		ED35C16B2BEE5D420077105E /* _2_UIPickView__DemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_UIPickView__DemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		ED35C1782BEE5FEC0077105E /* foods.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = foods.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED35C13D2BEE5D410077105E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED35C1582BEE5D420077105E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED35C1622BEE5D420077105E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED35C1372BEE5D410077105E = {
+			isa = PBXGroup;
+			children = (
+				ED35C1422BEE5D410077105E /* 02-UIPickView简单Demo */,
+				ED35C15E2BEE5D420077105E /* 02-UIPickView简单DemoTests */,
+				ED35C1682BEE5D420077105E /* 02-UIPickView简单DemoUITests */,
+				ED35C1412BEE5D410077105E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED35C1412BEE5D410077105E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED35C1402BEE5D410077105E /* 02-UIPickView简单Demo.app */,
+				ED35C15B2BEE5D420077105E /* 02-UIPickView简单DemoTests.xctest */,
+				ED35C1652BEE5D420077105E /* 02-UIPickView简单DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED35C1422BEE5D410077105E /* 02-UIPickView简单Demo */ = {
+			isa = PBXGroup;
+			children = (
+				ED35C1432BEE5D410077105E /* AppDelegate.h */,
+				ED35C1442BEE5D410077105E /* AppDelegate.m */,
+				ED35C1462BEE5D410077105E /* SceneDelegate.h */,
+				ED35C1472BEE5D410077105E /* SceneDelegate.m */,
+				ED35C1492BEE5D410077105E /* ViewController.h */,
+				ED35C14A2BEE5D410077105E /* ViewController.m */,
+				ED35C1782BEE5FEC0077105E /* foods.plist */,
+				ED35C14C2BEE5D410077105E /* Main.storyboard */,
+				ED35C14F2BEE5D420077105E /* Assets.xcassets */,
+				ED35C1512BEE5D420077105E /* LaunchScreen.storyboard */,
+				ED35C1542BEE5D420077105E /* Info.plist */,
+				ED35C1552BEE5D420077105E /* main.m */,
+			);
+			path = "02-UIPickView简单Demo";
+			sourceTree = "<group>";
+		};
+		ED35C15E2BEE5D420077105E /* 02-UIPickView简单DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED35C15F2BEE5D420077105E /* _2_UIPickView__DemoTests.m */,
+			);
+			path = "02-UIPickView简单DemoTests";
+			sourceTree = "<group>";
+		};
+		ED35C1682BEE5D420077105E /* 02-UIPickView简单DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED35C1692BEE5D420077105E /* _2_UIPickView__DemoUITests.m */,
+				ED35C16B2BEE5D420077105E /* _2_UIPickView__DemoUITestsLaunchTests.m */,
+			);
+			path = "02-UIPickView简单DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED35C13F2BEE5D410077105E /* 02-UIPickView简单Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED35C16F2BEE5D420077105E /* Build configuration list for PBXNativeTarget "02-UIPickView简单Demo" */;
+			buildPhases = (
+				ED35C13C2BEE5D410077105E /* Sources */,
+				ED35C13D2BEE5D410077105E /* Frameworks */,
+				ED35C13E2BEE5D410077105E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-UIPickView简单Demo";
+			productName = "02-UIPickView简单Demo";
+			productReference = ED35C1402BEE5D410077105E /* 02-UIPickView简单Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED35C15A2BEE5D420077105E /* 02-UIPickView简单DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED35C1722BEE5D420077105E /* Build configuration list for PBXNativeTarget "02-UIPickView简单DemoTests" */;
+			buildPhases = (
+				ED35C1572BEE5D420077105E /* Sources */,
+				ED35C1582BEE5D420077105E /* Frameworks */,
+				ED35C1592BEE5D420077105E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED35C15D2BEE5D420077105E /* PBXTargetDependency */,
+			);
+			name = "02-UIPickView简单DemoTests";
+			productName = "02-UIPickView简单DemoTests";
+			productReference = ED35C15B2BEE5D420077105E /* 02-UIPickView简单DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED35C1642BEE5D420077105E /* 02-UIPickView简单DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED35C1752BEE5D420077105E /* Build configuration list for PBXNativeTarget "02-UIPickView简单DemoUITests" */;
+			buildPhases = (
+				ED35C1612BEE5D420077105E /* Sources */,
+				ED35C1622BEE5D420077105E /* Frameworks */,
+				ED35C1632BEE5D420077105E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED35C1672BEE5D420077105E /* PBXTargetDependency */,
+			);
+			name = "02-UIPickView简单DemoUITests";
+			productName = "02-UIPickView简单DemoUITests";
+			productReference = ED35C1652BEE5D420077105E /* 02-UIPickView简单DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED35C1382BEE5D410077105E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					ED35C13F2BEE5D410077105E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					ED35C15A2BEE5D420077105E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = ED35C13F2BEE5D410077105E;
+					};
+					ED35C1642BEE5D420077105E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = ED35C13F2BEE5D410077105E;
+					};
+				};
+			};
+			buildConfigurationList = ED35C13B2BEE5D410077105E /* Build configuration list for PBXProject "02-UIPickView简单Demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED35C1372BEE5D410077105E;
+			productRefGroup = ED35C1412BEE5D410077105E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED35C13F2BEE5D410077105E /* 02-UIPickView简单Demo */,
+				ED35C15A2BEE5D420077105E /* 02-UIPickView简单DemoTests */,
+				ED35C1642BEE5D420077105E /* 02-UIPickView简单DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED35C13E2BEE5D410077105E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED35C1532BEE5D420077105E /* LaunchScreen.storyboard in Resources */,
+				ED35C1502BEE5D420077105E /* Assets.xcassets in Resources */,
+				ED35C1792BEE5FEC0077105E /* foods.plist in Resources */,
+				ED35C14E2BEE5D410077105E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED35C1592BEE5D420077105E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED35C1632BEE5D420077105E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED35C13C2BEE5D410077105E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED35C14B2BEE5D410077105E /* ViewController.m in Sources */,
+				ED35C1452BEE5D410077105E /* AppDelegate.m in Sources */,
+				ED35C1562BEE5D420077105E /* main.m in Sources */,
+				ED35C1482BEE5D410077105E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED35C1572BEE5D420077105E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED35C1602BEE5D420077105E /* _2_UIPickView__DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED35C1612BEE5D420077105E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED35C16C2BEE5D420077105E /* _2_UIPickView__DemoUITestsLaunchTests.m in Sources */,
+				ED35C16A2BEE5D420077105E /* _2_UIPickView__DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED35C15D2BEE5D420077105E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED35C13F2BEE5D410077105E /* 02-UIPickView简单Demo */;
+			targetProxy = ED35C15C2BEE5D420077105E /* PBXContainerItemProxy */;
+		};
+		ED35C1672BEE5D420077105E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED35C13F2BEE5D410077105E /* 02-UIPickView简单Demo */;
+			targetProxy = ED35C1662BEE5D420077105E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED35C14C2BEE5D410077105E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED35C14D2BEE5D410077105E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED35C1512BEE5D420077105E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED35C1522BEE5D420077105E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED35C16D2BEE5D420077105E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED35C16E2BEE5D420077105E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED35C1702BEE5D420077105E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "02-UIPickView简单Demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2-UIPickView--Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED35C1712BEE5D420077105E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "02-UIPickView简单Demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2-UIPickView--Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED35C1732BEE5D420077105E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2-UIPickView--DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-UIPickView简单Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/02-UIPickView简单Demo";
+			};
+			name = Debug;
+		};
+		ED35C1742BEE5D420077105E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2-UIPickView--DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-UIPickView简单Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/02-UIPickView简单Demo";
+			};
+			name = Release;
+		};
+		ED35C1762BEE5D420077105E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2-UIPickView--DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "02-UIPickView简单Demo";
+			};
+			name = Debug;
+		};
+		ED35C1772BEE5D420077105E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2-UIPickView--DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "02-UIPickView简单Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED35C13B2BEE5D410077105E /* Build configuration list for PBXProject "02-UIPickView简单Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED35C16D2BEE5D420077105E /* Debug */,
+				ED35C16E2BEE5D420077105E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED35C16F2BEE5D420077105E /* Build configuration list for PBXNativeTarget "02-UIPickView简单Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED35C1702BEE5D420077105E /* Debug */,
+				ED35C1712BEE5D420077105E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED35C1722BEE5D420077105E /* Build configuration list for PBXNativeTarget "02-UIPickView简单DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED35C1732BEE5D420077105E /* Debug */,
+				ED35C1742BEE5D420077105E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED35C1752BEE5D420077105E /* Build configuration list for PBXNativeTarget "02-UIPickView简单DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED35C1762BEE5D420077105E /* Debug */,
+				ED35C1772BEE5D420077105E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED35C1382BEE5D410077105E /* Project object */;
+}
