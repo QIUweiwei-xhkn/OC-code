@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED7E17602C40BEAA00BF2DF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7E175F2C40BEAA00BF2DF6 /* AppDelegate.m */; };
+		ED7E17632C40BEAA00BF2DF6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7E17622C40BEAA00BF2DF6 /* SceneDelegate.m */; };
+		ED7E17662C40BEAA00BF2DF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7E17652C40BEAA00BF2DF6 /* ViewController.m */; };
+		ED7E17692C40BEAA00BF2DF6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ED7E17682C40BEAA00BF2DF6 /* Base */; };
+		ED7E176B2C40BEAB00BF2DF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7E176A2C40BEAB00BF2DF6 /* Assets.xcassets */; };
+		ED7E176E2C40BEAB00BF2DF6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ED7E176D2C40BEAB00BF2DF6 /* Base */; };
+		ED7E17712C40BEAB00BF2DF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7E17702C40BEAB00BF2DF6 /* main.m */; };
+		ED7E177B2C40BEAB00BF2DF6 /* _2______UIView___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7E177A2C40BEAB00BF2DF6 /* _2______UIView___Tests.m */; };
+		ED7E17852C40BEAB00BF2DF6 /* _2______UIView___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7E17842C40BEAB00BF2DF6 /* _2______UIView___UITests.m */; };
+		ED7E17872C40BEAB00BF2DF6 /* _2______UIView___UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7E17862C40BEAB00BF2DF6 /* _2______UIView___UITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED7E17772C40BEAB00BF2DF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED7E17532C40BEAA00BF2DF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED7E175A2C40BEAA00BF2DF6;
+			remoteInfo = "12-核心动画和UIView的区别";
+		};
+		ED7E17812C40BEAB00BF2DF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED7E17532C40BEAA00BF2DF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED7E175A2C40BEAA00BF2DF6;
+			remoteInfo = "12-核心动画和UIView的区别";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED7E175B2C40BEAA00BF2DF6 /* 12-核心动画和UIView的区别.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "12-核心动画和UIView的区别.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7E175E2C40BEAA00BF2DF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED7E175F2C40BEAA00BF2DF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED7E17612C40BEAA00BF2DF6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		ED7E17622C40BEAA00BF2DF6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		ED7E17642C40BEAA00BF2DF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED7E17652C40BEAA00BF2DF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED7E17682C40BEAA00BF2DF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED7E176A2C40BEAB00BF2DF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED7E176D2C40BEAB00BF2DF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED7E176F2C40BEAB00BF2DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7E17702C40BEAB00BF2DF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED7E17762C40BEAB00BF2DF6 /* 12-核心动画和UIView的区别Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "12-核心动画和UIView的区别Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7E177A2C40BEAB00BF2DF6 /* _2______UIView___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2______UIView___Tests.m"; sourceTree = "<group>"; };
+		ED7E17802C40BEAB00BF2DF6 /* 12-核心动画和UIView的区别UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "12-核心动画和UIView的区别UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7E17842C40BEAB00BF2DF6 /* _2______UIView___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2______UIView___UITests.m"; sourceTree = "<group>"; };
+		ED7E17862C40BEAB00BF2DF6 /* _2______UIView___UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2______UIView___UITestsLaunchTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED7E17582C40BEAA00BF2DF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7E17732C40BEAB00BF2DF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7E177D2C40BEAB00BF2DF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED7E17522C40BEAA00BF2DF6 = {
+			isa = PBXGroup;
+			children = (
+				ED7E175D2C40BEAA00BF2DF6 /* 12-核心动画和UIView的区别 */,
+				ED7E17792C40BEAB00BF2DF6 /* 12-核心动画和UIView的区别Tests */,
+				ED7E17832C40BEAB00BF2DF6 /* 12-核心动画和UIView的区别UITests */,
+				ED7E175C2C40BEAA00BF2DF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED7E175C2C40BEAA00BF2DF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED7E175B2C40BEAA00BF2DF6 /* 12-核心动画和UIView的区别.app */,
+				ED7E17762C40BEAB00BF2DF6 /* 12-核心动画和UIView的区别Tests.xctest */,
+				ED7E17802C40BEAB00BF2DF6 /* 12-核心动画和UIView的区别UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED7E175D2C40BEAA00BF2DF6 /* 12-核心动画和UIView的区别 */ = {
+			isa = PBXGroup;
+			children = (
+				ED7E175E2C40BEAA00BF2DF6 /* AppDelegate.h */,
+				ED7E175F2C40BEAA00BF2DF6 /* AppDelegate.m */,
+				ED7E17612C40BEAA00BF2DF6 /* SceneDelegate.h */,
+				ED7E17622C40BEAA00BF2DF6 /* SceneDelegate.m */,
+				ED7E17642C40BEAA00BF2DF6 /* ViewController.h */,
+				ED7E17652C40BEAA00BF2DF6 /* ViewController.m */,
+				ED7E17672C40BEAA00BF2DF6 /* Main.storyboard */,
+				ED7E176A2C40BEAB00BF2DF6 /* Assets.xcassets */,
+				ED7E176C2C40BEAB00BF2DF6 /* LaunchScreen.storyboard */,
+				ED7E176F2C40BEAB00BF2DF6 /* Info.plist */,
+				ED7E17702C40BEAB00BF2DF6 /* main.m */,
+			);
+			path = "12-核心动画和UIView的区别";
+			sourceTree = "<group>";
+		};
+		ED7E17792C40BEAB00BF2DF6 /* 12-核心动画和UIView的区别Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ED7E177A2C40BEAB00BF2DF6 /* _2______UIView___Tests.m */,
+			);
+			path = "12-核心动画和UIView的区别Tests";
+			sourceTree = "<group>";
+		};
+		ED7E17832C40BEAB00BF2DF6 /* 12-核心动画和UIView的区别UITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED7E17842C40BEAB00BF2DF6 /* _2______UIView___UITests.m */,
+				ED7E17862C40BEAB00BF2DF6 /* _2______UIView___UITestsLaunchTests.m */,
+			);
+			path = "12-核心动画和UIView的区别UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED7E175A2C40BEAA00BF2DF6 /* 12-核心动画和UIView的区别 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7E178A2C40BEAB00BF2DF6 /* Build configuration list for PBXNativeTarget "12-核心动画和UIView的区别" */;
+			buildPhases = (
+				ED7E17572C40BEAA00BF2DF6 /* Sources */,
+				ED7E17582C40BEAA00BF2DF6 /* Frameworks */,
+				ED7E17592C40BEAA00BF2DF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "12-核心动画和UIView的区别";
+			productName = "12-核心动画和UIView的区别";
+			productReference = ED7E175B2C40BEAA00BF2DF6 /* 12-核心动画和UIView的区别.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED7E17752C40BEAB00BF2DF6 /* 12-核心动画和UIView的区别Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7E178D2C40BEAB00BF2DF6 /* Build configuration list for PBXNativeTarget "12-核心动画和UIView的区别Tests" */;
+			buildPhases = (
+				ED7E17722C40BEAB00BF2DF6 /* Sources */,
+				ED7E17732C40BEAB00BF2DF6 /* Frameworks */,
+				ED7E17742C40BEAB00BF2DF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED7E17782C40BEAB00BF2DF6 /* PBXTargetDependency */,
+			);
+			name = "12-核心动画和UIView的区别Tests";
+			productName = "12-核心动画和UIView的区别Tests";
+			productReference = ED7E17762C40BEAB00BF2DF6 /* 12-核心动画和UIView的区别Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED7E177F2C40BEAB00BF2DF6 /* 12-核心动画和UIView的区别UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7E17902C40BEAB00BF2DF6 /* Build configuration list for PBXNativeTarget "12-核心动画和UIView的区别UITests" */;
+			buildPhases = (
+				ED7E177C2C40BEAB00BF2DF6 /* Sources */,
+				ED7E177D2C40BEAB00BF2DF6 /* Frameworks */,
+				ED7E177E2C40BEAB00BF2DF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED7E17822C40BEAB00BF2DF6 /* PBXTargetDependency */,
+			);
+			name = "12-核心动画和UIView的区别UITests";
+			productName = "12-核心动画和UIView的区别UITests";
+			productReference = ED7E17802C40BEAB00BF2DF6 /* 12-核心动画和UIView的区别UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED7E17532C40BEAA00BF2DF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					ED7E175A2C40BEAA00BF2DF6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					ED7E17752C40BEAB00BF2DF6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = ED7E175A2C40BEAA00BF2DF6;
+					};
+					ED7E177F2C40BEAB00BF2DF6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = ED7E175A2C40BEAA00BF2DF6;
+					};
+				};
+			};
+			buildConfigurationList = ED7E17562C40BEAA00BF2DF6 /* Build configuration list for PBXProject "12-核心动画和UIView的区别" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED7E17522C40BEAA00BF2DF6;
+			productRefGroup = ED7E175C2C40BEAA00BF2DF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED7E175A2C40BEAA00BF2DF6 /* 12-核心动画和UIView的区别 */,
+				ED7E17752C40BEAB00BF2DF6 /* 12-核心动画和UIView的区别Tests */,
+				ED7E177F2C40BEAB00BF2DF6 /* 12-核心动画和UIView的区别UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED7E17592C40BEAA00BF2DF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7E176B2C40BEAB00BF2DF6 /* Assets.xcassets in Resources */,
+				ED7E176E2C40BEAB00BF2DF6 /* Base in Resources */,
+				ED7E17692C40BEAA00BF2DF6 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7E17742C40BEAB00BF2DF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7E177E2C40BEAB00BF2DF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED7E17572C40BEAA00BF2DF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7E17662C40BEAA00BF2DF6 /* ViewController.m in Sources */,
+				ED7E17602C40BEAA00BF2DF6 /* AppDelegate.m in Sources */,
+				ED7E17712C40BEAB00BF2DF6 /* main.m in Sources */,
+				ED7E17632C40BEAA00BF2DF6 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7E17722C40BEAB00BF2DF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7E177B2C40BEAB00BF2DF6 /* _2______UIView___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7E177C2C40BEAB00BF2DF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7E17872C40BEAB00BF2DF6 /* _2______UIView___UITestsLaunchTests.m in Sources */,
+				ED7E17852C40BEAB00BF2DF6 /* _2______UIView___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED7E17782C40BEAB00BF2DF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED7E175A2C40BEAA00BF2DF6 /* 12-核心动画和UIView的区别 */;
+			targetProxy = ED7E17772C40BEAB00BF2DF6 /* PBXContainerItemProxy */;
+		};
+		ED7E17822C40BEAB00BF2DF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED7E175A2C40BEAA00BF2DF6 /* 12-核心动画和UIView的区别 */;
+			targetProxy = ED7E17812C40BEAB00BF2DF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED7E17672C40BEAA00BF2DF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7E17682C40BEAA00BF2DF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED7E176C2C40BEAB00BF2DF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7E176D2C40BEAB00BF2DF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED7E17882C40BEAB00BF2DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED7E17892C40BEAB00BF2DF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED7E178B2C40BEAB00BF2DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "12-核心动画和UIView的区别/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2------UIView---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED7E178C2C40BEAB00BF2DF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "12-核心动画和UIView的区别/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2------UIView---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED7E178E2C40BEAB00BF2DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2------UIView---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/12-核心动画和UIView的区别.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/12-核心动画和UIView的区别";
+			};
+			name = Debug;
+		};
+		ED7E178F2C40BEAB00BF2DF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2------UIView---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/12-核心动画和UIView的区别.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/12-核心动画和UIView的区别";
+			};
+			name = Release;
+		};
+		ED7E17912C40BEAB00BF2DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2------UIView---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "12-核心动画和UIView的区别";
+			};
+			name = Debug;
+		};
+		ED7E17922C40BEAB00BF2DF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2------UIView---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "12-核心动画和UIView的区别";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED7E17562C40BEAA00BF2DF6 /* Build configuration list for PBXProject "12-核心动画和UIView的区别" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7E17882C40BEAB00BF2DF6 /* Debug */,
+				ED7E17892C40BEAB00BF2DF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7E178A2C40BEAB00BF2DF6 /* Build configuration list for PBXNativeTarget "12-核心动画和UIView的区别" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7E178B2C40BEAB00BF2DF6 /* Debug */,
+				ED7E178C2C40BEAB00BF2DF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7E178D2C40BEAB00BF2DF6 /* Build configuration list for PBXNativeTarget "12-核心动画和UIView的区别Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7E178E2C40BEAB00BF2DF6 /* Debug */,
+				ED7E178F2C40BEAB00BF2DF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7E17902C40BEAB00BF2DF6 /* Build configuration list for PBXNativeTarget "12-核心动画和UIView的区别UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7E17912C40BEAB00BF2DF6 /* Debug */,
+				ED7E17922C40BEAB00BF2DF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED7E17532C40BEAA00BF2DF6 /* Project object */;
+}

@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDB601622C40457D00472431 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB601612C40457D00472431 /* AppDelegate.m */; };
+		EDB601652C40457D00472431 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB601642C40457D00472431 /* SceneDelegate.m */; };
+		EDB601682C40457D00472431 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB601672C40457D00472431 /* ViewController.m */; };
+		EDB6016B2C40457D00472431 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EDB6016A2C40457D00472431 /* Base */; };
+		EDB6016D2C40457F00472431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB6016C2C40457F00472431 /* Assets.xcassets */; };
+		EDB601702C40457F00472431 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EDB6016F2C40457F00472431 /* Base */; };
+		EDB601732C40457F00472431 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB601722C40457F00472431 /* main.m */; };
+		EDB6017D2C40457F00472431 /* _0______CAStransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB6017C2C40457F00472431 /* _0______CAStransitionTests.m */; };
+		EDB601872C40457F00472431 /* _0______CAStransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB601862C40457F00472431 /* _0______CAStransitionUITests.m */; };
+		EDB601892C40457F00472431 /* _0______CAStransitionUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB601882C40457F00472431 /* _0______CAStransitionUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDB601792C40457F00472431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDB601552C40457D00472431 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDB6015C2C40457D00472431;
+			remoteInfo = "10-转场动画 CAStransition";
+		};
+		EDB601832C40457F00472431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDB601552C40457D00472431 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDB6015C2C40457D00472431;
+			remoteInfo = "10-转场动画 CAStransition";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDB6015D2C40457D00472431 /* 10-转场动画 CAStransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "10-转场动画 CAStransition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB601602C40457D00472431 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDB601612C40457D00472431 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDB601632C40457D00472431 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		EDB601642C40457D00472431 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		EDB601662C40457D00472431 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDB601672C40457D00472431 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDB6016A2C40457D00472431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDB6016C2C40457F00472431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDB6016F2C40457F00472431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDB601712C40457F00472431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB601722C40457F00472431 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDB601782C40457F00472431 /* 10-转场动画 CAStransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "10-转场动画 CAStransitionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB6017C2C40457F00472431 /* _0______CAStransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_0______CAStransitionTests.m"; sourceTree = "<group>"; };
+		EDB601822C40457F00472431 /* 10-转场动画 CAStransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "10-转场动画 CAStransitionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB601862C40457F00472431 /* _0______CAStransitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_0______CAStransitionUITests.m"; sourceTree = "<group>"; };
+		EDB601882C40457F00472431 /* _0______CAStransitionUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_0______CAStransitionUITestsLaunchTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDB6015A2C40457D00472431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB601752C40457F00472431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB6017F2C40457F00472431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDB601542C40457D00472431 = {
+			isa = PBXGroup;
+			children = (
+				EDB6015F2C40457D00472431 /* 10-转场动画 CAStransition */,
+				EDB6017B2C40457F00472431 /* 10-转场动画 CAStransitionTests */,
+				EDB601852C40457F00472431 /* 10-转场动画 CAStransitionUITests */,
+				EDB6015E2C40457D00472431 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDB6015E2C40457D00472431 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDB6015D2C40457D00472431 /* 10-转场动画 CAStransition.app */,
+				EDB601782C40457F00472431 /* 10-转场动画 CAStransitionTests.xctest */,
+				EDB601822C40457F00472431 /* 10-转场动画 CAStransitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDB6015F2C40457D00472431 /* 10-转场动画 CAStransition */ = {
+			isa = PBXGroup;
+			children = (
+				EDB601602C40457D00472431 /* AppDelegate.h */,
+				EDB601612C40457D00472431 /* AppDelegate.m */,
+				EDB601632C40457D00472431 /* SceneDelegate.h */,
+				EDB601642C40457D00472431 /* SceneDelegate.m */,
+				EDB601662C40457D00472431 /* ViewController.h */,
+				EDB601672C40457D00472431 /* ViewController.m */,
+				EDB601692C40457D00472431 /* Main.storyboard */,
+				EDB6016C2C40457F00472431 /* Assets.xcassets */,
+				EDB6016E2C40457F00472431 /* LaunchScreen.storyboard */,
+				EDB601712C40457F00472431 /* Info.plist */,
+				EDB601722C40457F00472431 /* main.m */,
+			);
+			path = "10-转场动画 CAStransition";
+			sourceTree = "<group>";
+		};
+		EDB6017B2C40457F00472431 /* 10-转场动画 CAStransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDB6017C2C40457F00472431 /* _0______CAStransitionTests.m */,
+			);
+			path = "10-转场动画 CAStransitionTests";
+			sourceTree = "<group>";
+		};
+		EDB601852C40457F00472431 /* 10-转场动画 CAStransitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDB601862C40457F00472431 /* _0______CAStransitionUITests.m */,
+				EDB601882C40457F00472431 /* _0______CAStransitionUITestsLaunchTests.m */,
+			);
+			path = "10-转场动画 CAStransitionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDB6015C2C40457D00472431 /* 10-转场动画 CAStransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB6018C2C40457F00472431 /* Build configuration list for PBXNativeTarget "10-转场动画 CAStransition" */;
+			buildPhases = (
+				EDB601592C40457D00472431 /* Sources */,
+				EDB6015A2C40457D00472431 /* Frameworks */,
+				EDB6015B2C40457D00472431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10-转场动画 CAStransition";
+			productName = "10-转场动画 CAStransition";
+			productReference = EDB6015D2C40457D00472431 /* 10-转场动画 CAStransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDB601772C40457F00472431 /* 10-转场动画 CAStransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB6018F2C40457F00472431 /* Build configuration list for PBXNativeTarget "10-转场动画 CAStransitionTests" */;
+			buildPhases = (
+				EDB601742C40457F00472431 /* Sources */,
+				EDB601752C40457F00472431 /* Frameworks */,
+				EDB601762C40457F00472431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDB6017A2C40457F00472431 /* PBXTargetDependency */,
+			);
+			name = "10-转场动画 CAStransitionTests";
+			productName = "10-转场动画 CAStransitionTests";
+			productReference = EDB601782C40457F00472431 /* 10-转场动画 CAStransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDB601812C40457F00472431 /* 10-转场动画 CAStransitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB601922C40457F00472431 /* Build configuration list for PBXNativeTarget "10-转场动画 CAStransitionUITests" */;
+			buildPhases = (
+				EDB6017E2C40457F00472431 /* Sources */,
+				EDB6017F2C40457F00472431 /* Frameworks */,
+				EDB601802C40457F00472431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDB601842C40457F00472431 /* PBXTargetDependency */,
+			);
+			name = "10-转场动画 CAStransitionUITests";
+			productName = "10-转场动画 CAStransitionUITests";
+			productReference = EDB601822C40457F00472431 /* 10-转场动画 CAStransitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDB601552C40457D00472431 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EDB6015C2C40457D00472431 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EDB601772C40457F00472431 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EDB6015C2C40457D00472431;
+					};
+					EDB601812C40457F00472431 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EDB6015C2C40457D00472431;
+					};
+				};
+			};
+			buildConfigurationList = EDB601582C40457D00472431 /* Build configuration list for PBXProject "10-转场动画 CAStransition" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDB601542C40457D00472431;
+			productRefGroup = EDB6015E2C40457D00472431 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDB6015C2C40457D00472431 /* 10-转场动画 CAStransition */,
+				EDB601772C40457F00472431 /* 10-转场动画 CAStransitionTests */,
+				EDB601812C40457F00472431 /* 10-转场动画 CAStransitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDB6015B2C40457D00472431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB6016D2C40457F00472431 /* Assets.xcassets in Resources */,
+				EDB601702C40457F00472431 /* Base in Resources */,
+				EDB6016B2C40457D00472431 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB601762C40457F00472431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB601802C40457F00472431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDB601592C40457D00472431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB601682C40457D00472431 /* ViewController.m in Sources */,
+				EDB601622C40457D00472431 /* AppDelegate.m in Sources */,
+				EDB601732C40457F00472431 /* main.m in Sources */,
+				EDB601652C40457D00472431 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB601742C40457F00472431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB6017D2C40457F00472431 /* _0______CAStransitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB6017E2C40457F00472431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB601892C40457F00472431 /* _0______CAStransitionUITestsLaunchTests.m in Sources */,
+				EDB601872C40457F00472431 /* _0______CAStransitionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDB6017A2C40457F00472431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDB6015C2C40457D00472431 /* 10-转场动画 CAStransition */;
+			targetProxy = EDB601792C40457F00472431 /* PBXContainerItemProxy */;
+		};
+		EDB601842C40457F00472431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDB6015C2C40457D00472431 /* 10-转场动画 CAStransition */;
+			targetProxy = EDB601832C40457F00472431 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDB601692C40457D00472431 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB6016A2C40457D00472431 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDB6016E2C40457F00472431 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB6016F2C40457F00472431 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDB6018A2C40457F00472431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDB6018B2C40457F00472431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDB6018D2C40457F00472431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "10-转场动画 CAStransition/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-0------CAStransition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDB6018E2C40457F00472431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "10-转场动画 CAStransition/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-0------CAStransition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDB601902C40457F00472431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-0------CAStransitionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/10-转场动画 CAStransition.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/10-转场动画 CAStransition";
+			};
+			name = Debug;
+		};
+		EDB601912C40457F00472431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-0------CAStransitionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/10-转场动画 CAStransition.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/10-转场动画 CAStransition";
+			};
+			name = Release;
+		};
+		EDB601932C40457F00472431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-0------CAStransitionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "10-转场动画 CAStransition";
+			};
+			name = Debug;
+		};
+		EDB601942C40457F00472431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-0------CAStransitionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "10-转场动画 CAStransition";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDB601582C40457D00472431 /* Build configuration list for PBXProject "10-转场动画 CAStransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB6018A2C40457F00472431 /* Debug */,
+				EDB6018B2C40457F00472431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB6018C2C40457F00472431 /* Build configuration list for PBXNativeTarget "10-转场动画 CAStransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB6018D2C40457F00472431 /* Debug */,
+				EDB6018E2C40457F00472431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB6018F2C40457F00472431 /* Build configuration list for PBXNativeTarget "10-转场动画 CAStransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB601902C40457F00472431 /* Debug */,
+				EDB601912C40457F00472431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB601922C40457F00472431 /* Build configuration list for PBXNativeTarget "10-转场动画 CAStransitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB601932C40457F00472431 /* Debug */,
+				EDB601942C40457F00472431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDB601552C40457D00472431 /* Project object */;
+}
