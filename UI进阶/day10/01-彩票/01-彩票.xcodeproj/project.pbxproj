@@ -1,0 +1,1131 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED579F7D2C4264F70069656C /* QTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED579F7C2C4264F70069656C /* QTabBarViewController.m */; };
+		ED579F802C42663E0069656C /* QHallTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED579F7F2C42663E0069656C /* QHallTableViewController.m */; };
+		ED579F832C4266780069656C /* QArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED579F822C4266780069656C /* QArenaViewController.m */; };
+		ED579F862C4266A50069656C /* QDiscoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED579F852C4266A50069656C /* QDiscoverTableViewController.m */; };
+		ED579F892C4266DE0069656C /* QMyLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED579F882C4266DE0069656C /* QMyLotteryViewController.m */; };
+		ED579F8C2C4267FA0069656C /* QHistroyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED579F8B2C4267FA0069656C /* QHistroyTableViewController.m */; };
+		ED579F8F2C4274520069656C /* QTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ED579F8E2C4274520069656C /* QTabBar.m */; };
+		ED579F922C4294800069656C /* QTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ED579F912C4294800069656C /* QTabBarButton.m */; };
+		ED579F952C4362730069656C /* QNavigatonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED579F942C4362730069656C /* QNavigatonViewController.m */; };
+		ED579F982C44B4530069656C /* UIImage+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = ED579F972C44B4530069656C /* UIImage+Q.m */; };
+		ED579F9B2C44B99E0069656C /* QCover.m in Sources */ = {isa = PBXBuildFile; fileRef = ED579F9A2C44B99E0069656C /* QCover.m */; };
+		ED579F9F2C44C0CE0069656C /* QPopMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED579F9E2C44C0CE0069656C /* QPopMenu.xib */; };
+		ED579FA22C44C42B0069656C /* QPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ED579FA12C44C42B0069656C /* QPopMenu.m */; };
+		ED579FA52C44EEFB0069656C /* UIView+QFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = ED579FA42C44EEFB0069656C /* UIView+QFrame.m */; };
+		ED579FAC2C4500220069656C /* QMyLotteryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED579FAB2C4500220069656C /* QMyLotteryViewController.xib */; };
+		ED579FAF2C45163C0069656C /* QArenaNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED579FAE2C45163C0069656C /* QArenaNavViewController.m */; };
+		ED579FB32C4520E50069656C /* QDiscoverTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED579FB22C4520E50069656C /* QDiscoverTableViewController.storyboard */; };
+		ED579FB62C4529750069656C /* QBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED579FB52C4529750069656C /* QBuyViewController.m */; };
+		ED579FB92C452C220069656C /* QBuyTitleBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = ED579FB82C452C220069656C /* QBuyTitleBtn.m */; };
+		ED579FC02C462AA30069656C /* QNewFeatureCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED579FBF2C462AA30069656C /* QNewFeatureCollectionViewController.m */; };
+		ED579FC32C46541F0069656C /* QNewFeatureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED579FC22C46541F0069656C /* QNewFeatureCollectionViewCell.m */; };
+		ED579FC82C4770FB0069656C /* QSaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = ED579FC72C4770FB0069656C /* QSaveTool.m */; };
+		ED579FCC2C4776BB0069656C /* QRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED579FCB2C4776BB0069656C /* QRootVC.m */; };
+		ED579FD32C47799B0069656C /* QSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED579FD22C47799B0069656C /* QSettingTableViewController.m */; };
+		ED579FD62C47A1D60069656C /* QSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ED579FD52C47A1D60069656C /* QSettingItem.m */; };
+		ED7E19862C422DD000BF2DF6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ED7E19852C422DD000BF2DF6 /* Base */; };
+		ED7E19882C422DD100BF2DF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7E19872C422DD100BF2DF6 /* Assets.xcassets */; };
+		ED7E198B2C422DD100BF2DF6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ED7E198A2C422DD100BF2DF6 /* Base */; };
+		ED7E19982C422DD100BF2DF6 /* _1___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7E19972C422DD100BF2DF6 /* _1___Tests.m */; };
+		ED7E19A22C422DD100BF2DF6 /* _1___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7E19A12C422DD100BF2DF6 /* _1___UITests.m */; };
+		ED7E19A42C422DD100BF2DF6 /* _1___UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7E19A32C422DD100BF2DF6 /* _1___UITestsLaunchTests.m */; };
+		ED7E19B82C425C8F00BF2DF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7E19B42C425C8F00BF2DF6 /* AppDelegate.m */; };
+		ED7E19B92C425C8F00BF2DF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7E19B52C425C8F00BF2DF6 /* main.m */; };
+		EDFA12092C47B67300236F08 /* QSettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFA12082C47B67300236F08 /* QSettingGroup.m */; };
+		EDFA120C2C47BEA500236F08 /* QSettingArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFA120B2C47BEA500236F08 /* QSettingArrowItem.m */; };
+		EDFA120F2C47BEB300236F08 /* QSettingSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFA120E2C47BEB300236F08 /* QSettingSwitchItem.m */; };
+		EDFA12122C47C52100236F08 /* QSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFA12112C47C52100236F08 /* QSettingTableViewCell.m */; };
+		EDFA12152C47CCBE00236F08 /* QPushTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFA12142C47CCBE00236F08 /* QPushTableViewController.m */; };
+		EDFA122E2C47E09C00236F08 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EDFA12282C47E09C00236F08 /* MBProgressHUD.bundle */; };
+		EDFA122F2C47E09C00236F08 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFA122A2C47E09C00236F08 /* MBProgressHUD.m */; };
+		EDFA12302C47E09C00236F08 /* MBProgressHUD+XMG.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFA122C2C47E09C00236F08 /* MBProgressHUD+XMG.m */; };
+		EDFA12332C48C2C300236F08 /* QBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFA12322C48C2C300236F08 /* QBaseTableViewController.m */; };
+		EDFA12362C48C61400236F08 /* QScoreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFA12352C48C61400236F08 /* QScoreTableViewController.m */; };
+		EDFA12392C48F90A00236F08 /* QAwardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFA12382C48F90A00236F08 /* QAwardTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED7E19942C422DD100BF2DF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED7E19702C422DD000BF2DF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED7E19772C422DD000BF2DF6;
+			remoteInfo = "01-彩票";
+		};
+		ED7E199E2C422DD100BF2DF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED7E19702C422DD000BF2DF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED7E19772C422DD000BF2DF6;
+			remoteInfo = "01-彩票";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED579F7B2C4264F70069656C /* QTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTabBarViewController.h; sourceTree = "<group>"; };
+		ED579F7C2C4264F70069656C /* QTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTabBarViewController.m; sourceTree = "<group>"; };
+		ED579F7E2C42663E0069656C /* QHallTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHallTableViewController.h; sourceTree = "<group>"; };
+		ED579F7F2C42663E0069656C /* QHallTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHallTableViewController.m; sourceTree = "<group>"; };
+		ED579F812C4266780069656C /* QArenaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QArenaViewController.h; sourceTree = "<group>"; };
+		ED579F822C4266780069656C /* QArenaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QArenaViewController.m; sourceTree = "<group>"; };
+		ED579F842C4266A50069656C /* QDiscoverTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDiscoverTableViewController.h; sourceTree = "<group>"; };
+		ED579F852C4266A50069656C /* QDiscoverTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDiscoverTableViewController.m; sourceTree = "<group>"; };
+		ED579F872C4266DE0069656C /* QMyLotteryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMyLotteryViewController.h; sourceTree = "<group>"; };
+		ED579F882C4266DE0069656C /* QMyLotteryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMyLotteryViewController.m; sourceTree = "<group>"; };
+		ED579F8A2C4267FA0069656C /* QHistroyTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHistroyTableViewController.h; sourceTree = "<group>"; };
+		ED579F8B2C4267FA0069656C /* QHistroyTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHistroyTableViewController.m; sourceTree = "<group>"; };
+		ED579F8D2C4274520069656C /* QTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTabBar.h; sourceTree = "<group>"; };
+		ED579F8E2C4274520069656C /* QTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTabBar.m; sourceTree = "<group>"; };
+		ED579F902C4294800069656C /* QTabBarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTabBarButton.h; sourceTree = "<group>"; };
+		ED579F912C4294800069656C /* QTabBarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTabBarButton.m; sourceTree = "<group>"; };
+		ED579F932C4362730069656C /* QNavigatonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QNavigatonViewController.h; sourceTree = "<group>"; };
+		ED579F942C4362730069656C /* QNavigatonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QNavigatonViewController.m; sourceTree = "<group>"; };
+		ED579F962C44B4530069656C /* UIImage+Q.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Q.h"; sourceTree = "<group>"; };
+		ED579F972C44B4530069656C /* UIImage+Q.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Q.m"; sourceTree = "<group>"; };
+		ED579F992C44B99E0069656C /* QCover.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCover.h; sourceTree = "<group>"; };
+		ED579F9A2C44B99E0069656C /* QCover.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCover.m; sourceTree = "<group>"; };
+		ED579F9E2C44C0CE0069656C /* QPopMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QPopMenu.xib; sourceTree = "<group>"; };
+		ED579FA02C44C42B0069656C /* QPopMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPopMenu.h; sourceTree = "<group>"; };
+		ED579FA12C44C42B0069656C /* QPopMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPopMenu.m; sourceTree = "<group>"; };
+		ED579FA32C44EEFB0069656C /* UIView+QFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+QFrame.h"; sourceTree = "<group>"; };
+		ED579FA42C44EEFB0069656C /* UIView+QFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+QFrame.m"; sourceTree = "<group>"; };
+		ED579FA62C44F3950069656C /* Q的彩票.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Q的彩票.pch"; sourceTree = "<group>"; };
+		ED579FAB2C4500220069656C /* QMyLotteryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QMyLotteryViewController.xib; sourceTree = "<group>"; };
+		ED579FAD2C45163C0069656C /* QArenaNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QArenaNavViewController.h; sourceTree = "<group>"; };
+		ED579FAE2C45163C0069656C /* QArenaNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QArenaNavViewController.m; sourceTree = "<group>"; };
+		ED579FB22C4520E50069656C /* QDiscoverTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = QDiscoverTableViewController.storyboard; sourceTree = "<group>"; };
+		ED579FB42C4529750069656C /* QBuyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QBuyViewController.h; sourceTree = "<group>"; };
+		ED579FB52C4529750069656C /* QBuyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBuyViewController.m; sourceTree = "<group>"; };
+		ED579FB72C452C220069656C /* QBuyTitleBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QBuyTitleBtn.h; sourceTree = "<group>"; };
+		ED579FB82C452C220069656C /* QBuyTitleBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBuyTitleBtn.m; sourceTree = "<group>"; };
+		ED579FBE2C462AA30069656C /* QNewFeatureCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QNewFeatureCollectionViewController.h; sourceTree = "<group>"; };
+		ED579FBF2C462AA30069656C /* QNewFeatureCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QNewFeatureCollectionViewController.m; sourceTree = "<group>"; };
+		ED579FC12C46541F0069656C /* QNewFeatureCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QNewFeatureCollectionViewCell.h; sourceTree = "<group>"; };
+		ED579FC22C46541F0069656C /* QNewFeatureCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QNewFeatureCollectionViewCell.m; sourceTree = "<group>"; };
+		ED579FC62C4770FB0069656C /* QSaveTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSaveTool.h; sourceTree = "<group>"; };
+		ED579FC72C4770FB0069656C /* QSaveTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSaveTool.m; sourceTree = "<group>"; };
+		ED579FCA2C4776BB0069656C /* QRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRootVC.h; sourceTree = "<group>"; };
+		ED579FCB2C4776BB0069656C /* QRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRootVC.m; sourceTree = "<group>"; };
+		ED579FD12C47799B0069656C /* QSettingTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSettingTableViewController.h; sourceTree = "<group>"; };
+		ED579FD22C47799B0069656C /* QSettingTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSettingTableViewController.m; sourceTree = "<group>"; };
+		ED579FD42C47A1D60069656C /* QSettingItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSettingItem.h; sourceTree = "<group>"; };
+		ED579FD52C47A1D60069656C /* QSettingItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSettingItem.m; sourceTree = "<group>"; };
+		ED7E19782C422DD000BF2DF6 /* 01-彩票.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-彩票.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7E19852C422DD000BF2DF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED7E19872C422DD100BF2DF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED7E198A2C422DD100BF2DF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED7E198C2C422DD100BF2DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7E19932C422DD100BF2DF6 /* 01-彩票Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-彩票Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7E19972C422DD100BF2DF6 /* _1___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1___Tests.m"; sourceTree = "<group>"; };
+		ED7E199D2C422DD100BF2DF6 /* 01-彩票UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-彩票UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7E19A12C422DD100BF2DF6 /* _1___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1___UITests.m"; sourceTree = "<group>"; };
+		ED7E19A32C422DD100BF2DF6 /* _1___UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1___UITestsLaunchTests.m"; sourceTree = "<group>"; };
+		ED7E19B42C425C8F00BF2DF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED7E19B52C425C8F00BF2DF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED7E19B62C425C8F00BF2DF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDFA12072C47B67300236F08 /* QSettingGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSettingGroup.h; sourceTree = "<group>"; };
+		EDFA12082C47B67300236F08 /* QSettingGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSettingGroup.m; sourceTree = "<group>"; };
+		EDFA120A2C47BEA500236F08 /* QSettingArrowItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSettingArrowItem.h; sourceTree = "<group>"; };
+		EDFA120B2C47BEA500236F08 /* QSettingArrowItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSettingArrowItem.m; sourceTree = "<group>"; };
+		EDFA120D2C47BEB300236F08 /* QSettingSwitchItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSettingSwitchItem.h; sourceTree = "<group>"; };
+		EDFA120E2C47BEB300236F08 /* QSettingSwitchItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSettingSwitchItem.m; sourceTree = "<group>"; };
+		EDFA12102C47C52100236F08 /* QSettingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSettingTableViewCell.h; sourceTree = "<group>"; };
+		EDFA12112C47C52100236F08 /* QSettingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSettingTableViewCell.m; sourceTree = "<group>"; };
+		EDFA12132C47CCBE00236F08 /* QPushTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPushTableViewController.h; sourceTree = "<group>"; };
+		EDFA12142C47CCBE00236F08 /* QPushTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPushTableViewController.m; sourceTree = "<group>"; };
+		EDFA12282C47E09C00236F08 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		EDFA12292C47E09C00236F08 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		EDFA122A2C47E09C00236F08 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		EDFA122B2C47E09C00236F08 /* MBProgressHUD+XMG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XMG.h"; sourceTree = "<group>"; };
+		EDFA122C2C47E09C00236F08 /* MBProgressHUD+XMG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XMG.m"; sourceTree = "<group>"; };
+		EDFA12312C48C2C300236F08 /* QBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QBaseTableViewController.h; sourceTree = "<group>"; };
+		EDFA12322C48C2C300236F08 /* QBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBaseTableViewController.m; sourceTree = "<group>"; };
+		EDFA12342C48C61400236F08 /* QScoreTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QScoreTableViewController.h; sourceTree = "<group>"; };
+		EDFA12352C48C61400236F08 /* QScoreTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QScoreTableViewController.m; sourceTree = "<group>"; };
+		EDFA12372C48F90A00236F08 /* QAwardTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QAwardTableViewController.h; sourceTree = "<group>"; };
+		EDFA12382C48F90A00236F08 /* QAwardTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QAwardTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED7E19752C422DD000BF2DF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7E19902C422DD100BF2DF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7E199A2C422DD100BF2DF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED579F5F2C4264C20069656C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED579F812C4266780069656C /* QArenaViewController.h */,
+				ED579F822C4266780069656C /* QArenaViewController.m */,
+				ED579FAD2C45163C0069656C /* QArenaNavViewController.h */,
+				ED579FAE2C45163C0069656C /* QArenaNavViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED579F602C4264C20069656C /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		ED579F612C4264C20069656C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED579F622C4264C20069656C /* Arena(竞技场) */ = {
+			isa = PBXGroup;
+			children = (
+				ED579F5F2C4264C20069656C /* Controller */,
+				ED579F602C4264C20069656C /* Modal */,
+				ED579F612C4264C20069656C /* View */,
+			);
+			path = "Arena(竞技场)";
+			sourceTree = "<group>";
+		};
+		ED579F632C4264C20069656C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED579F842C4266A50069656C /* QDiscoverTableViewController.h */,
+				ED579F852C4266A50069656C /* QDiscoverTableViewController.m */,
+				ED579FB22C4520E50069656C /* QDiscoverTableViewController.storyboard */,
+				ED579FB42C4529750069656C /* QBuyViewController.h */,
+				ED579FB52C4529750069656C /* QBuyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED579F642C4264C20069656C /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		ED579F652C4264C20069656C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED579FB72C452C220069656C /* QBuyTitleBtn.h */,
+				ED579FB82C452C220069656C /* QBuyTitleBtn.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED579F662C4264C20069656C /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				ED579F632C4264C20069656C /* Controller */,
+				ED579F642C4264C20069656C /* Modal */,
+				ED579F652C4264C20069656C /* View */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		ED579F672C4264C20069656C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED579F7E2C42663E0069656C /* QHallTableViewController.h */,
+				ED579F7F2C42663E0069656C /* QHallTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED579F682C4264C20069656C /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		ED579F692C4264C20069656C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED579F992C44B99E0069656C /* QCover.h */,
+				ED579F9A2C44B99E0069656C /* QCover.m */,
+				ED579F9E2C44C0CE0069656C /* QPopMenu.xib */,
+				ED579FA02C44C42B0069656C /* QPopMenu.h */,
+				ED579FA12C44C42B0069656C /* QPopMenu.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED579F6A2C4264C20069656C /* Hall(彩票大厅) */ = {
+			isa = PBXGroup;
+			children = (
+				ED579F672C4264C20069656C /* Controller */,
+				ED579F682C4264C20069656C /* Modal */,
+				ED579F692C4264C20069656C /* View */,
+			);
+			path = "Hall(彩票大厅)";
+			sourceTree = "<group>";
+		};
+		ED579F6B2C4264C20069656C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED579F8A2C4267FA0069656C /* QHistroyTableViewController.h */,
+				ED579F8B2C4267FA0069656C /* QHistroyTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED579F6C2C4264C20069656C /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		ED579F6D2C4264C20069656C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED579F6E2C4264C20069656C /* History(开奖信息) */ = {
+			isa = PBXGroup;
+			children = (
+				ED579F6B2C4264C20069656C /* Controller */,
+				ED579F6C2C4264C20069656C /* Modal */,
+				ED579F6D2C4264C20069656C /* View */,
+			);
+			path = "History(开奖信息)";
+			sourceTree = "<group>";
+		};
+		ED579F6F2C4264C20069656C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED579F7B2C4264F70069656C /* QTabBarViewController.h */,
+				ED579F932C4362730069656C /* QNavigatonViewController.h */,
+				ED579F942C4362730069656C /* QNavigatonViewController.m */,
+				ED579F7C2C4264F70069656C /* QTabBarViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED579F702C4264C20069656C /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		ED579F712C4264C20069656C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED579F8D2C4274520069656C /* QTabBar.h */,
+				ED579F8E2C4274520069656C /* QTabBar.m */,
+				ED579F902C4294800069656C /* QTabBarButton.h */,
+				ED579F912C4294800069656C /* QTabBarButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED579F722C4264C20069656C /* Mian(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				ED579F6F2C4264C20069656C /* Controller */,
+				ED579F702C4264C20069656C /* Modal */,
+				ED579F712C4264C20069656C /* View */,
+			);
+			path = "Mian(主要)";
+			sourceTree = "<group>";
+		};
+		ED579F732C4264C20069656C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED579F872C4266DE0069656C /* QMyLotteryViewController.h */,
+				ED579F882C4266DE0069656C /* QMyLotteryViewController.m */,
+				ED579FAB2C4500220069656C /* QMyLotteryViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED579F742C4264C20069656C /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		ED579F752C4264C20069656C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED579F762C4264C20069656C /* MyLottery(我的彩票) */ = {
+			isa = PBXGroup;
+			children = (
+				ED579F732C4264C20069656C /* Controller */,
+				ED579F742C4264C20069656C /* Modal */,
+				ED579F752C4264C20069656C /* View */,
+			);
+			path = "MyLottery(我的彩票)";
+			sourceTree = "<group>";
+		};
+		ED579F772C4264C20069656C /* category */ = {
+			isa = PBXGroup;
+			children = (
+				ED579FA62C44F3950069656C /* Q的彩票.pch */,
+				ED579F962C44B4530069656C /* UIImage+Q.h */,
+				ED579F972C44B4530069656C /* UIImage+Q.m */,
+				ED579FA32C44EEFB0069656C /* UIView+QFrame.h */,
+				ED579FA42C44EEFB0069656C /* UIView+QFrame.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		ED579F782C4264C20069656C /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				EDFA122D2C47E09C00236F08 /* MBProgressHUD */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		ED579F792C4264C20069656C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				ED579F772C4264C20069656C /* category */,
+				ED579F782C4264C20069656C /* Lib */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		ED579F7A2C4264C20069656C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ED579FD02C4779800069656C /* Setting(设置） */,
+				ED579FC92C4776AE0069656C /* RootVC */,
+				ED579FC52C4770A40069656C /* Tool(业务逻辑) */,
+				ED579FBD2C462A740069656C /* NewFeature(新特性） */,
+				ED579F622C4264C20069656C /* Arena(竞技场) */,
+				ED579F662C4264C20069656C /* Discover(发现) */,
+				ED579F6A2C4264C20069656C /* Hall(彩票大厅) */,
+				ED579F6E2C4264C20069656C /* History(开奖信息) */,
+				ED579F722C4264C20069656C /* Mian(主要) */,
+				ED579F762C4264C20069656C /* MyLottery(我的彩票) */,
+				ED579F792C4264C20069656C /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ED579FBA2C462A740069656C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED579FBE2C462AA30069656C /* QNewFeatureCollectionViewController.h */,
+				ED579FBF2C462AA30069656C /* QNewFeatureCollectionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED579FBB2C462A740069656C /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		ED579FBC2C462A740069656C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED579FC12C46541F0069656C /* QNewFeatureCollectionViewCell.h */,
+				ED579FC22C46541F0069656C /* QNewFeatureCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED579FBD2C462A740069656C /* NewFeature(新特性） */ = {
+			isa = PBXGroup;
+			children = (
+				ED579FBA2C462A740069656C /* Controller */,
+				ED579FBB2C462A740069656C /* Modal */,
+				ED579FBC2C462A740069656C /* View */,
+			);
+			path = "NewFeature(新特性）";
+			sourceTree = "<group>";
+		};
+		ED579FC42C4770A40069656C /* SaveTool */ = {
+			isa = PBXGroup;
+			children = (
+				ED579FC62C4770FB0069656C /* QSaveTool.h */,
+				ED579FC72C4770FB0069656C /* QSaveTool.m */,
+			);
+			path = SaveTool;
+			sourceTree = "<group>";
+		};
+		ED579FC52C4770A40069656C /* Tool(业务逻辑) */ = {
+			isa = PBXGroup;
+			children = (
+				ED579FC42C4770A40069656C /* SaveTool */,
+			);
+			path = "Tool(业务逻辑)";
+			sourceTree = "<group>";
+		};
+		ED579FC92C4776AE0069656C /* RootVC */ = {
+			isa = PBXGroup;
+			children = (
+				ED579FCA2C4776BB0069656C /* QRootVC.h */,
+				ED579FCB2C4776BB0069656C /* QRootVC.m */,
+			);
+			path = RootVC;
+			sourceTree = "<group>";
+		};
+		ED579FCD2C4779800069656C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED579FD12C47799B0069656C /* QSettingTableViewController.h */,
+				ED579FD22C47799B0069656C /* QSettingTableViewController.m */,
+				EDFA12312C48C2C300236F08 /* QBaseTableViewController.h */,
+				EDFA12322C48C2C300236F08 /* QBaseTableViewController.m */,
+				EDFA12132C47CCBE00236F08 /* QPushTableViewController.h */,
+				EDFA12142C47CCBE00236F08 /* QPushTableViewController.m */,
+				EDFA12342C48C61400236F08 /* QScoreTableViewController.h */,
+				EDFA12352C48C61400236F08 /* QScoreTableViewController.m */,
+				EDFA12372C48F90A00236F08 /* QAwardTableViewController.h */,
+				EDFA12382C48F90A00236F08 /* QAwardTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED579FCE2C4779800069656C /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				ED579FD42C47A1D60069656C /* QSettingItem.h */,
+				EDFA120A2C47BEA500236F08 /* QSettingArrowItem.h */,
+				EDFA120B2C47BEA500236F08 /* QSettingArrowItem.m */,
+				EDFA120D2C47BEB300236F08 /* QSettingSwitchItem.h */,
+				EDFA120E2C47BEB300236F08 /* QSettingSwitchItem.m */,
+				ED579FD52C47A1D60069656C /* QSettingItem.m */,
+				EDFA12072C47B67300236F08 /* QSettingGroup.h */,
+				EDFA12082C47B67300236F08 /* QSettingGroup.m */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		ED579FCF2C4779800069656C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDFA12102C47C52100236F08 /* QSettingTableViewCell.h */,
+				EDFA12112C47C52100236F08 /* QSettingTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED579FD02C4779800069656C /* Setting(设置） */ = {
+			isa = PBXGroup;
+			children = (
+				ED579FCD2C4779800069656C /* Controller */,
+				ED579FCE2C4779800069656C /* Modal */,
+				ED579FCF2C4779800069656C /* View */,
+			);
+			path = "Setting(设置）";
+			sourceTree = "<group>";
+		};
+		ED7E196F2C422DD000BF2DF6 = {
+			isa = PBXGroup;
+			children = (
+				ED7E197A2C422DD000BF2DF6 /* 01-彩票 */,
+				ED7E19962C422DD100BF2DF6 /* 01-彩票Tests */,
+				ED7E19A02C422DD100BF2DF6 /* 01-彩票UITests */,
+				ED7E19792C422DD000BF2DF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED7E19792C422DD000BF2DF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED7E19782C422DD000BF2DF6 /* 01-彩票.app */,
+				ED7E19932C422DD100BF2DF6 /* 01-彩票Tests.xctest */,
+				ED7E199D2C422DD100BF2DF6 /* 01-彩票UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED7E197A2C422DD000BF2DF6 /* 01-彩票 */ = {
+			isa = PBXGroup;
+			children = (
+				ED7E19B62C425C8F00BF2DF6 /* AppDelegate.h */,
+				ED7E19B42C425C8F00BF2DF6 /* AppDelegate.m */,
+				ED7E19B52C425C8F00BF2DF6 /* main.m */,
+				ED7E19842C422DD000BF2DF6 /* Main.storyboard */,
+				ED7E19872C422DD100BF2DF6 /* Assets.xcassets */,
+				ED7E19892C422DD100BF2DF6 /* LaunchScreen.storyboard */,
+				ED579F7A2C4264C20069656C /* Classes */,
+				ED7E198C2C422DD100BF2DF6 /* Info.plist */,
+			);
+			path = "01-彩票";
+			sourceTree = "<group>";
+		};
+		ED7E19962C422DD100BF2DF6 /* 01-彩票Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ED7E19972C422DD100BF2DF6 /* _1___Tests.m */,
+			);
+			path = "01-彩票Tests";
+			sourceTree = "<group>";
+		};
+		ED7E19A02C422DD100BF2DF6 /* 01-彩票UITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED7E19A12C422DD100BF2DF6 /* _1___UITests.m */,
+				ED7E19A32C422DD100BF2DF6 /* _1___UITestsLaunchTests.m */,
+			);
+			path = "01-彩票UITests";
+			sourceTree = "<group>";
+		};
+		EDFA122D2C47E09C00236F08 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EDFA12282C47E09C00236F08 /* MBProgressHUD.bundle */,
+				EDFA12292C47E09C00236F08 /* MBProgressHUD.h */,
+				EDFA122A2C47E09C00236F08 /* MBProgressHUD.m */,
+				EDFA122B2C47E09C00236F08 /* MBProgressHUD+XMG.h */,
+				EDFA122C2C47E09C00236F08 /* MBProgressHUD+XMG.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED7E19772C422DD000BF2DF6 /* 01-彩票 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7E19A72C422DD100BF2DF6 /* Build configuration list for PBXNativeTarget "01-彩票" */;
+			buildPhases = (
+				ED7E19742C422DD000BF2DF6 /* Sources */,
+				ED7E19752C422DD000BF2DF6 /* Frameworks */,
+				ED7E19762C422DD000BF2DF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-彩票";
+			productName = "01-彩票";
+			productReference = ED7E19782C422DD000BF2DF6 /* 01-彩票.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED7E19922C422DD100BF2DF6 /* 01-彩票Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7E19AA2C422DD100BF2DF6 /* Build configuration list for PBXNativeTarget "01-彩票Tests" */;
+			buildPhases = (
+				ED7E198F2C422DD100BF2DF6 /* Sources */,
+				ED7E19902C422DD100BF2DF6 /* Frameworks */,
+				ED7E19912C422DD100BF2DF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED7E19952C422DD100BF2DF6 /* PBXTargetDependency */,
+			);
+			name = "01-彩票Tests";
+			productName = "01-彩票Tests";
+			productReference = ED7E19932C422DD100BF2DF6 /* 01-彩票Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED7E199C2C422DD100BF2DF6 /* 01-彩票UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7E19AD2C422DD100BF2DF6 /* Build configuration list for PBXNativeTarget "01-彩票UITests" */;
+			buildPhases = (
+				ED7E19992C422DD100BF2DF6 /* Sources */,
+				ED7E199A2C422DD100BF2DF6 /* Frameworks */,
+				ED7E199B2C422DD100BF2DF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED7E199F2C422DD100BF2DF6 /* PBXTargetDependency */,
+			);
+			name = "01-彩票UITests";
+			productName = "01-彩票UITests";
+			productReference = ED7E199D2C422DD100BF2DF6 /* 01-彩票UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED7E19702C422DD000BF2DF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = Q;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					ED7E19772C422DD000BF2DF6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					ED7E19922C422DD100BF2DF6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = ED7E19772C422DD000BF2DF6;
+					};
+					ED7E199C2C422DD100BF2DF6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = ED7E19772C422DD000BF2DF6;
+					};
+				};
+			};
+			buildConfigurationList = ED7E19732C422DD000BF2DF6 /* Build configuration list for PBXProject "01-彩票" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED7E196F2C422DD000BF2DF6;
+			productRefGroup = ED7E19792C422DD000BF2DF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED7E19772C422DD000BF2DF6 /* 01-彩票 */,
+				ED7E19922C422DD100BF2DF6 /* 01-彩票Tests */,
+				ED7E199C2C422DD100BF2DF6 /* 01-彩票UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED7E19762C422DD000BF2DF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED579FAC2C4500220069656C /* QMyLotteryViewController.xib in Resources */,
+				ED579FB32C4520E50069656C /* QDiscoverTableViewController.storyboard in Resources */,
+				ED7E19882C422DD100BF2DF6 /* Assets.xcassets in Resources */,
+				ED7E198B2C422DD100BF2DF6 /* Base in Resources */,
+				ED579F9F2C44C0CE0069656C /* QPopMenu.xib in Resources */,
+				ED7E19862C422DD000BF2DF6 /* Base in Resources */,
+				EDFA122E2C47E09C00236F08 /* MBProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7E19912C422DD100BF2DF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7E199B2C422DD100BF2DF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED7E19742C422DD000BF2DF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED579FAF2C45163C0069656C /* QArenaNavViewController.m in Sources */,
+				ED579F862C4266A50069656C /* QDiscoverTableViewController.m in Sources */,
+				ED579F8F2C4274520069656C /* QTabBar.m in Sources */,
+				ED579FA22C44C42B0069656C /* QPopMenu.m in Sources */,
+				ED579F892C4266DE0069656C /* QMyLotteryViewController.m in Sources */,
+				EDFA12302C47E09C00236F08 /* MBProgressHUD+XMG.m in Sources */,
+				ED579F982C44B4530069656C /* UIImage+Q.m in Sources */,
+				ED579FC02C462AA30069656C /* QNewFeatureCollectionViewController.m in Sources */,
+				EDFA12332C48C2C300236F08 /* QBaseTableViewController.m in Sources */,
+				EDFA122F2C47E09C00236F08 /* MBProgressHUD.m in Sources */,
+				ED579FD62C47A1D60069656C /* QSettingItem.m in Sources */,
+				ED579F8C2C4267FA0069656C /* QHistroyTableViewController.m in Sources */,
+				ED579F832C4266780069656C /* QArenaViewController.m in Sources */,
+				ED579F7D2C4264F70069656C /* QTabBarViewController.m in Sources */,
+				ED579F952C4362730069656C /* QNavigatonViewController.m in Sources */,
+				ED579FB92C452C220069656C /* QBuyTitleBtn.m in Sources */,
+				ED579FC82C4770FB0069656C /* QSaveTool.m in Sources */,
+				ED579FC32C46541F0069656C /* QNewFeatureCollectionViewCell.m in Sources */,
+				ED579F9B2C44B99E0069656C /* QCover.m in Sources */,
+				EDFA12152C47CCBE00236F08 /* QPushTableViewController.m in Sources */,
+				ED7E19B82C425C8F00BF2DF6 /* AppDelegate.m in Sources */,
+				EDFA120F2C47BEB300236F08 /* QSettingSwitchItem.m in Sources */,
+				EDFA120C2C47BEA500236F08 /* QSettingArrowItem.m in Sources */,
+				ED579F922C4294800069656C /* QTabBarButton.m in Sources */,
+				ED579FA52C44EEFB0069656C /* UIView+QFrame.m in Sources */,
+				ED579FCC2C4776BB0069656C /* QRootVC.m in Sources */,
+				ED579F802C42663E0069656C /* QHallTableViewController.m in Sources */,
+				ED579FB62C4529750069656C /* QBuyViewController.m in Sources */,
+				EDFA12362C48C61400236F08 /* QScoreTableViewController.m in Sources */,
+				EDFA12122C47C52100236F08 /* QSettingTableViewCell.m in Sources */,
+				EDFA12092C47B67300236F08 /* QSettingGroup.m in Sources */,
+				EDFA12392C48F90A00236F08 /* QAwardTableViewController.m in Sources */,
+				ED579FD32C47799B0069656C /* QSettingTableViewController.m in Sources */,
+				ED7E19B92C425C8F00BF2DF6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7E198F2C422DD100BF2DF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7E19982C422DD100BF2DF6 /* _1___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7E19992C422DD100BF2DF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7E19A42C422DD100BF2DF6 /* _1___UITestsLaunchTests.m in Sources */,
+				ED7E19A22C422DD100BF2DF6 /* _1___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED7E19952C422DD100BF2DF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED7E19772C422DD000BF2DF6 /* 01-彩票 */;
+			targetProxy = ED7E19942C422DD100BF2DF6 /* PBXContainerItemProxy */;
+		};
+		ED7E199F2C422DD100BF2DF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED7E19772C422DD000BF2DF6 /* 01-彩票 */;
+			targetProxy = ED7E199E2C422DD100BF2DF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED7E19842C422DD000BF2DF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7E19852C422DD000BF2DF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED7E19892C422DD100BF2DF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7E198A2C422DD100BF2DF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED7E19A52C422DD100BF2DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED7E19A62C422DD100BF2DF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED7E19A82C422DD100BF2DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01-彩票/Classes/Other/category/Q的彩票.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "01-彩票/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-1---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED7E19A92C422DD100BF2DF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01-彩票/Classes/Other/category/Q的彩票.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "01-彩票/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-1---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED7E19AB2C422DD100BF2DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-1---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-彩票.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/01-彩票";
+			};
+			name = Debug;
+		};
+		ED7E19AC2C422DD100BF2DF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-1---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-彩票.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/01-彩票";
+			};
+			name = Release;
+		};
+		ED7E19AE2C422DD100BF2DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-1---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "01-彩票";
+			};
+			name = Debug;
+		};
+		ED7E19AF2C422DD100BF2DF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-1---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "01-彩票";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED7E19732C422DD000BF2DF6 /* Build configuration list for PBXProject "01-彩票" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7E19A52C422DD100BF2DF6 /* Debug */,
+				ED7E19A62C422DD100BF2DF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7E19A72C422DD100BF2DF6 /* Build configuration list for PBXNativeTarget "01-彩票" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7E19A82C422DD100BF2DF6 /* Debug */,
+				ED7E19A92C422DD100BF2DF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7E19AA2C422DD100BF2DF6 /* Build configuration list for PBXNativeTarget "01-彩票Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7E19AB2C422DD100BF2DF6 /* Debug */,
+				ED7E19AC2C422DD100BF2DF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7E19AD2C422DD100BF2DF6 /* Build configuration list for PBXNativeTarget "01-彩票UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7E19AE2C422DD100BF2DF6 /* Debug */,
+				ED7E19AF2C422DD100BF2DF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED7E19702C422DD000BF2DF6 /* Project object */;
+}

@@ -1,0 +1,15 @@
+//
+//  Q的彩票.pch
+//  01-彩票
+//
+//  Created by wei wei on 2024/7/15.
+//
+
+#ifndef Q____pch
+#define Q____pch
+
+#import "UIImage+Q.h"
+#import "UIView+QFrame.h"
+#define QkeyWindow [UIApplication sharedApplication].keyWindow
+
+#endif /* Q____pch */
