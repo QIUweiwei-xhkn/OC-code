@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED8982CF2C49113C000ABA19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8982CE2C49113C000ABA19 /* AppDelegate.m */; };
+		ED8982D22C49113C000ABA19 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8982D12C49113C000ABA19 /* SceneDelegate.m */; };
+		ED8982D52C49113C000ABA19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8982D42C49113C000ABA19 /* ViewController.m */; };
+		ED8982D82C49113C000ABA19 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ED8982D72C49113C000ABA19 /* Base */; };
+		ED8982DA2C49113D000ABA19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8982D92C49113D000ABA19 /* Assets.xcassets */; };
+		ED8982DD2C49113D000ABA19 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ED8982DC2C49113D000ABA19 /* Base */; };
+		ED8982E02C49113D000ABA19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8982DF2C49113D000ABA19 /* main.m */; };
+		ED8982EA2C49113D000ABA19 /* _2____pthread_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8982E92C49113D000ABA19 /* _2____pthread_____Tests.m */; };
+		ED8982F42C49113E000ABA19 /* _2____pthread_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8982F32C49113E000ABA19 /* _2____pthread_____UITests.m */; };
+		ED8982F62C49113E000ABA19 /* _2____pthread_____UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8982F52C49113E000ABA19 /* _2____pthread_____UITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED8982E62C49113D000ABA19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8982C22C49113C000ABA19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8982C92C49113C000ABA19;
+			remoteInfo = "02-了解-pthread的简单使用";
+		};
+		ED8982F02C49113E000ABA19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8982C22C49113C000ABA19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8982C92C49113C000ABA19;
+			remoteInfo = "02-了解-pthread的简单使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED8982CA2C49113C000ABA19 /* 02-了解-pthread的简单使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-了解-pthread的简单使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8982CD2C49113C000ABA19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED8982CE2C49113C000ABA19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED8982D02C49113C000ABA19 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		ED8982D12C49113C000ABA19 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		ED8982D32C49113C000ABA19 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED8982D42C49113C000ABA19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED8982D72C49113C000ABA19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED8982D92C49113D000ABA19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED8982DC2C49113D000ABA19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED8982DE2C49113D000ABA19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8982DF2C49113D000ABA19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED8982E52C49113D000ABA19 /* 02-了解-pthread的简单使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-了解-pthread的简单使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8982E92C49113D000ABA19 /* _2____pthread_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2____pthread_____Tests.m"; sourceTree = "<group>"; };
+		ED8982EF2C49113E000ABA19 /* 02-了解-pthread的简单使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-了解-pthread的简单使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8982F32C49113E000ABA19 /* _2____pthread_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2____pthread_____UITests.m"; sourceTree = "<group>"; };
+		ED8982F52C49113E000ABA19 /* _2____pthread_____UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2____pthread_____UITestsLaunchTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED8982C72C49113C000ABA19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8982E22C49113D000ABA19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8982EC2C49113E000ABA19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED8982C12C49113C000ABA19 = {
+			isa = PBXGroup;
+			children = (
+				ED8982CC2C49113C000ABA19 /* 02-了解-pthread的简单使用 */,
+				ED8982E82C49113D000ABA19 /* 02-了解-pthread的简单使用Tests */,
+				ED8982F22C49113E000ABA19 /* 02-了解-pthread的简单使用UITests */,
+				ED8982CB2C49113C000ABA19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED8982CB2C49113C000ABA19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED8982CA2C49113C000ABA19 /* 02-了解-pthread的简单使用.app */,
+				ED8982E52C49113D000ABA19 /* 02-了解-pthread的简单使用Tests.xctest */,
+				ED8982EF2C49113E000ABA19 /* 02-了解-pthread的简单使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED8982CC2C49113C000ABA19 /* 02-了解-pthread的简单使用 */ = {
+			isa = PBXGroup;
+			children = (
+				ED8982CD2C49113C000ABA19 /* AppDelegate.h */,
+				ED8982CE2C49113C000ABA19 /* AppDelegate.m */,
+				ED8982D02C49113C000ABA19 /* SceneDelegate.h */,
+				ED8982D12C49113C000ABA19 /* SceneDelegate.m */,
+				ED8982D32C49113C000ABA19 /* ViewController.h */,
+				ED8982D42C49113C000ABA19 /* ViewController.m */,
+				ED8982D62C49113C000ABA19 /* Main.storyboard */,
+				ED8982D92C49113D000ABA19 /* Assets.xcassets */,
+				ED8982DB2C49113D000ABA19 /* LaunchScreen.storyboard */,
+				ED8982DE2C49113D000ABA19 /* Info.plist */,
+				ED8982DF2C49113D000ABA19 /* main.m */,
+			);
+			path = "02-了解-pthread的简单使用";
+			sourceTree = "<group>";
+		};
+		ED8982E82C49113D000ABA19 /* 02-了解-pthread的简单使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ED8982E92C49113D000ABA19 /* _2____pthread_____Tests.m */,
+			);
+			path = "02-了解-pthread的简单使用Tests";
+			sourceTree = "<group>";
+		};
+		ED8982F22C49113E000ABA19 /* 02-了解-pthread的简单使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED8982F32C49113E000ABA19 /* _2____pthread_____UITests.m */,
+				ED8982F52C49113E000ABA19 /* _2____pthread_____UITestsLaunchTests.m */,
+			);
+			path = "02-了解-pthread的简单使用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED8982C92C49113C000ABA19 /* 02-了解-pthread的简单使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8982F92C49113E000ABA19 /* Build configuration list for PBXNativeTarget "02-了解-pthread的简单使用" */;
+			buildPhases = (
+				ED8982C62C49113C000ABA19 /* Sources */,
+				ED8982C72C49113C000ABA19 /* Frameworks */,
+				ED8982C82C49113C000ABA19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-了解-pthread的简单使用";
+			productName = "02-了解-pthread的简单使用";
+			productReference = ED8982CA2C49113C000ABA19 /* 02-了解-pthread的简单使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED8982E42C49113D000ABA19 /* 02-了解-pthread的简单使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8982FC2C49113E000ABA19 /* Build configuration list for PBXNativeTarget "02-了解-pthread的简单使用Tests" */;
+			buildPhases = (
+				ED8982E12C49113D000ABA19 /* Sources */,
+				ED8982E22C49113D000ABA19 /* Frameworks */,
+				ED8982E32C49113D000ABA19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED8982E72C49113D000ABA19 /* PBXTargetDependency */,
+			);
+			name = "02-了解-pthread的简单使用Tests";
+			productName = "02-了解-pthread的简单使用Tests";
+			productReference = ED8982E52C49113D000ABA19 /* 02-了解-pthread的简单使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED8982EE2C49113E000ABA19 /* 02-了解-pthread的简单使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8982FF2C49113E000ABA19 /* Build configuration list for PBXNativeTarget "02-了解-pthread的简单使用UITests" */;
+			buildPhases = (
+				ED8982EB2C49113E000ABA19 /* Sources */,
+				ED8982EC2C49113E000ABA19 /* Frameworks */,
+				ED8982ED2C49113E000ABA19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED8982F12C49113E000ABA19 /* PBXTargetDependency */,
+			);
+			name = "02-了解-pthread的简单使用UITests";
+			productName = "02-了解-pthread的简单使用UITests";
+			productReference = ED8982EF2C49113E000ABA19 /* 02-了解-pthread的简单使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED8982C22C49113C000ABA19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					ED8982C92C49113C000ABA19 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					ED8982E42C49113D000ABA19 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = ED8982C92C49113C000ABA19;
+					};
+					ED8982EE2C49113E000ABA19 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = ED8982C92C49113C000ABA19;
+					};
+				};
+			};
+			buildConfigurationList = ED8982C52C49113C000ABA19 /* Build configuration list for PBXProject "02-了解-pthread的简单使用" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED8982C12C49113C000ABA19;
+			productRefGroup = ED8982CB2C49113C000ABA19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED8982C92C49113C000ABA19 /* 02-了解-pthread的简单使用 */,
+				ED8982E42C49113D000ABA19 /* 02-了解-pthread的简单使用Tests */,
+				ED8982EE2C49113E000ABA19 /* 02-了解-pthread的简单使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED8982C82C49113C000ABA19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8982DA2C49113D000ABA19 /* Assets.xcassets in Resources */,
+				ED8982DD2C49113D000ABA19 /* Base in Resources */,
+				ED8982D82C49113C000ABA19 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8982E32C49113D000ABA19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8982ED2C49113E000ABA19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED8982C62C49113C000ABA19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8982D52C49113C000ABA19 /* ViewController.m in Sources */,
+				ED8982CF2C49113C000ABA19 /* AppDelegate.m in Sources */,
+				ED8982E02C49113D000ABA19 /* main.m in Sources */,
+				ED8982D22C49113C000ABA19 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8982E12C49113D000ABA19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8982EA2C49113D000ABA19 /* _2____pthread_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8982EB2C49113E000ABA19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8982F62C49113E000ABA19 /* _2____pthread_____UITestsLaunchTests.m in Sources */,
+				ED8982F42C49113E000ABA19 /* _2____pthread_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED8982E72C49113D000ABA19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED8982C92C49113C000ABA19 /* 02-了解-pthread的简单使用 */;
+			targetProxy = ED8982E62C49113D000ABA19 /* PBXContainerItemProxy */;
+		};
+		ED8982F12C49113E000ABA19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED8982C92C49113C000ABA19 /* 02-了解-pthread的简单使用 */;
+			targetProxy = ED8982F02C49113E000ABA19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED8982D62C49113C000ABA19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8982D72C49113C000ABA19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED8982DB2C49113D000ABA19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8982DC2C49113D000ABA19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED8982F72C49113E000ABA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED8982F82C49113E000ABA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED8982FA2C49113E000ABA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "02-了解-pthread的简单使用/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2----pthread-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED8982FB2C49113E000ABA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "02-了解-pthread的简单使用/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2----pthread-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED8982FD2C49113E000ABA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2----pthread-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-了解-pthread的简单使用.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/02-了解-pthread的简单使用";
+			};
+			name = Debug;
+		};
+		ED8982FE2C49113E000ABA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2----pthread-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-了解-pthread的简单使用.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/02-了解-pthread的简单使用";
+			};
+			name = Release;
+		};
+		ED8983002C49113E000ABA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2----pthread-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "02-了解-pthread的简单使用";
+			};
+			name = Debug;
+		};
+		ED8983012C49113E000ABA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2----pthread-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "02-了解-pthread的简单使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED8982C52C49113C000ABA19 /* Build configuration list for PBXProject "02-了解-pthread的简单使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8982F72C49113E000ABA19 /* Debug */,
+				ED8982F82C49113E000ABA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8982F92C49113E000ABA19 /* Build configuration list for PBXNativeTarget "02-了解-pthread的简单使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8982FA2C49113E000ABA19 /* Debug */,
+				ED8982FB2C49113E000ABA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8982FC2C49113E000ABA19 /* Build configuration list for PBXNativeTarget "02-了解-pthread的简单使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8982FD2C49113E000ABA19 /* Debug */,
+				ED8982FE2C49113E000ABA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8982FF2C49113E000ABA19 /* Build configuration list for PBXNativeTarget "02-了解-pthread的简单使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8983002C49113E000ABA19 /* Debug */,
+				ED8983012C49113E000ABA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED8982C22C49113C000ABA19 /* Project object */;
+}
