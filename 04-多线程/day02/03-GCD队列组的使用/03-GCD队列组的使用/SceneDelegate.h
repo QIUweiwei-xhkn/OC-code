@@ -1,0 +1,15 @@
+//
+//  SceneDelegate.h
+//  03-GCD队列组的使用
+//
+//  Created by wei wei on 2024/7/19.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+
+@property (strong, nonatomic) UIWindow * window;
+
+@end
+
