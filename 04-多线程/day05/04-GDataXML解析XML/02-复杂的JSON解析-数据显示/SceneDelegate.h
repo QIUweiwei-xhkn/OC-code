@@ -1,0 +1,15 @@
+//
+//  SceneDelegate.h
+//  02-复杂的JSON解析-数据显示
+//
+//  Created by wei wei on 2024/7/24.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+
+@property (strong, nonatomic) UIWindow * window;
+
+@end
+
