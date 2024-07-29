@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="13R-FU-PXO">
+                                <rect key="frame" x="0.0" y="774" width="393" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="JvT-iw-6A0"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem enabled="NO" title="后退" id="bFG-8q-O50">
+                                        <connections>
+                                            <action selector="gobackItemClick:" destination="BYZ-38-t0r" id="seQ-3X-2Cw"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem enabled="NO" title="前进" id="hog-sz-Wyt">
+                                        <connections>
+                                            <action selector="goforwardItemClick:" destination="BYZ-38-t0r" id="sEF-m0-cYa"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="ibX-qc-qdq"/>
+                                    <barButtonItem title="刷新" id="85A-ks-NZp">
+                                        <connections>
+                                            <action selector="refreshItemClick:" destination="BYZ-38-t0r" id="nXw-J0-1HC"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZPw-ey-9kT">
+                                <rect key="frame" x="0.0" y="59" width="393" height="715"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZPw-ey-9kT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="5tc-Og-wvr"/>
+                            <constraint firstItem="13R-FU-PXO" firstAttribute="top" secondItem="ZPw-ey-9kT" secondAttribute="bottom" id="EEi-0G-4SU"/>
+                            <constraint firstItem="ZPw-ey-9kT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EMF-g7-TN6"/>
+                            <constraint firstItem="13R-FU-PXO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JEC-yl-qqy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZPw-ey-9kT" secondAttribute="trailing" id="Slh-oM-u1b"/>
+                            <constraint firstItem="13R-FU-PXO" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="W5v-rf-87k"/>
+                            <constraint firstItem="13R-FU-PXO" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="vAz-iY-fz8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="goback" destination="bFG-8q-O50" id="jrC-h1-O8q"/>
+                        <outlet property="goforward" destination="hog-sz-Wyt" id="Ewh-fw-07H"/>
+                        <outlet property="imageView" destination="ZPw-ey-9kT" id="sY0-3s-gaG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="114" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

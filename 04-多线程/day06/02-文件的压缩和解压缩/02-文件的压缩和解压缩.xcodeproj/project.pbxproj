@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDD792742C538BC000DCCCF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD792732C538BC000DCCCF6 /* AppDelegate.m */; };
+		EDD792772C538BC000DCCCF6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD792762C538BC000DCCCF6 /* SceneDelegate.m */; };
+		EDD7927A2C538BC000DCCCF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD792792C538BC000DCCCF6 /* ViewController.m */; };
+		EDD7927D2C538BC000DCCCF6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EDD7927C2C538BC000DCCCF6 /* Base */; };
+		EDD7927F2C538BC200DCCCF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD7927E2C538BC200DCCCF6 /* Assets.xcassets */; };
+		EDD792822C538BC200DCCCF6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EDD792812C538BC200DCCCF6 /* Base */; };
+		EDD792852C538BC200DCCCF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD792842C538BC200DCCCF6 /* main.m */; };
+		EDD7928F2C538BC200DCCCF6 /* _2__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD7928E2C538BC200DCCCF6 /* _2__________Tests.m */; };
+		EDD792992C538BC200DCCCF6 /* _2__________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD792982C538BC200DCCCF6 /* _2__________UITests.m */; };
+		EDD7929B2C538BC200DCCCF6 /* _2__________UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD7929A2C538BC200DCCCF6 /* _2__________UITestsLaunchTests.m */; };
+		EDD7930E2C538F1700DCCCF6 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = EDD792EA2C538F1700DCCCF6 /* aescrypt.c */; };
+		EDD7930F2C538F1700DCCCF6 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = EDD792EB2C538F1700DCCCF6 /* aeskey.c */; };
+		EDD793102C538F1700DCCCF6 /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = EDD792ED2C538F1700DCCCF6 /* aestab.c */; };
+		EDD793112C538F1700DCCCF6 /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = EDD792F12C538F1700DCCCF6 /* entropy.c */; };
+		EDD793122C538F1700DCCCF6 /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = EDD792F32C538F1700DCCCF6 /* fileenc.c */; };
+		EDD793132C538F1700DCCCF6 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = EDD792F52C538F1700DCCCF6 /* hmac.c */; };
+		EDD793142C538F1700DCCCF6 /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = EDD792F72C538F1700DCCCF6 /* prng.c */; };
+		EDD793152C538F1700DCCCF6 /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = EDD792F92C538F1700DCCCF6 /* pwd2key.c */; };
+		EDD793162C538F1700DCCCF6 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = EDD792FB2C538F1700DCCCF6 /* sha1.c */; };
+		EDD793172C538F1700DCCCF6 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = EDD792FF2C538F1700DCCCF6 /* ioapi.c */; };
+		EDD793182C538F1700DCCCF6 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = EDD793012C538F1700DCCCF6 /* mztools.c */; };
+		EDD793192C538F1700DCCCF6 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = EDD793032C538F1700DCCCF6 /* unzip.c */; };
+		EDD7931A2C538F1700DCCCF6 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = EDD793052C538F1700DCCCF6 /* zip.c */; };
+		EDD7931C2C538F1700DCCCF6 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD7930B2C538F1700DCCCF6 /* SSZipArchive.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDD7928B2C538BC200DCCCF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDD792672C538BC000DCCCF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDD7926E2C538BC000DCCCF6;
+			remoteInfo = "02-文件的压缩和解压缩";
+		};
+		EDD792952C538BC200DCCCF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDD792672C538BC000DCCCF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDD7926E2C538BC000DCCCF6;
+			remoteInfo = "02-文件的压缩和解压缩";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDD7926F2C538BC000DCCCF6 /* 02-文件的压缩和解压缩.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-文件的压缩和解压缩.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD792722C538BC000DCCCF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDD792732C538BC000DCCCF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDD792752C538BC000DCCCF6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		EDD792762C538BC000DCCCF6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		EDD792782C538BC000DCCCF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDD792792C538BC000DCCCF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDD7927C2C538BC000DCCCF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDD7927E2C538BC200DCCCF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDD792812C538BC200DCCCF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDD792832C538BC200DCCCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD792842C538BC200DCCCF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDD7928A2C538BC200DCCCF6 /* 02-文件的压缩和解压缩Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-文件的压缩和解压缩Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD7928E2C538BC200DCCCF6 /* _2__________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2__________Tests.m"; sourceTree = "<group>"; };
+		EDD792942C538BC200DCCCF6 /* 02-文件的压缩和解压缩UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-文件的压缩和解压缩UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD792982C538BC200DCCCF6 /* _2__________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2__________UITests.m"; sourceTree = "<group>"; };
+		EDD7929A2C538BC200DCCCF6 /* _2__________UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2__________UITestsLaunchTests.m"; sourceTree = "<group>"; };
+		EDD792E32C538CEF00DCCCF6 /* libbz2.1.0.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.8.tbd; path = usr/lib/libbz2.1.0.8.tbd; sourceTree = SDKROOT; };
+		EDD792E42C538D0D00DCCCF6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		EDD792E62C538EA300DCCCF6 /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
+		EDD792E82C538F1700DCCCF6 /* aes_via_ace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_via_ace.h; sourceTree = "<group>"; };
+		EDD792E92C538F1700DCCCF6 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		EDD792EA2C538F1700DCCCF6 /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
+		EDD792EB2C538F1700DCCCF6 /* aeskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aeskey.c; sourceTree = "<group>"; };
+		EDD792EC2C538F1700DCCCF6 /* aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesopt.h; sourceTree = "<group>"; };
+		EDD792ED2C538F1700DCCCF6 /* aestab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aestab.c; sourceTree = "<group>"; };
+		EDD792EE2C538F1700DCCCF6 /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
+		EDD792EF2C538F1700DCCCF6 /* brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_endian.h; sourceTree = "<group>"; };
+		EDD792F02C538F1700DCCCF6 /* brg_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_types.h; sourceTree = "<group>"; };
+		EDD792F12C538F1700DCCCF6 /* entropy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = entropy.c; sourceTree = "<group>"; };
+		EDD792F22C538F1700DCCCF6 /* entropy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropy.h; sourceTree = "<group>"; };
+		EDD792F32C538F1700DCCCF6 /* fileenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileenc.c; sourceTree = "<group>"; };
+		EDD792F42C538F1700DCCCF6 /* fileenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileenc.h; sourceTree = "<group>"; };
+		EDD792F52C538F1700DCCCF6 /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		EDD792F62C538F1700DCCCF6 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		EDD792F72C538F1700DCCCF6 /* prng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prng.c; sourceTree = "<group>"; };
+		EDD792F82C538F1700DCCCF6 /* prng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prng.h; sourceTree = "<group>"; };
+		EDD792F92C538F1700DCCCF6 /* pwd2key.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pwd2key.c; sourceTree = "<group>"; };
+		EDD792FA2C538F1700DCCCF6 /* pwd2key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwd2key.h; sourceTree = "<group>"; };
+		EDD792FB2C538F1700DCCCF6 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		EDD792FC2C538F1700DCCCF6 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		EDD792FE2C538F1700DCCCF6 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		EDD792FF2C538F1700DCCCF6 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		EDD793002C538F1700DCCCF6 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		EDD793012C538F1700DCCCF6 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		EDD793022C538F1700DCCCF6 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		EDD793032C538F1700DCCCF6 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		EDD793042C538F1700DCCCF6 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		EDD793052C538F1700DCCCF6 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		EDD793062C538F1700DCCCF6 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		EDD793082C538F1700DCCCF6 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		EDD7930A2C538F1700DCCCF6 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		EDD7930B2C538F1700DCCCF6 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		EDD7930C2C538F1700DCCCF6 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDD7926C2C538BC000DCCCF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD792872C538BC200DCCCF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD792912C538BC200DCCCF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDD792662C538BC000DCCCF6 = {
+			isa = PBXGroup;
+			children = (
+				EDD792712C538BC000DCCCF6 /* 02-文件的压缩和解压缩 */,
+				EDD7928D2C538BC200DCCCF6 /* 02-文件的压缩和解压缩Tests */,
+				EDD792972C538BC200DCCCF6 /* 02-文件的压缩和解压缩UITests */,
+				EDD792702C538BC000DCCCF6 /* Products */,
+				EDD792E22C538CEF00DCCCF6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDD792702C538BC000DCCCF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDD7926F2C538BC000DCCCF6 /* 02-文件的压缩和解压缩.app */,
+				EDD7928A2C538BC200DCCCF6 /* 02-文件的压缩和解压缩Tests.xctest */,
+				EDD792942C538BC200DCCCF6 /* 02-文件的压缩和解压缩UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDD792712C538BC000DCCCF6 /* 02-文件的压缩和解压缩 */ = {
+			isa = PBXGroup;
+			children = (
+				EDD7930D2C538F1700DCCCF6 /* SSZipArchive */,
+				EDD792722C538BC000DCCCF6 /* AppDelegate.h */,
+				EDD792732C538BC000DCCCF6 /* AppDelegate.m */,
+				EDD792752C538BC000DCCCF6 /* SceneDelegate.h */,
+				EDD792762C538BC000DCCCF6 /* SceneDelegate.m */,
+				EDD792782C538BC000DCCCF6 /* ViewController.h */,
+				EDD792792C538BC000DCCCF6 /* ViewController.m */,
+				EDD7927B2C538BC000DCCCF6 /* Main.storyboard */,
+				EDD7927E2C538BC200DCCCF6 /* Assets.xcassets */,
+				EDD792802C538BC200DCCCF6 /* LaunchScreen.storyboard */,
+				EDD792832C538BC200DCCCF6 /* Info.plist */,
+				EDD792842C538BC200DCCCF6 /* main.m */,
+			);
+			path = "02-文件的压缩和解压缩";
+			sourceTree = "<group>";
+		};
+		EDD7928D2C538BC200DCCCF6 /* 02-文件的压缩和解压缩Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EDD7928E2C538BC200DCCCF6 /* _2__________Tests.m */,
+			);
+			path = "02-文件的压缩和解压缩Tests";
+			sourceTree = "<group>";
+		};
+		EDD792972C538BC200DCCCF6 /* 02-文件的压缩和解压缩UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDD792982C538BC200DCCCF6 /* _2__________UITests.m */,
+				EDD7929A2C538BC200DCCCF6 /* _2__________UITestsLaunchTests.m */,
+			);
+			path = "02-文件的压缩和解压缩UITests";
+			sourceTree = "<group>";
+		};
+		EDD792E22C538CEF00DCCCF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDD792E62C538EA300DCCCF6 /* libz.1.tbd */,
+				EDD792E42C538D0D00DCCCF6 /* libz.tbd */,
+				EDD792E32C538CEF00DCCCF6 /* libbz2.1.0.8.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDD792FD2C538F1700DCCCF6 /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				EDD792E82C538F1700DCCCF6 /* aes_via_ace.h */,
+				EDD792E92C538F1700DCCCF6 /* aes.h */,
+				EDD792EA2C538F1700DCCCF6 /* aescrypt.c */,
+				EDD792EB2C538F1700DCCCF6 /* aeskey.c */,
+				EDD792EC2C538F1700DCCCF6 /* aesopt.h */,
+				EDD792ED2C538F1700DCCCF6 /* aestab.c */,
+				EDD792EE2C538F1700DCCCF6 /* aestab.h */,
+				EDD792EF2C538F1700DCCCF6 /* brg_endian.h */,
+				EDD792F02C538F1700DCCCF6 /* brg_types.h */,
+				EDD792F12C538F1700DCCCF6 /* entropy.c */,
+				EDD792F22C538F1700DCCCF6 /* entropy.h */,
+				EDD792F32C538F1700DCCCF6 /* fileenc.c */,
+				EDD792F42C538F1700DCCCF6 /* fileenc.h */,
+				EDD792F52C538F1700DCCCF6 /* hmac.c */,
+				EDD792F62C538F1700DCCCF6 /* hmac.h */,
+				EDD792F72C538F1700DCCCF6 /* prng.c */,
+				EDD792F82C538F1700DCCCF6 /* prng.h */,
+				EDD792F92C538F1700DCCCF6 /* pwd2key.c */,
+				EDD792FA2C538F1700DCCCF6 /* pwd2key.h */,
+				EDD792FB2C538F1700DCCCF6 /* sha1.c */,
+				EDD792FC2C538F1700DCCCF6 /* sha1.h */,
+			);
+			path = aes;
+			sourceTree = "<group>";
+		};
+		EDD793072C538F1700DCCCF6 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				EDD792FE2C538F1700DCCCF6 /* crypt.h */,
+				EDD792FF2C538F1700DCCCF6 /* ioapi.c */,
+				EDD793002C538F1700DCCCF6 /* ioapi.h */,
+				EDD793012C538F1700DCCCF6 /* mztools.c */,
+				EDD793022C538F1700DCCCF6 /* mztools.h */,
+				EDD793032C538F1700DCCCF6 /* unzip.c */,
+				EDD793042C538F1700DCCCF6 /* unzip.h */,
+				EDD793052C538F1700DCCCF6 /* zip.c */,
+				EDD793062C538F1700DCCCF6 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		EDD7930D2C538F1700DCCCF6 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				EDD792FD2C538F1700DCCCF6 /* aes */,
+				EDD793072C538F1700DCCCF6 /* minizip */,
+				EDD793082C538F1700DCCCF6 /* Common.h */,
+				EDD7930A2C538F1700DCCCF6 /* SSZipArchive.h */,
+				EDD7930B2C538F1700DCCCF6 /* SSZipArchive.m */,
+				EDD7930C2C538F1700DCCCF6 /* ZipArchive.h */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDD7926E2C538BC000DCCCF6 /* 02-文件的压缩和解压缩 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD7929E2C538BC200DCCCF6 /* Build configuration list for PBXNativeTarget "02-文件的压缩和解压缩" */;
+			buildPhases = (
+				EDD7926B2C538BC000DCCCF6 /* Sources */,
+				EDD7926C2C538BC000DCCCF6 /* Frameworks */,
+				EDD7926D2C538BC000DCCCF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-文件的压缩和解压缩";
+			productName = "02-文件的压缩和解压缩";
+			productReference = EDD7926F2C538BC000DCCCF6 /* 02-文件的压缩和解压缩.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDD792892C538BC200DCCCF6 /* 02-文件的压缩和解压缩Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD792A12C538BC200DCCCF6 /* Build configuration list for PBXNativeTarget "02-文件的压缩和解压缩Tests" */;
+			buildPhases = (
+				EDD792862C538BC200DCCCF6 /* Sources */,
+				EDD792872C538BC200DCCCF6 /* Frameworks */,
+				EDD792882C538BC200DCCCF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD7928C2C538BC200DCCCF6 /* PBXTargetDependency */,
+			);
+			name = "02-文件的压缩和解压缩Tests";
+			productName = "02-文件的压缩和解压缩Tests";
+			productReference = EDD7928A2C538BC200DCCCF6 /* 02-文件的压缩和解压缩Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDD792932C538BC200DCCCF6 /* 02-文件的压缩和解压缩UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD792A42C538BC200DCCCF6 /* Build configuration list for PBXNativeTarget "02-文件的压缩和解压缩UITests" */;
+			buildPhases = (
+				EDD792902C538BC200DCCCF6 /* Sources */,
+				EDD792912C538BC200DCCCF6 /* Frameworks */,
+				EDD792922C538BC200DCCCF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD792962C538BC200DCCCF6 /* PBXTargetDependency */,
+			);
+			name = "02-文件的压缩和解压缩UITests";
+			productName = "02-文件的压缩和解压缩UITests";
+			productReference = EDD792942C538BC200DCCCF6 /* 02-文件的压缩和解压缩UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDD792672C538BC000DCCCF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EDD7926E2C538BC000DCCCF6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EDD792892C538BC200DCCCF6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EDD7926E2C538BC000DCCCF6;
+					};
+					EDD792932C538BC200DCCCF6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EDD7926E2C538BC000DCCCF6;
+					};
+				};
+			};
+			buildConfigurationList = EDD7926A2C538BC000DCCCF6 /* Build configuration list for PBXProject "02-文件的压缩和解压缩" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDD792662C538BC000DCCCF6;
+			productRefGroup = EDD792702C538BC000DCCCF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDD7926E2C538BC000DCCCF6 /* 02-文件的压缩和解压缩 */,
+				EDD792892C538BC200DCCCF6 /* 02-文件的压缩和解压缩Tests */,
+				EDD792932C538BC200DCCCF6 /* 02-文件的压缩和解压缩UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDD7926D2C538BC000DCCCF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD7927F2C538BC200DCCCF6 /* Assets.xcassets in Resources */,
+				EDD792822C538BC200DCCCF6 /* Base in Resources */,
+				EDD7927D2C538BC000DCCCF6 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD792882C538BC200DCCCF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD792922C538BC200DCCCF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDD7926B2C538BC000DCCCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD793162C538F1700DCCCF6 /* sha1.c in Sources */,
+				EDD793132C538F1700DCCCF6 /* hmac.c in Sources */,
+				EDD7931C2C538F1700DCCCF6 /* SSZipArchive.m in Sources */,
+				EDD7927A2C538BC000DCCCF6 /* ViewController.m in Sources */,
+				EDD792742C538BC000DCCCF6 /* AppDelegate.m in Sources */,
+				EDD793102C538F1700DCCCF6 /* aestab.c in Sources */,
+				EDD793152C538F1700DCCCF6 /* pwd2key.c in Sources */,
+				EDD7931A2C538F1700DCCCF6 /* zip.c in Sources */,
+				EDD793172C538F1700DCCCF6 /* ioapi.c in Sources */,
+				EDD793122C538F1700DCCCF6 /* fileenc.c in Sources */,
+				EDD793112C538F1700DCCCF6 /* entropy.c in Sources */,
+				EDD792852C538BC200DCCCF6 /* main.m in Sources */,
+				EDD7930F2C538F1700DCCCF6 /* aeskey.c in Sources */,
+				EDD7930E2C538F1700DCCCF6 /* aescrypt.c in Sources */,
+				EDD792772C538BC000DCCCF6 /* SceneDelegate.m in Sources */,
+				EDD793142C538F1700DCCCF6 /* prng.c in Sources */,
+				EDD793192C538F1700DCCCF6 /* unzip.c in Sources */,
+				EDD793182C538F1700DCCCF6 /* mztools.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD792862C538BC200DCCCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD7928F2C538BC200DCCCF6 /* _2__________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD792902C538BC200DCCCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD7929B2C538BC200DCCCF6 /* _2__________UITestsLaunchTests.m in Sources */,
+				EDD792992C538BC200DCCCF6 /* _2__________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDD7928C2C538BC200DCCCF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDD7926E2C538BC000DCCCF6 /* 02-文件的压缩和解压缩 */;
+			targetProxy = EDD7928B2C538BC200DCCCF6 /* PBXContainerItemProxy */;
+		};
+		EDD792962C538BC200DCCCF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDD7926E2C538BC000DCCCF6 /* 02-文件的压缩和解压缩 */;
+			targetProxy = EDD792952C538BC200DCCCF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDD7927B2C538BC000DCCCF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDD7927C2C538BC000DCCCF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDD792802C538BC200DCCCF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDD792812C538BC200DCCCF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDD7929C2C538BC200DCCCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDD7929D2C538BC200DCCCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDD7929F2C538BC200DCCCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "02-文件的压缩和解压缩/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDD792A02C538BC200DCCCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "02-文件的压缩和解压缩/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDD792A22C538BC200DCCCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-文件的压缩和解压缩.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/02-文件的压缩和解压缩";
+			};
+			name = Debug;
+		};
+		EDD792A32C538BC200DCCCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-文件的压缩和解压缩.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/02-文件的压缩和解压缩";
+			};
+			name = Release;
+		};
+		EDD792A52C538BC200DCCCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "02-文件的压缩和解压缩";
+			};
+			name = Debug;
+		};
+		EDD792A62C538BC200DCCCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-2----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "02-文件的压缩和解压缩";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDD7926A2C538BC000DCCCF6 /* Build configuration list for PBXProject "02-文件的压缩和解压缩" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD7929C2C538BC200DCCCF6 /* Debug */,
+				EDD7929D2C538BC200DCCCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD7929E2C538BC200DCCCF6 /* Build configuration list for PBXNativeTarget "02-文件的压缩和解压缩" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD7929F2C538BC200DCCCF6 /* Debug */,
+				EDD792A02C538BC200DCCCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD792A12C538BC200DCCCF6 /* Build configuration list for PBXNativeTarget "02-文件的压缩和解压缩Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD792A22C538BC200DCCCF6 /* Debug */,
+				EDD792A32C538BC200DCCCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD792A42C538BC200DCCCF6 /* Build configuration list for PBXNativeTarget "02-文件的压缩和解压缩UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD792A52C538BC200DCCCF6 /* Debug */,
+				EDD792A62C538BC200DCCCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDD792672C538BC000DCCCF6 /* Project object */;
+}
