@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDD7959F2C5788AB00DCCCF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD7959E2C5788AB00DCCCF6 /* AppDelegate.m */; };
+		EDD795A22C5788AB00DCCCF6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD795A12C5788AB00DCCCF6 /* SceneDelegate.m */; };
+		EDD795A52C5788AB00DCCCF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD795A42C5788AB00DCCCF6 /* ViewController.m */; };
+		EDD795A82C5788AB00DCCCF6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EDD795A72C5788AB00DCCCF6 /* Base */; };
+		EDD795AA2C5788AD00DCCCF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD795A92C5788AD00DCCCF6 /* Assets.xcassets */; };
+		EDD795AD2C5788AD00DCCCF6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EDD795AC2C5788AD00DCCCF6 /* Base */; };
+		EDD795B02C5788AD00DCCCF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD795AF2C5788AD00DCCCF6 /* main.m */; };
+		EDD795BA2C5788AD00DCCCF6 /* _3_AFN______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD795B92C5788AD00DCCCF6 /* _3_AFN______Tests.m */; };
+		EDD795C42C5788AD00DCCCF6 /* _3_AFN______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD795C32C5788AD00DCCCF6 /* _3_AFN______UITests.m */; };
+		EDD795C62C5788AD00DCCCF6 /* _3_AFN______UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD795C52C5788AD00DCCCF6 /* _3_AFN______UITestsLaunchTests.m */; };
+		EDD795E12C5788E900DCCCF6 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD795D42C5788E900DCCCF6 /* AFHTTPSessionManager.m */; };
+		EDD795E22C5788E900DCCCF6 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD795D72C5788E900DCCCF6 /* AFNetworkReachabilityManager.m */; };
+		EDD795E32C5788E900DCCCF6 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD795D92C5788E900DCCCF6 /* AFSecurityPolicy.m */; };
+		EDD795E42C5788E900DCCCF6 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD795DB2C5788E900DCCCF6 /* AFURLRequestSerialization.m */; };
+		EDD795E52C5788E900DCCCF6 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD795DD2C5788E900DCCCF6 /* AFURLResponseSerialization.m */; };
+		EDD795E62C5788E900DCCCF6 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD795DF2C5788E900DCCCF6 /* AFURLSessionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDD795B62C5788AD00DCCCF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDD795922C5788AB00DCCCF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDD795992C5788AB00DCCCF6;
+			remoteInfo = "03-AFN实现文件上传";
+		};
+		EDD795C02C5788AD00DCCCF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDD795922C5788AB00DCCCF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDD795992C5788AB00DCCCF6;
+			remoteInfo = "03-AFN实现文件上传";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDD7959A2C5788AB00DCCCF6 /* 03-AFN实现文件上传.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03-AFN实现文件上传.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD7959D2C5788AB00DCCCF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDD7959E2C5788AB00DCCCF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDD795A02C5788AB00DCCCF6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		EDD795A12C5788AB00DCCCF6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		EDD795A32C5788AB00DCCCF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDD795A42C5788AB00DCCCF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDD795A72C5788AB00DCCCF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDD795A92C5788AD00DCCCF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDD795AC2C5788AD00DCCCF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDD795AE2C5788AD00DCCCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD795AF2C5788AD00DCCCF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDD795B52C5788AD00DCCCF6 /* 03-AFN实现文件上传Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03-AFN实现文件上传Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD795B92C5788AD00DCCCF6 /* _3_AFN______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_3_AFN______Tests.m"; sourceTree = "<group>"; };
+		EDD795BF2C5788AD00DCCCF6 /* 03-AFN实现文件上传UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03-AFN实现文件上传UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD795C32C5788AD00DCCCF6 /* _3_AFN______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_3_AFN______UITests.m"; sourceTree = "<group>"; };
+		EDD795C52C5788AD00DCCCF6 /* _3_AFN______UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_3_AFN______UITestsLaunchTests.m"; sourceTree = "<group>"; };
+		EDD795D22C5788E900DCCCF6 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		EDD795D32C5788E900DCCCF6 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		EDD795D42C5788E900DCCCF6 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		EDD795D52C5788E900DCCCF6 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		EDD795D62C5788E900DCCCF6 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		EDD795D72C5788E900DCCCF6 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		EDD795D82C5788E900DCCCF6 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		EDD795D92C5788E900DCCCF6 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		EDD795DA2C5788E900DCCCF6 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		EDD795DB2C5788E900DCCCF6 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		EDD795DC2C5788E900DCCCF6 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		EDD795DD2C5788E900DCCCF6 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		EDD795DE2C5788E900DCCCF6 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		EDD795DF2C5788E900DCCCF6 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDD795972C5788AB00DCCCF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD795B22C5788AD00DCCCF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD795BC2C5788AD00DCCCF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDD795912C5788AB00DCCCF6 = {
+			isa = PBXGroup;
+			children = (
+				EDD7959C2C5788AB00DCCCF6 /* 03-AFN实现文件上传 */,
+				EDD795B82C5788AD00DCCCF6 /* 03-AFN实现文件上传Tests */,
+				EDD795C22C5788AD00DCCCF6 /* 03-AFN实现文件上传UITests */,
+				EDD7959B2C5788AB00DCCCF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDD7959B2C5788AB00DCCCF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDD7959A2C5788AB00DCCCF6 /* 03-AFN实现文件上传.app */,
+				EDD795B52C5788AD00DCCCF6 /* 03-AFN实现文件上传Tests.xctest */,
+				EDD795BF2C5788AD00DCCCF6 /* 03-AFN实现文件上传UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDD7959C2C5788AB00DCCCF6 /* 03-AFN实现文件上传 */ = {
+			isa = PBXGroup;
+			children = (
+				EDD795E02C5788E900DCCCF6 /* AFNetworking */,
+				EDD7959D2C5788AB00DCCCF6 /* AppDelegate.h */,
+				EDD7959E2C5788AB00DCCCF6 /* AppDelegate.m */,
+				EDD795A02C5788AB00DCCCF6 /* SceneDelegate.h */,
+				EDD795A12C5788AB00DCCCF6 /* SceneDelegate.m */,
+				EDD795A32C5788AB00DCCCF6 /* ViewController.h */,
+				EDD795A42C5788AB00DCCCF6 /* ViewController.m */,
+				EDD795A62C5788AB00DCCCF6 /* Main.storyboard */,
+				EDD795A92C5788AD00DCCCF6 /* Assets.xcassets */,
+				EDD795AB2C5788AD00DCCCF6 /* LaunchScreen.storyboard */,
+				EDD795AE2C5788AD00DCCCF6 /* Info.plist */,
+				EDD795AF2C5788AD00DCCCF6 /* main.m */,
+			);
+			path = "03-AFN实现文件上传";
+			sourceTree = "<group>";
+		};
+		EDD795B82C5788AD00DCCCF6 /* 03-AFN实现文件上传Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EDD795B92C5788AD00DCCCF6 /* _3_AFN______Tests.m */,
+			);
+			path = "03-AFN实现文件上传Tests";
+			sourceTree = "<group>";
+		};
+		EDD795C22C5788AD00DCCCF6 /* 03-AFN实现文件上传UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDD795C32C5788AD00DCCCF6 /* _3_AFN______UITests.m */,
+				EDD795C52C5788AD00DCCCF6 /* _3_AFN______UITestsLaunchTests.m */,
+			);
+			path = "03-AFN实现文件上传UITests";
+			sourceTree = "<group>";
+		};
+		EDD795E02C5788E900DCCCF6 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				EDD795D22C5788E900DCCCF6 /* AFCompatibilityMacros.h */,
+				EDD795D32C5788E900DCCCF6 /* AFHTTPSessionManager.h */,
+				EDD795D42C5788E900DCCCF6 /* AFHTTPSessionManager.m */,
+				EDD795D52C5788E900DCCCF6 /* AFNetworking.h */,
+				EDD795D62C5788E900DCCCF6 /* AFNetworkReachabilityManager.h */,
+				EDD795D72C5788E900DCCCF6 /* AFNetworkReachabilityManager.m */,
+				EDD795D82C5788E900DCCCF6 /* AFSecurityPolicy.h */,
+				EDD795D92C5788E900DCCCF6 /* AFSecurityPolicy.m */,
+				EDD795DA2C5788E900DCCCF6 /* AFURLRequestSerialization.h */,
+				EDD795DB2C5788E900DCCCF6 /* AFURLRequestSerialization.m */,
+				EDD795DC2C5788E900DCCCF6 /* AFURLResponseSerialization.h */,
+				EDD795DD2C5788E900DCCCF6 /* AFURLResponseSerialization.m */,
+				EDD795DE2C5788E900DCCCF6 /* AFURLSessionManager.h */,
+				EDD795DF2C5788E900DCCCF6 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDD795992C5788AB00DCCCF6 /* 03-AFN实现文件上传 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD795C92C5788AD00DCCCF6 /* Build configuration list for PBXNativeTarget "03-AFN实现文件上传" */;
+			buildPhases = (
+				EDD795962C5788AB00DCCCF6 /* Sources */,
+				EDD795972C5788AB00DCCCF6 /* Frameworks */,
+				EDD795982C5788AB00DCCCF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03-AFN实现文件上传";
+			productName = "03-AFN实现文件上传";
+			productReference = EDD7959A2C5788AB00DCCCF6 /* 03-AFN实现文件上传.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDD795B42C5788AD00DCCCF6 /* 03-AFN实现文件上传Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD795CC2C5788AD00DCCCF6 /* Build configuration list for PBXNativeTarget "03-AFN实现文件上传Tests" */;
+			buildPhases = (
+				EDD795B12C5788AD00DCCCF6 /* Sources */,
+				EDD795B22C5788AD00DCCCF6 /* Frameworks */,
+				EDD795B32C5788AD00DCCCF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD795B72C5788AD00DCCCF6 /* PBXTargetDependency */,
+			);
+			name = "03-AFN实现文件上传Tests";
+			productName = "03-AFN实现文件上传Tests";
+			productReference = EDD795B52C5788AD00DCCCF6 /* 03-AFN实现文件上传Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDD795BE2C5788AD00DCCCF6 /* 03-AFN实现文件上传UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD795CF2C5788AD00DCCCF6 /* Build configuration list for PBXNativeTarget "03-AFN实现文件上传UITests" */;
+			buildPhases = (
+				EDD795BB2C5788AD00DCCCF6 /* Sources */,
+				EDD795BC2C5788AD00DCCCF6 /* Frameworks */,
+				EDD795BD2C5788AD00DCCCF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD795C12C5788AD00DCCCF6 /* PBXTargetDependency */,
+			);
+			name = "03-AFN实现文件上传UITests";
+			productName = "03-AFN实现文件上传UITests";
+			productReference = EDD795BF2C5788AD00DCCCF6 /* 03-AFN实现文件上传UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDD795922C5788AB00DCCCF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EDD795992C5788AB00DCCCF6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EDD795B42C5788AD00DCCCF6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EDD795992C5788AB00DCCCF6;
+					};
+					EDD795BE2C5788AD00DCCCF6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EDD795992C5788AB00DCCCF6;
+					};
+				};
+			};
+			buildConfigurationList = EDD795952C5788AB00DCCCF6 /* Build configuration list for PBXProject "03-AFN实现文件上传" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDD795912C5788AB00DCCCF6;
+			productRefGroup = EDD7959B2C5788AB00DCCCF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDD795992C5788AB00DCCCF6 /* 03-AFN实现文件上传 */,
+				EDD795B42C5788AD00DCCCF6 /* 03-AFN实现文件上传Tests */,
+				EDD795BE2C5788AD00DCCCF6 /* 03-AFN实现文件上传UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDD795982C5788AB00DCCCF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD795AA2C5788AD00DCCCF6 /* Assets.xcassets in Resources */,
+				EDD795AD2C5788AD00DCCCF6 /* Base in Resources */,
+				EDD795A82C5788AB00DCCCF6 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD795B32C5788AD00DCCCF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD795BD2C5788AD00DCCCF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDD795962C5788AB00DCCCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD795E32C5788E900DCCCF6 /* AFSecurityPolicy.m in Sources */,
+				EDD795E52C5788E900DCCCF6 /* AFURLResponseSerialization.m in Sources */,
+				EDD795A52C5788AB00DCCCF6 /* ViewController.m in Sources */,
+				EDD7959F2C5788AB00DCCCF6 /* AppDelegate.m in Sources */,
+				EDD795E12C5788E900DCCCF6 /* AFHTTPSessionManager.m in Sources */,
+				EDD795E62C5788E900DCCCF6 /* AFURLSessionManager.m in Sources */,
+				EDD795B02C5788AD00DCCCF6 /* main.m in Sources */,
+				EDD795E22C5788E900DCCCF6 /* AFNetworkReachabilityManager.m in Sources */,
+				EDD795A22C5788AB00DCCCF6 /* SceneDelegate.m in Sources */,
+				EDD795E42C5788E900DCCCF6 /* AFURLRequestSerialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD795B12C5788AD00DCCCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD795BA2C5788AD00DCCCF6 /* _3_AFN______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD795BB2C5788AD00DCCCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD795C62C5788AD00DCCCF6 /* _3_AFN______UITestsLaunchTests.m in Sources */,
+				EDD795C42C5788AD00DCCCF6 /* _3_AFN______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDD795B72C5788AD00DCCCF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDD795992C5788AB00DCCCF6 /* 03-AFN实现文件上传 */;
+			targetProxy = EDD795B62C5788AD00DCCCF6 /* PBXContainerItemProxy */;
+		};
+		EDD795C12C5788AD00DCCCF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDD795992C5788AB00DCCCF6 /* 03-AFN实现文件上传 */;
+			targetProxy = EDD795C02C5788AD00DCCCF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDD795A62C5788AB00DCCCF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDD795A72C5788AB00DCCCF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDD795AB2C5788AD00DCCCF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDD795AC2C5788AD00DCCCF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDD795C72C5788AD00DCCCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDD795C82C5788AD00DCCCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDD795CA2C5788AD00DCCCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "03-AFN实现文件上传/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-3-AFN------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDD795CB2C5788AD00DCCCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "03-AFN实现文件上传/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-3-AFN------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDD795CD2C5788AD00DCCCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-3-AFN------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/03-AFN实现文件上传.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/03-AFN实现文件上传";
+			};
+			name = Debug;
+		};
+		EDD795CE2C5788AD00DCCCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-3-AFN------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/03-AFN实现文件上传.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/03-AFN实现文件上传";
+			};
+			name = Release;
+		};
+		EDD795D02C5788AD00DCCCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-3-AFN------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "03-AFN实现文件上传";
+			};
+			name = Debug;
+		};
+		EDD795D12C5788AD00DCCCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-3-AFN------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "03-AFN实现文件上传";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDD795952C5788AB00DCCCF6 /* Build configuration list for PBXProject "03-AFN实现文件上传" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD795C72C5788AD00DCCCF6 /* Debug */,
+				EDD795C82C5788AD00DCCCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD795C92C5788AD00DCCCF6 /* Build configuration list for PBXNativeTarget "03-AFN实现文件上传" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD795CA2C5788AD00DCCCF6 /* Debug */,
+				EDD795CB2C5788AD00DCCCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD795CC2C5788AD00DCCCF6 /* Build configuration list for PBXNativeTarget "03-AFN实现文件上传Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD795CD2C5788AD00DCCCF6 /* Debug */,
+				EDD795CE2C5788AD00DCCCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD795CF2C5788AD00DCCCF6 /* Build configuration list for PBXNativeTarget "03-AFN实现文件上传UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD795D02C5788AD00DCCCF6 /* Debug */,
+				EDD795D12C5788AD00DCCCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDD795922C5788AB00DCCCF6 /* Project object */;
+}
