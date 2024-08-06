@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED1D64872C61BC6C001ECFC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D64862C61BC6C001ECFC7 /* AppDelegate.m */; };
+		ED1D648A2C61BC6C001ECFC7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D64892C61BC6C001ECFC7 /* SceneDelegate.m */; };
+		ED1D648D2C61BC6C001ECFC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D648C2C61BC6C001ECFC7 /* ViewController.m */; };
+		ED1D64902C61BC6C001ECFC7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ED1D648F2C61BC6C001ECFC7 /* Base */; };
+		ED1D64922C61BC6E001ECFC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED1D64912C61BC6E001ECFC7 /* Assets.xcassets */; };
+		ED1D64952C61BC6E001ECFC7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ED1D64942C61BC6E001ECFC7 /* Base */; };
+		ED1D64982C61BC6E001ECFC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D64972C61BC6E001ECFC7 /* main.m */; };
+		ED1D64A22C61BC6E001ECFC7 /* _5_weak_assign___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D64A12C61BC6E001ECFC7 /* _5_weak_assign___Tests.m */; };
+		ED1D64AC2C61BC6E001ECFC7 /* _5_weak_assign___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D64AB2C61BC6E001ECFC7 /* _5_weak_assign___UITests.m */; };
+		ED1D64AE2C61BC6E001ECFC7 /* _5_weak_assign___UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D64AD2C61BC6E001ECFC7 /* _5_weak_assign___UITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED1D649E2C61BC6E001ECFC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED1D647A2C61BC6C001ECFC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED1D64812C61BC6C001ECFC7;
+			remoteInfo = "05-weak和assign的区别";
+		};
+		ED1D64A82C61BC6E001ECFC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED1D647A2C61BC6C001ECFC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED1D64812C61BC6C001ECFC7;
+			remoteInfo = "05-weak和assign的区别";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED1D64822C61BC6C001ECFC7 /* 05-weak和assign的区别.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "05-weak和assign的区别.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1D64852C61BC6C001ECFC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED1D64862C61BC6C001ECFC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED1D64882C61BC6C001ECFC7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		ED1D64892C61BC6C001ECFC7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		ED1D648B2C61BC6C001ECFC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED1D648C2C61BC6C001ECFC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED1D648F2C61BC6C001ECFC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED1D64912C61BC6E001ECFC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED1D64942C61BC6E001ECFC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED1D64962C61BC6E001ECFC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED1D64972C61BC6E001ECFC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED1D649D2C61BC6E001ECFC7 /* 05-weak和assign的区别Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "05-weak和assign的区别Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1D64A12C61BC6E001ECFC7 /* _5_weak_assign___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_5_weak_assign___Tests.m"; sourceTree = "<group>"; };
+		ED1D64A72C61BC6E001ECFC7 /* 05-weak和assign的区别UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "05-weak和assign的区别UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1D64AB2C61BC6E001ECFC7 /* _5_weak_assign___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_5_weak_assign___UITests.m"; sourceTree = "<group>"; };
+		ED1D64AD2C61BC6E001ECFC7 /* _5_weak_assign___UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_5_weak_assign___UITestsLaunchTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED1D647F2C61BC6C001ECFC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1D649A2C61BC6E001ECFC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1D64A42C61BC6E001ECFC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED1D64792C61BC6C001ECFC7 = {
+			isa = PBXGroup;
+			children = (
+				ED1D64842C61BC6C001ECFC7 /* 05-weak和assign的区别 */,
+				ED1D64A02C61BC6E001ECFC7 /* 05-weak和assign的区别Tests */,
+				ED1D64AA2C61BC6E001ECFC7 /* 05-weak和assign的区别UITests */,
+				ED1D64832C61BC6C001ECFC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED1D64832C61BC6C001ECFC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D64822C61BC6C001ECFC7 /* 05-weak和assign的区别.app */,
+				ED1D649D2C61BC6E001ECFC7 /* 05-weak和assign的区别Tests.xctest */,
+				ED1D64A72C61BC6E001ECFC7 /* 05-weak和assign的区别UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED1D64842C61BC6C001ECFC7 /* 05-weak和assign的区别 */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D64852C61BC6C001ECFC7 /* AppDelegate.h */,
+				ED1D64862C61BC6C001ECFC7 /* AppDelegate.m */,
+				ED1D64882C61BC6C001ECFC7 /* SceneDelegate.h */,
+				ED1D64892C61BC6C001ECFC7 /* SceneDelegate.m */,
+				ED1D648B2C61BC6C001ECFC7 /* ViewController.h */,
+				ED1D648C2C61BC6C001ECFC7 /* ViewController.m */,
+				ED1D648E2C61BC6C001ECFC7 /* Main.storyboard */,
+				ED1D64912C61BC6E001ECFC7 /* Assets.xcassets */,
+				ED1D64932C61BC6E001ECFC7 /* LaunchScreen.storyboard */,
+				ED1D64962C61BC6E001ECFC7 /* Info.plist */,
+				ED1D64972C61BC6E001ECFC7 /* main.m */,
+			);
+			path = "05-weak和assign的区别";
+			sourceTree = "<group>";
+		};
+		ED1D64A02C61BC6E001ECFC7 /* 05-weak和assign的区别Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D64A12C61BC6E001ECFC7 /* _5_weak_assign___Tests.m */,
+			);
+			path = "05-weak和assign的区别Tests";
+			sourceTree = "<group>";
+		};
+		ED1D64AA2C61BC6E001ECFC7 /* 05-weak和assign的区别UITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D64AB2C61BC6E001ECFC7 /* _5_weak_assign___UITests.m */,
+				ED1D64AD2C61BC6E001ECFC7 /* _5_weak_assign___UITestsLaunchTests.m */,
+			);
+			path = "05-weak和assign的区别UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED1D64812C61BC6C001ECFC7 /* 05-weak和assign的区别 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1D64B12C61BC6E001ECFC7 /* Build configuration list for PBXNativeTarget "05-weak和assign的区别" */;
+			buildPhases = (
+				ED1D647E2C61BC6C001ECFC7 /* Sources */,
+				ED1D647F2C61BC6C001ECFC7 /* Frameworks */,
+				ED1D64802C61BC6C001ECFC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05-weak和assign的区别";
+			productName = "05-weak和assign的区别";
+			productReference = ED1D64822C61BC6C001ECFC7 /* 05-weak和assign的区别.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED1D649C2C61BC6E001ECFC7 /* 05-weak和assign的区别Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1D64B42C61BC6E001ECFC7 /* Build configuration list for PBXNativeTarget "05-weak和assign的区别Tests" */;
+			buildPhases = (
+				ED1D64992C61BC6E001ECFC7 /* Sources */,
+				ED1D649A2C61BC6E001ECFC7 /* Frameworks */,
+				ED1D649B2C61BC6E001ECFC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED1D649F2C61BC6E001ECFC7 /* PBXTargetDependency */,
+			);
+			name = "05-weak和assign的区别Tests";
+			productName = "05-weak和assign的区别Tests";
+			productReference = ED1D649D2C61BC6E001ECFC7 /* 05-weak和assign的区别Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED1D64A62C61BC6E001ECFC7 /* 05-weak和assign的区别UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1D64B72C61BC6E001ECFC7 /* Build configuration list for PBXNativeTarget "05-weak和assign的区别UITests" */;
+			buildPhases = (
+				ED1D64A32C61BC6E001ECFC7 /* Sources */,
+				ED1D64A42C61BC6E001ECFC7 /* Frameworks */,
+				ED1D64A52C61BC6E001ECFC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED1D64A92C61BC6E001ECFC7 /* PBXTargetDependency */,
+			);
+			name = "05-weak和assign的区别UITests";
+			productName = "05-weak和assign的区别UITests";
+			productReference = ED1D64A72C61BC6E001ECFC7 /* 05-weak和assign的区别UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED1D647A2C61BC6C001ECFC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					ED1D64812C61BC6C001ECFC7 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					ED1D649C2C61BC6E001ECFC7 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = ED1D64812C61BC6C001ECFC7;
+					};
+					ED1D64A62C61BC6E001ECFC7 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = ED1D64812C61BC6C001ECFC7;
+					};
+				};
+			};
+			buildConfigurationList = ED1D647D2C61BC6C001ECFC7 /* Build configuration list for PBXProject "05-weak和assign的区别" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED1D64792C61BC6C001ECFC7;
+			productRefGroup = ED1D64832C61BC6C001ECFC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED1D64812C61BC6C001ECFC7 /* 05-weak和assign的区别 */,
+				ED1D649C2C61BC6E001ECFC7 /* 05-weak和assign的区别Tests */,
+				ED1D64A62C61BC6E001ECFC7 /* 05-weak和assign的区别UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED1D64802C61BC6C001ECFC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1D64922C61BC6E001ECFC7 /* Assets.xcassets in Resources */,
+				ED1D64952C61BC6E001ECFC7 /* Base in Resources */,
+				ED1D64902C61BC6C001ECFC7 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1D649B2C61BC6E001ECFC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1D64A52C61BC6E001ECFC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED1D647E2C61BC6C001ECFC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1D648D2C61BC6C001ECFC7 /* ViewController.m in Sources */,
+				ED1D64872C61BC6C001ECFC7 /* AppDelegate.m in Sources */,
+				ED1D64982C61BC6E001ECFC7 /* main.m in Sources */,
+				ED1D648A2C61BC6C001ECFC7 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1D64992C61BC6E001ECFC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1D64A22C61BC6E001ECFC7 /* _5_weak_assign___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1D64A32C61BC6E001ECFC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1D64AC2C61BC6E001ECFC7 /* _5_weak_assign___UITests.m in Sources */,
+				ED1D64AE2C61BC6E001ECFC7 /* _5_weak_assign___UITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED1D649F2C61BC6E001ECFC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED1D64812C61BC6C001ECFC7 /* 05-weak和assign的区别 */;
+			targetProxy = ED1D649E2C61BC6E001ECFC7 /* PBXContainerItemProxy */;
+		};
+		ED1D64A92C61BC6E001ECFC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED1D64812C61BC6C001ECFC7 /* 05-weak和assign的区别 */;
+			targetProxy = ED1D64A82C61BC6E001ECFC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED1D648E2C61BC6C001ECFC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED1D648F2C61BC6C001ECFC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED1D64932C61BC6E001ECFC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED1D64942C61BC6E001ECFC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED1D64AF2C61BC6E001ECFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED1D64B02C61BC6E001ECFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED1D64B22C61BC6E001ECFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "05-weak和assign的区别/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-5-weak-assign---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED1D64B32C61BC6E001ECFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "05-weak和assign的区别/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-5-weak-assign---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED1D64B52C61BC6E001ECFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-5-weak-assign---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/05-weak和assign的区别.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/05-weak和assign的区别";
+			};
+			name = Debug;
+		};
+		ED1D64B62C61BC6E001ECFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-5-weak-assign---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/05-weak和assign的区别.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/05-weak和assign的区别";
+			};
+			name = Release;
+		};
+		ED1D64B82C61BC6E001ECFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-5-weak-assign---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "05-weak和assign的区别";
+			};
+			name = Debug;
+		};
+		ED1D64B92C61BC6E001ECFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-5-weak-assign---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "05-weak和assign的区别";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED1D647D2C61BC6C001ECFC7 /* Build configuration list for PBXProject "05-weak和assign的区别" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1D64AF2C61BC6E001ECFC7 /* Debug */,
+				ED1D64B02C61BC6E001ECFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1D64B12C61BC6E001ECFC7 /* Build configuration list for PBXNativeTarget "05-weak和assign的区别" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1D64B22C61BC6E001ECFC7 /* Debug */,
+				ED1D64B32C61BC6E001ECFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1D64B42C61BC6E001ECFC7 /* Build configuration list for PBXNativeTarget "05-weak和assign的区别Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1D64B52C61BC6E001ECFC7 /* Debug */,
+				ED1D64B62C61BC6E001ECFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1D64B72C61BC6E001ECFC7 /* Build configuration list for PBXNativeTarget "05-weak和assign的区别UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1D64B82C61BC6E001ECFC7 /* Debug */,
+				ED1D64B92C61BC6E001ECFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED1D647A2C61BC6C001ECFC7 /* Project object */;
+}
