@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QwwLoginRegisterViewController">
+            <connections>
+                <outlet property="bottomView" destination="mVZ-Oi-nGf" id="8Mk-4H-Xpm"/>
+                <outlet property="leadCons" destination="IYa-YL-pyR" id="afg-Cu-Kvf"/>
+                <outlet property="middleView" destination="mHD-XY-C9h" id="lAj-fS-CXT"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_register_background" translatesAutoresizingMaskIntoConstraints="NO" id="hCl-Vz-vKD">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RW6-Lg-S8S" userLabel="Top">
+                    <rect key="frame" x="0.0" y="59" width="393" height="45"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8BB-4R-snb">
+                            <rect key="frame" x="10" y="0.0" width="40" height="45"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="login_close_icon"/>
+                            <connections>
+                                <action selector="close:" destination="-1" eventType="touchUpInside" id="aqe-Sl-5GV"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWz-xU-Hv8">
+                            <rect key="frame" x="289" y="0.0" width="94" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="94" id="dFv-oS-XJL"/>
+                            </constraints>
+                            <color key="tintColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="注册帐号">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <state key="selected" title="已有帐号？">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <state key="highlighted" title="已有帐号？"/>
+                            <connections>
+                                <action selector="clickRegister:" destination="-1" eventType="touchUpInside" id="WH0-DD-W49"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="5W9-ep-lwg"/>
+                        <constraint firstItem="8BB-4R-snb" firstAttribute="top" secondItem="RW6-Lg-S8S" secondAttribute="top" id="Dlw-Ro-gAA"/>
+                        <constraint firstAttribute="trailing" secondItem="IWz-xU-Hv8" secondAttribute="trailing" constant="10" id="Jnq-v5-dot"/>
+                        <constraint firstItem="8BB-4R-snb" firstAttribute="leading" secondItem="RW6-Lg-S8S" secondAttribute="leading" constant="10" id="KeG-1b-sto"/>
+                        <constraint firstItem="IWz-xU-Hv8" firstAttribute="top" secondItem="RW6-Lg-S8S" secondAttribute="top" id="ZQd-ut-oFk"/>
+                        <constraint firstAttribute="bottom" secondItem="8BB-4R-snb" secondAttribute="bottom" id="xRb-iq-WDH"/>
+                        <constraint firstAttribute="bottom" secondItem="IWz-xU-Hv8" secondAttribute="bottom" id="zE9-3x-Ki1"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mHD-XY-C9h" userLabel="Medium">
+                    <rect key="frame" x="0.0" y="154" width="786" height="300"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="zjP-Ac-OHr"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mVZ-Oi-nGf" userLabel="Bottom">
+                    <rect key="frame" x="0.0" y="698" width="393" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="q0E-yV-dFr"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="hCl-Vz-vKD" secondAttribute="trailing" id="2Fi-ga-tkS"/>
+                <constraint firstItem="mHD-XY-C9h" firstAttribute="top" secondItem="RW6-Lg-S8S" secondAttribute="bottom" constant="50" id="7km-6h-qwc"/>
+                <constraint firstItem="mHD-XY-C9h" firstAttribute="width" secondItem="hCl-Vz-vKD" secondAttribute="width" multiplier="2" id="BSL-tH-JHf"/>
+                <constraint firstItem="mHD-XY-C9h" firstAttribute="leading" secondItem="hCl-Vz-vKD" secondAttribute="leading" id="IYa-YL-pyR"/>
+                <constraint firstItem="RW6-Lg-S8S" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="K5I-LE-CoL"/>
+                <constraint firstItem="mVZ-Oi-nGf" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="KQA-Ef-mbd"/>
+                <constraint firstItem="mHD-XY-C9h" firstAttribute="trailing" secondItem="hCl-Vz-vKD" secondAttribute="trailing" id="MPi-SL-aF9"/>
+                <constraint firstItem="mVZ-Oi-nGf" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="XoY-zV-uns"/>
+                <constraint firstItem="hCl-Vz-vKD" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="dSV-UY-YoU"/>
+                <constraint firstItem="mVZ-Oi-nGf" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="gYB-9h-Qfn"/>
+                <constraint firstItem="hCl-Vz-vKD" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="hi2-yB-YQT"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="hCl-Vz-vKD" secondAttribute="bottom" id="iU1-YO-TXl"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="RW6-Lg-S8S" secondAttribute="trailing" id="uaw-sx-XOf"/>
+                <constraint firstItem="RW6-Lg-S8S" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="yCH-PB-Gmc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="113.74045801526717" y="-12.67605633802817"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="login_close_icon" width="16" height="16"/>
+        <image name="login_register_background" width="320" height="568"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

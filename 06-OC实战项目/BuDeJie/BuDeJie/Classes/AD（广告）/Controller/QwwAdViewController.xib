@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QwwAdViewController">
+            <connections>
+                <outlet property="adContentImageView" destination="qlI-XG-Kwt" id="cuI-ky-DuN"/>
+                <outlet property="jumpBtn" destination="dVK-rK-tBg" id="oqR-Pb-SGj"/>
+                <outlet property="launchImageView" destination="oBu-Vd-KJ1" id="5Gn-9R-wdl"/>
+                <outlet property="view" destination="iN0-l3-epB" id="erS-id-lm8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oBu-Vd-KJ1">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qlI-XG-Kwt" userLabel="广告占位图片">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dVK-rK-tBg">
+                    <rect key="frame" x="293" y="69" width="90" height="35"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.6898023593" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="90" id="fT0-sX-KUe"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="跳过（3）">
+                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="jumpBtnCLick:" destination="-1" eventType="touchUpInside" id="2Gq-7V-bJ5"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="oBu-Vd-KJ1" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="00P-u3-3xl"/>
+                <constraint firstItem="oBu-Vd-KJ1" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="5DX-pi-RN1"/>
+                <constraint firstItem="qlI-XG-Kwt" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="70H-uc-dpb"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="oBu-Vd-KJ1" secondAttribute="trailing" id="Js4-K3-Foa"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="qlI-XG-Kwt" secondAttribute="trailing" id="SqU-fb-GCV"/>
+                <constraint firstItem="dVK-rK-tBg" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="VNe-rH-n4z"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="qlI-XG-Kwt" secondAttribute="bottom" id="ZOo-Cg-MaG"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="oBu-Vd-KJ1" secondAttribute="bottom" id="e1o-Kg-lsg"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="qlI-XG-Kwt" secondAttribute="bottom" id="yU5-O4-g9b"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="dVK-rK-tBg" secondAttribute="trailing" constant="10" id="yX8-01-b6e"/>
+                <constraint firstItem="qlI-XG-Kwt" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="zZd-KZ-ej9"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="113.74045801526717" y="-12.67605633802817"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

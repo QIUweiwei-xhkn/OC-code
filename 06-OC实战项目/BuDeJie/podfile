@@ -1,0 +1,9 @@
+ platform :ios, '15.0'
+
+install! 'cocoapods', :disable_input_output_paths => true
+
+target 'BuDeJie' do
+	pod 'MJExtension', '~> 3.4.1'
+	pod 'SVProgressHUD', '~> 2.3.1'
+end
+ 

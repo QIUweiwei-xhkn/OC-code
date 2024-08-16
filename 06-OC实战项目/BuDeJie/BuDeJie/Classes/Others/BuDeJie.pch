@@ -1,0 +1,38 @@
+//
+//  BuDeJie.pch
+//  BuDeJie
+//
+//  Created by wei wei on 2024/8/9.
+//
+
+
+/*
+     pch步骤：1提前编译Pch
+ 1.存放公用宏
+ 2.存放公用头文件
+ 3.自定义Log
+ */
+
+//#define ABC 20
+
+#import "UIView+frame.h"
+#import "UIBarButtonItem+Item.h"
+#import "UIImage+image.h"
+#import <MJExtension/MJExtension.h>
+
+#define QColor(r,g,b) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:1]
+
+/********屏幕适配* ***********/
+#define XMGScreenW [UIScreen mainScreen].bounds.size.width
+#define XMGScreenH [UIScreen mainScreen].bounds.size.height
+#define iphone6P (XMGScreenH == 736)
+#define iphone6 (XMGScreenH == 667)
+#define iphone5 (XMGScreenH == 568)
+#define iphone4 (XMGScreenH == 480)
+         
+
+#ifdef DEBUG // 编译
+#define QWWLog(...) NSLog(__AR_ARGS);
+#else // 发布
+#define QWWLog(...)
+#endif

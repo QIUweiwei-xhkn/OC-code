@@ -9,7 +9,7 @@
 
 @interface QNavigatonViewController () <UINavigationControllerDelegate, UIGestureRecognizerDelegate>
 /** 系统手势代理   */
-@property(nonatomic, strong) id popGesture ;
+@property(nonatomic, strong) id popGesture;
 @end
 
 @implementation QNavigatonViewController
