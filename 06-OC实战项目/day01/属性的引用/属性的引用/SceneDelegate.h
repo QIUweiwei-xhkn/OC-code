@@ -1,0 +1,15 @@
+//
+//  SceneDelegate.h
+//  属性的引用
+//
+//  Created by wei wei on 2024/8/21.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+
+@property (strong, nonatomic) UIWindow * window;
+
+@end
+
