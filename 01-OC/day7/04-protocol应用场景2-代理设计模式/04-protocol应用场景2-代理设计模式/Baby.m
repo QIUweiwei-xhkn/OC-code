@@ -15,7 +15,7 @@
 - (void)food
 {
     self.hungry += 5;
-    NSLog(@"要吃东西 %i", self.hungry);
+    NSLog(@"宝宝要吃东西 %i", self.hungry);
     // 通知保姆
     if ([self.nanny respondsToSelector:@selector(feedFood:)]) {
         
@@ -26,12 +26,15 @@
 - (void)sleepy
 {
     self.sleep += 5;
-    NSLog(@"困了 %i", self.sleep);
+    NSLog(@"宝宝困了 %i", self.sleep);
     
     // 通知保姆
     if ([self.nanny respondsToSelector:@selector(hongBaby:)]) {
         
         [self.nanny hongBaby:self];
     }
+}
+-(void)dealloc {
+    NSLog(@"%s",__func__);
 }
 @end

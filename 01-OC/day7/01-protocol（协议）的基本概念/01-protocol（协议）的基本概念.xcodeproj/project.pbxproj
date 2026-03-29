@@ -27,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		ED48D8202EFEB7550041A819 /* studyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = studyProtocol.h; sourceTree = "<group>"; };
 		EDD302E12AEDEA4E001BC942 /* 01-protocol（协议）的基本概念 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01-protocol（协议）的基本概念"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD302E42AEDEA4E001BC942 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDD302EB2AEDEA92001BC942 /* sportProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sportProtocol.h; sourceTree = "<group>"; };
@@ -76,6 +77,7 @@
 				EDD302EF2AEDED91001BC942 /* Student.h */,
 				EDD302F02AEDED91001BC942 /* Student.m */,
 				EDD302EB2AEDEA92001BC942 /* sportProtocol.h */,
+				ED48D8202EFEB7550041A819 /* studyProtocol.h */,
 				EDD302F22AEDEE01001BC942 /* Teacher.h */,
 				EDD302F32AEDEE01001BC942 /* Teacher.m */,
 				EDD302EC2AEDEB0F001BC942 /* Person.h */,

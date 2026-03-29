@@ -26,6 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)setMax:(int)max;
 // 注意: <#随便写井>
 - (void)setMin:(int)min;
+
 /*
  getter方法
  1. 一定是对象方法

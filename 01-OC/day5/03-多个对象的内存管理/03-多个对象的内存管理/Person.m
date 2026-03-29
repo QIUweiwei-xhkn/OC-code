@@ -15,7 +15,7 @@
 -(void)setRoom:(Room *)room {
     if(_room != room) {
         [_room release];
-        [room retain];
+         [room retain];
         _room = room;
 
     }

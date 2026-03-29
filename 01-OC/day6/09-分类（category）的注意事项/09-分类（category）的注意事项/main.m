@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 #import "Person.h"
 #import "Person+Q.h"
+#import "Person+W.h"
 
 int main(int argc, const char * argv[]) {
     Person *p = [[Person alloc] init];

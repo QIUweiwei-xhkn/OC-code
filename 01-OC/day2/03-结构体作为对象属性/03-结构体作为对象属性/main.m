@@ -67,10 +67,10 @@ int main(int argc, const char * argv[]) {
     // 3.让学生说出自己的姓名和生日
     [student say];
     
-//    Date d1 = {1999,2,5};
-//    Date d2 = d1;  // 本质是将d1所有的属性的值都拷贝了一份赋值给d;
-//    d2.year = 1977;
-//    printf("d1 = year = %i\n",d1.year);
-//    printf("d2 = year = %i\n",d2.year);
+    Date d1 = {1999,2,5};
+    Date d2 = d1;  // 本质是将d1所有的属性的值都拷贝了一份赋值给d;
+    d2.year = 1977;
+    printf("d1 = year = %i\n",d1.year);
+    printf("d2 = year = %i\n",d2.year);
     return 0;
 }

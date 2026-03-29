@@ -6,12 +6,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Wife.h"
+#import "Husband.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Person : NSObject
-@property(nonatomic, strong)Wife<WifeCondition> *wife;
+@property(nonatomic, strong)Husband<HusbandCondition> *husband;
 -(void)show;
 @end
 

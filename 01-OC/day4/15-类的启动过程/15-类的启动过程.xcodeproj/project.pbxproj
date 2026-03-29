@@ -67,12 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				ED3995D92AC3B71A00980EBE /* main.m */,
+				ED3995E62AC3B7A300980EBE /* Goodstudent.h */,
+				ED3995E72AC3B7A300980EBE /* Goodstudent.m */,
 				ED3995E02AC3B76200980EBE /* Person.h */,
 				ED3995E12AC3B76200980EBE /* Person.m */,
 				ED3995E32AC3B77E00980EBE /* Student.h */,
 				ED3995E42AC3B77E00980EBE /* Student.m */,
-				ED3995E62AC3B7A300980EBE /* Goodstudent.h */,
-				ED3995E72AC3B7A300980EBE /* Goodstudent.m */,
 			);
 			path = "15-类的启动过程";
 			sourceTree = "<group>";

@@ -28,11 +28,6 @@
  NewMethod
  ... ...
  @end
- 
- ClassName: 需要给哪个类扩充方法
- CategoryName: 分类的名称
- NewMethod: 扩充的方法
- 
  */
 
 #import <Foundation/Foundation.h>
@@ -45,5 +40,6 @@ int main(int argc, const char * argv[]) {
     [p say];
     [p playFootball];
     [p playBasketball];
+    [Person leiFunction];
     return 0;
 }

@@ -1,6 +1,6 @@
 //
 //  studyProtocol.h
-//  02-protocol(协议)注意事项
+//  01-protocol（协议）的基本概念
 //
 //  Created by wei wei on 2025/12/26.
 //
@@ -10,9 +10,6 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol studyProtocol <NSObject>
-
-@required
-- (void)study;
 
 @end
 

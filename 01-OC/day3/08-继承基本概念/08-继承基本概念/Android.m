@@ -15,13 +15,11 @@
 //- (void)sendMessageWithNumber:(NSString*)number andContent:(NSString *)content {
 //    NSLog(@"用Android手机给%@发信息，内容是%@",number,content);
 //}
-- (void)setCpu:(int)cpu
-{
+- (void)setCpu:(int)cpu{
     _cpu = cpu;
 }
 
-- (int)cpu
-{
+- (int)cpu {
     return _cpu;
 }
 @end

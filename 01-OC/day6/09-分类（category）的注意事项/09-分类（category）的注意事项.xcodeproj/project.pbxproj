@@ -69,10 +69,10 @@
 				EDD302472AECB22A001BC942 /* main.m */,
 				EDD3024F2AECB2A8001BC942 /* Person.h */,
 				EDD3024E2AECB2A8001BC942 /* Person.m */,
-				EDD302512AECB2D7001BC942 /* Person+Q.h */,
-				EDD302522AECB2D7001BC942 /* Person+Q.m */,
 				EDD302542AECB6AA001BC942 /* Person+W.h */,
 				EDD302552AECB6AA001BC942 /* Person+W.m */,
+				EDD302512AECB2D7001BC942 /* Person+Q.h */,
+				EDD302522AECB2D7001BC942 /* Person+Q.m */,
 			);
 			path = "09-分类（category）的注意事项";
 			sourceTree = "<group>";

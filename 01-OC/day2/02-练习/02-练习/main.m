@@ -121,7 +121,7 @@ void test2(Person *newP);
 void test3(Person *newP);
 void test4(Person *newP);
 
-int main()
+int main(void)
 {
     Person *p = [Person new];
     p->age = 10;

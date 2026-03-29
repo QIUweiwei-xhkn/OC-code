@@ -21,15 +21,20 @@
  */
 + (void)carameWithFlahlightStatus:(FlahlightStatus)status
 {
+    // 间接调用对象方法
+//    Iphone *p = [Iphone new];
     if (status == kFlahlightStatusOpen) {
-//        [Iphone openFlahlight];
+//        [p openFlahlight];
+        
         // 其实在类方法中调用类方法除了可以使用类名调用以外, 还可以使用self来调用
         [self openFlahlight];
+//        [Iphone openFlahlight];
     }else
     {
-//        [Iphone closeFlahlight];
+//        [p closeFlahlight];
         // self == Iphone
         [self closeFlahlight];
+//        [Iphone openFlahlight];
     }
     NSLog(@"拍照");
     

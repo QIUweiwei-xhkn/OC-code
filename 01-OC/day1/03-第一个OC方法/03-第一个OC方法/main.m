@@ -24,7 +24,7 @@
 // 注意：如果OC方法中有形参，那么每个参数的数据类型前必须加上一个：
 // 注意：当前的方法名称是 signal: 冒号也是方法名称的一部分
 - (int)signal:(int)number;
-- (int)sendmassage:(int)number:(char *)content;
+- (int)sendmassage:(int)number  content:(char *)content;
 @end
 
 // 类的实现
@@ -43,12 +43,13 @@
     NSLog(@"打电话给%d", number);
     return 1;
 }
-- (int)sendmassage:(int)number:(char *)content{
+- (int)sendmassage:(int)number  content:(char *)content{
     NSLog(@"给%d发%s",number, content);
     // 注意：OC中的NSLog对C语言的字符串支持不是很好，如果返回的是中文的C语言字符串，可能输出乱码或者什么都不输出
     return 1;
 }
 @end
+
 int main(int argc, const char * argv[]) {
     Iphone *p = [Iphone new];
     p->_color = 0;
@@ -58,6 +59,7 @@ int main(int argc, const char * argv[]) {
     char *content = [p loadmassage];
     NSLog(@"content = %s",content);
     [p signal:12345];
-    [p sendmassage:1230 : "woxiangni"];
+//    [p sendmassage:1230 : "woxiangni"];
+    [p sendmassage:1230 content:"woxiangni"];
     return 0;
 }

@@ -24,7 +24,7 @@ int main(int argc, const char * argv[]) {
 ////    sump = sum;
 //    calculate sump = sum;
 //    NSLog(@"sum = %i", sump(20,10));
-//    
+    
 ////    int (*munisp)(int,int);
 ////    munisp = munis;
 //    calculate munisp = munis;
@@ -35,7 +35,7 @@ int main(int argc, const char * argv[]) {
         return value1 + value2;
     };
     NSLog(@"sum = %i", sumBlock(20,10));
-    
+
 //    int (^munisBlock)(int,int);
     calculateBlock munisBlock = ^(int value1, int value2) {
         return value1 - value2;

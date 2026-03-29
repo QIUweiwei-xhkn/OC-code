@@ -16,7 +16,6 @@ NS_ASSUME_NONNULL_BEGIN
 // ARC, A对象想拥有B对象, 那么就需要用一个强指针指向B对象
 //      A对象不用B对象了, 什么都不需要做, 编译器会自动帮我们做
 
-@class Dog;
 @interface Person : NSObject
 
 // 在ARC中保存一个对象用strong, 相当于MRC中的retain

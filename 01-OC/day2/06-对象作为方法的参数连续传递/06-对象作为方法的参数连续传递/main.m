@@ -70,22 +70,18 @@
 }
 
 - (void)shoot:(Clip *)c {
-    //判断有没有弹夹
+    // 判断有没有弹夹
     if(c != nil) {
-        // 判断有没有弹夹
-        if(c != nil) {
-            // 判断有没有子弹
-            if(c->_bullet > 0) {
-                c->_bullet--;
-                NSLog(@"打了一枪 还剩%i个子弹", c->_bullet);
-            }else
-            {
-                NSLog(@"没有弹夹, 请换弹夹");
-            }
-
-        }else {
+        // 判断有没有子弹
+        if(c->_bullet > 0) {
+            c->_bullet--;
+            NSLog(@"打了一枪 还剩%i个子弹", c->_bullet);
+        }else
+        {
             NSLog(@"没有弹夹, 请换弹夹");
         }
+    }else {
+        NSLog(@"没有弹夹, 请换弹夹");
     }
 }
 @end

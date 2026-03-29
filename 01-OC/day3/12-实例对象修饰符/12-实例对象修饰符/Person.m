@@ -79,10 +79,11 @@
         因为如果你经常在description方法中使用self, 可能已不小心就写成了 %@, self
         // 如果在description方法中利用%@输出self会造成死循环
         // self == person实例对象
-        return [NSString stringWithFormat:@"%@", self];
+//        return [NSString stringWithFormat:@"%@", self];
+    
 //    return @"1122";
-//    NSString *str = [NSString stringWithFormat:@"age = %i, name = %@, height = %f, weight = %f, tel = %@, email = %@", _age, _name, _height, _weight, _tel, _email];
-//    return str;
+    NSString *str = [NSString stringWithFormat:@"age = %i, name = %@, height = %f, weight = %f, tel = %@, email = %@", _age, _name, _height, _weight, _tel, _email];
+    return str;
 }
 
 // 仅仅作为了解, 开发中99%的情况使用的都是-号开头的description

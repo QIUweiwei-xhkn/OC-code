@@ -22,6 +22,7 @@
     _average = (_min + _max) / 2;
 }
 
+
 - (void)setAverage:(int)average
 {
     _average = average;

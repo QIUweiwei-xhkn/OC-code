@@ -23,8 +23,8 @@ int main(int argc, const char * argv[]) {
 //    printf("   | \n");
 //    printf("  \\|/ \n");
 //    printf("   | \n");
-//    printRose();
-//    printRose();
+//    printRose(1);
+//    printRose(1);
     
     // void代表指向的函数没有返回值
     // ()代表指向的函数没有形参
@@ -90,6 +90,6 @@ int main(int argc, const char * argv[]) {
             }
             return 1;
     };
-        printBlock(2);
+        printBlock(5);
     return 0;
 }

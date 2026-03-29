@@ -17,4 +17,7 @@
 {
     return _cpu;
 }
++(void)brand {
+    NSLog(@"Android手机");
+}
 @end

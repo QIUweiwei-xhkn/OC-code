@@ -16,7 +16,6 @@ int main(int argc, const char * argv[]) {
 //    person->_name;
 //    person->_weight;
     
-    
     // 成员变量既可以写在@interface中，也可以写在@implementation中定义
     // 写在@implementation中的变量，默认是私有成员变量，并且其与用@private修饰的不太一样，@implementation中的成员变量在其他类中无法查看，也不能访问，
 //    [person test];

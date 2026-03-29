@@ -50,7 +50,7 @@
 //}
 
 // 当发现代码的前面和后面都是一样的时候, 这个时候就可以使用block
-void goToWork(void (^workBlock)())
+void goToWork(void (^workBlock)(void))
 {
     NSLog(@"起床");
     NSLog(@"穿衣服");
@@ -68,22 +68,22 @@ void goToWork(void (^workBlock)())
     NSLog(@"睡觉");
 }
 
-void goToWorkInday1() {
+void goToWorkInday1(void) {
     goToWork(^{
         NSLog(@"认识新同事");
     });
 }
-void goToWorkInday2() {
+void goToWorkInday2(void) {
     goToWork(^{
         NSLog(@"熟悉公司代码");
     });
 }
-void goToWorkInday3() {
+void goToWorkInday3(void) {
     goToWork(^{
         NSLog(@"开始编写代码");
     });
 }
-void goToWorkInday4() {
+void goToWorkInday4(void) {
     goToWork(^{
         NSLog(@"应用程序上架");
     });

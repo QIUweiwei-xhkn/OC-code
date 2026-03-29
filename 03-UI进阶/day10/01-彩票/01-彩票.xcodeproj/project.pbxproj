@@ -327,9 +327,9 @@
 		ED579F6F2C4264C20069656C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				ED579F7B2C4264F70069656C /* QTabBarViewController.h */,
 				ED579F932C4362730069656C /* QNavigatonViewController.h */,
 				ED579F942C4362730069656C /* QNavigatonViewController.m */,
+				ED579F7B2C4264F70069656C /* QTabBarViewController.h */,
 				ED579F7C2C4264F70069656C /* QTabBarViewController.m */,
 			);
 			path = Controller;

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		EDD303242AEDF681001BC942 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD303232AEDF681001BC942 /* main.m */; };
 		EDD3032D2AEDF87E001BC942 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD3032C2AEDF87E001BC942 /* Person.m */; };
-		EDD303302AEDF888001BC942 /* Wife.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD3032F2AEDF888001BC942 /* Wife.m */; };
+		EDD303302AEDF888001BC942 /* Husband.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD3032F2AEDF888001BC942 /* Husband.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,11 +27,11 @@
 /* Begin PBXFileReference section */
 		EDD303202AEDF681001BC942 /* 03-protocol应用场景1——类型限定 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-protocol应用场景1——类型限定"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD303232AEDF681001BC942 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EDD3032A2AEDF864001BC942 /* WifeCondition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WifeCondition.h; sourceTree = "<group>"; };
+		EDD3032A2AEDF864001BC942 /* HusbandCondition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HusbandCondition.h; sourceTree = "<group>"; };
 		EDD3032B2AEDF87E001BC942 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		EDD3032C2AEDF87E001BC942 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		EDD3032E2AEDF888001BC942 /* Wife.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wife.h; sourceTree = "<group>"; };
-		EDD3032F2AEDF888001BC942 /* Wife.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wife.m; sourceTree = "<group>"; };
+		EDD3032E2AEDF888001BC942 /* Husband.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Husband.h; sourceTree = "<group>"; };
+		EDD3032F2AEDF888001BC942 /* Husband.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Husband.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				EDD303232AEDF681001BC942 /* main.m */,
-				EDD3032A2AEDF864001BC942 /* WifeCondition.h */,
+				EDD3032A2AEDF864001BC942 /* HusbandCondition.h */,
 				EDD3032B2AEDF87E001BC942 /* Person.h */,
 				EDD3032C2AEDF87E001BC942 /* Person.m */,
-				EDD3032E2AEDF888001BC942 /* Wife.h */,
-				EDD3032F2AEDF888001BC942 /* Wife.m */,
+				EDD3032E2AEDF888001BC942 /* Husband.h */,
+				EDD3032F2AEDF888001BC942 /* Husband.m */,
 			);
 			path = "03-protocol应用场景1——类型限定";
 			sourceTree = "<group>";
@@ -132,7 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDD3032D2AEDF87E001BC942 /* Person.m in Sources */,
-				EDD303302AEDF888001BC942 /* Wife.m in Sources */,
+				EDD303302AEDF888001BC942 /* Husband.m in Sources */,
 				EDD303242AEDF681001BC942 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

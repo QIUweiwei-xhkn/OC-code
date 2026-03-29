@@ -68,11 +68,11 @@
 			children = (
 				ED46459D2ADAEB9900811CEA /* main.m */,
 				EDD3012B2AE25321001BC942 /* Account.h */,
+				EDD3012C2AE25321001BC942 /* Account.m */,
 				EDD3012E2AE254A4001BC942 /* Author.h */,
+				EDD3012F2AE254A4001BC942 /* Author.m */,
 				EDD301312AE25659001BC942 /* Status.h */,
 				EDD301322AE25659001BC942 /* Status.m */,
-				EDD3012F2AE254A4001BC942 /* Author.m */,
-				EDD3012C2AE25321001BC942 /* Account.m */,
 			);
 			path = "06-多个对象内存管理练习";
 			sourceTree = "<group>";

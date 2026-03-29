@@ -12,13 +12,16 @@
 - (void)feedFood:(Baby *)baby
 {
     baby.hungry -= 10;
-    NSLog(@"喂婴儿吃东西 %i", baby.hungry);
+    NSLog(@"保姆喂婴儿吃东西 %i", baby.hungry);
 }
 
 - (void)hongBaby:(Baby *)baby
 {
     baby.sleep += 10;
-    NSLog(@"哄婴儿睡觉 %i", baby.sleep);
+    NSLog(@"保姆哄婴儿睡觉 %i", baby.sleep);
 }
 
+-(void)dealloc {
+    NSLog(@"%s",__func__);
+}
 @end

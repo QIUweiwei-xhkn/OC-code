@@ -30,8 +30,9 @@ int main(int argc, const char * argv[]) {
     // 因为block中使用的外界变量是copy的, 所以在调用之前修改外界变量的值, 不会影响到block中copy的值
 //    int a = 10;
 //    NSLog(@"&a = %p", &a);
-//    void (^myBlock)() = ^ {
+//    void (^myBlock)(void) = ^ {
 ////        int a = 20;
+////        a = 20;    // 报错 Variable is not assignable (missing __block type specifier)
 //        NSLog(@"&a = %p", &a);
 //        NSLog(@"a = %i",a);
 //    };
@@ -42,7 +43,7 @@ int main(int argc, const char * argv[]) {
     // 如果在block中修改了外界变量的值, 会影响到外界变量的值
 //    __block int a = 10;
 //    NSLog(@"&a = %p", &a);
-//    void (^myBlock)() = ^ {
+//    void (^myBlock)(void) = ^ {
 //        a = 20;
 //        NSLog(@"&a = %p", &a);
 //        NSLog(@"a = %i",a);
@@ -50,9 +51,9 @@ int main(int argc, const char * argv[]) {
 //    myBlock();
 //    NSLog(@"a = %i",a);
     
-    //     int a = 10; // 如果没有添加__block是值传递
-    //     void (*myBlock)() = &__main_block_impl_0( __main_block_func_0, &__main_block_desc_0_DATA, a);
-    //     (myBlock)->FuncPtr)(myBlock);
+//         int a = 10; // 如果没有添加__block是值传递
+//         void (*myBlock)() = &__main_block_impl_0( __main_block_func_0, &__main_block_desc_0_DATA, a);
+//         (myBlock)->FuncPtr)(myBlock);
     
     // 为什么不加__block不能在block中修改外界变量的值
 //    int a = 10;
@@ -89,7 +90,7 @@ int main(int argc, const char * argv[]) {
 //    __weak Person *weakP = p;
 
     NSLog(@"retainCount = %lu", [p retainCount]);
-    void (^myBlock)() = ^ {
+    void (^myBlock)(void) = ^ {
         NSLog(@"%@",p);
         NSLog(@"retainCount = %lu", [p retainCount]);
     };

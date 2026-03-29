@@ -5,9 +5,9 @@
 //  Created by wei wei on 2023/10/29.
 //
 
-#import "Wife.h"
+#import "Husband.h"
 
-@implementation Wife
+@implementation Husband
 // 会做饭
 - (void)cooking
 {

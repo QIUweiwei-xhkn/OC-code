@@ -26,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		ED48D8212EFEB8DF0041A819 /* studyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = studyProtocol.h; sourceTree = "<group>"; };
 		EDD303012AEDF289001BC942 /* 02-protocol(协议)注意事项 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02-protocol(协议)注意事项"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD303042AEDF289001BC942 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDD3030B2AEDF2AA001BC942 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = "../../01-protocol（协议）的基本概念/01-protocol（协议）的基本概念/Person.h"; sourceTree = "<group>"; };
@@ -33,7 +34,6 @@
 		EDD3030D2AEDF2AA001BC942 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = "../../01-protocol（协议）的基本概念/01-protocol（协议）的基本概念/Person.m"; sourceTree = "<group>"; };
 		EDD3030F2AEDF36F001BC942 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		EDD303102AEDF36F001BC942 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
-		EDD303122AEDF402001BC942 /* studyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = studyProtocol.h; sourceTree = "<group>"; };
 		EDD303132AEDF4BC001BC942 /* crazySportProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crazySportProtocol.h; sourceTree = "<group>"; };
 		EDD303142AEDF52F001BC942 /* Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
 		EDD303152AEDF52F001BC942 /* Teacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
@@ -77,8 +77,8 @@
 				EDD3030D2AEDF2AA001BC942 /* Person.m */,
 				EDD3030F2AEDF36F001BC942 /* Student.h */,
 				EDD303102AEDF36F001BC942 /* Student.m */,
-				EDD303122AEDF402001BC942 /* studyProtocol.h */,
 				EDD3030C2AEDF2AA001BC942 /* sportProtocol.h */,
+				ED48D8212EFEB8DF0041A819 /* studyProtocol.h */,
 			);
 			path = "02-protocol(协议)注意事项";
 			sourceTree = "<group>";
@@ -110,7 +110,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					EDD303002AEDF289001BC942 = {
 						CreatedOnToolsVersion = 15.0.1;
@@ -184,6 +184,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -245,6 +246,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -269,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -277,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

@@ -21,11 +21,11 @@ int main(int argc, const char * argv[]) {
             
             
             // 3.换房
-//            Room *r2 = [[Room alloc] init];
-//            r2.num = 444;
-//            // 有问题
-//            p.room = r2;
-//            [r2 release];
+            Room *r2 = [[Room alloc] init];
+            r2.num = 444;
+            // 有问题
+            p.room = r2;
+            [r2 release];
              
             p.room = r;
             

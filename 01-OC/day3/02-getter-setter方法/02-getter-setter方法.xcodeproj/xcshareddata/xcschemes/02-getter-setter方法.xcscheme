@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EDB2AC6A2AB09AF300478057"
+               BlueprintIdentifier = "EDB2ACEE2AB176C200478057"
                BuildableName = "02-getter-setter&#x65b9;&#x6cd5;"
                BlueprintName = "02-getter-setter&#x65b9;&#x6cd5;"
                ReferencedContainer = "container:02-getter-setter&#x65b9;&#x6cd5;.xcodeproj">
@@ -44,7 +44,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EDB2AC6A2AB09AF300478057"
+            BlueprintIdentifier = "EDB2ACEE2AB176C200478057"
             BuildableName = "02-getter-setter&#x65b9;&#x6cd5;"
             BlueprintName = "02-getter-setter&#x65b9;&#x6cd5;"
             ReferencedContainer = "container:02-getter-setter&#x65b9;&#x6cd5;.xcodeproj">
@@ -61,7 +61,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EDB2AC6A2AB09AF300478057"
+            BlueprintIdentifier = "EDB2ACEE2AB176C200478057"
             BuildableName = "02-getter-setter&#x65b9;&#x6cd5;"
             BlueprintName = "02-getter-setter&#x65b9;&#x6cd5;"
             ReferencedContainer = "container:02-getter-setter&#x65b9;&#x6cd5;.xcodeproj">

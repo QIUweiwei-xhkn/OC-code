@@ -15,4 +15,7 @@
 -(void)playBasketball {
     NSLog(@"%s",__func__);
 }
++(void)leiFunction {
+    NSLog(@"%s",__func__);
+}
 @end

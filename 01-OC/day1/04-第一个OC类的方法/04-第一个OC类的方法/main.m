@@ -24,7 +24,7 @@ typedef enum {
 - (int)signal:(int)number;
 + (int)sumWithValue1:(int)value1 andValue2:(int)value2;
 + (NSString *)IColorWithNumber:(IColor)number;
-
+-(void)a;
 @end
 
 @implementation Iphone
@@ -84,6 +84,10 @@ typedef enum {
     [p signal:1234];
     return value1 + value2;
 }
+
+-(void)a{
+    NSLog(@"%@", [Iphone IColorWithNumber:2]);
+}
 @end
 
 int main(int argc, const char * argv[]) {
@@ -94,5 +98,6 @@ int main(int argc, const char * argv[]) {
 //    int res = [Iphone sumWithValue1:10 andValue2:20];
 //    NSLog(@"res = %d", res);
     [p about];
+    [p a];
     return 0;
 }

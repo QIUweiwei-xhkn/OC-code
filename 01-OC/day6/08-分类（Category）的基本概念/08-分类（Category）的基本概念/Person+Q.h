@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 // 扩充方法
 -(void)playFootball;
 -(void)playBasketball;
++(void)leiFunction;
 @end
 
 NS_ASSUME_NONNULL_END

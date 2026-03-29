@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED46454B2AD570A300811CEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED46454A2AD570A300811CEA /* main.m */; };
 		ED4645532AD571F300811CEA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4645522AD571F300811CEA /* Person.m */; };
 		ED4645562AD5721500811CEA /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4645552AD5721500811CEA /* Room.m */; };
+		EDD68A7B2EFE3B4200D82C26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD68A7A2EFE3B4200D82C26 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +26,11 @@
 
 /* Begin PBXFileReference section */
 		ED4645472AD570A300811CEA /* 03-多个对象的内存管理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-多个对象的内存管理"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED46454A2AD570A300811CEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED4645512AD571F300811CEA /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		ED4645522AD571F300811CEA /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		ED4645542AD5721500811CEA /* Room.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
 		ED4645552AD5721500811CEA /* Room.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
+		EDD68A7A2EFE3B4200D82C26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +63,11 @@
 		ED4645492AD570A300811CEA /* 03-多个对象的内存管理 */ = {
 			isa = PBXGroup;
 			children = (
-				ED46454A2AD570A300811CEA /* main.m */,
 				ED4645542AD5721500811CEA /* Room.h */,
 				ED4645552AD5721500811CEA /* Room.m */,
 				ED4645512AD571F300811CEA /* Person.h */,
 				ED4645522AD571F300811CEA /* Person.m */,
+				EDD68A7A2EFE3B4200D82C26 /* main.m */,
 			);
 			path = "03-多个对象的内存管理";
 			sourceTree = "<group>";
@@ -130,8 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED4645562AD5721500811CEA /* Room.m in Sources */,
+				EDD68A7B2EFE3B4200D82C26 /* main.m in Sources */,
 				ED4645532AD571F300811CEA /* Person.m in Sources */,
-				ED46454B2AD570A300811CEA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,11 +10,13 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Person : NSObject
-//{
-//    @public
-//    int _age;
-//    int age;
-//}
+{
+    @public
+    int _age;
+//    int _number;
+    int age;
+}
+
 
 /*
  从Xcode4.4以后apple对@property进行了一个增强, 以后只要利用一个@property就可以同时生成setter/getter方法的声明和实现

@@ -9,7 +9,7 @@
 #import "Person.h"
 
 int main(int argc, const char * argv[]) {
-    Person *p = [[Person alloc] init];
+//    Person *p = [[Person alloc] init];
 //    p->_age = 10;
 //    [p say];
 //    p->_age

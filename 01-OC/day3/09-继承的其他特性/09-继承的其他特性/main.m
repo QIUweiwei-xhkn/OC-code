@@ -14,6 +14,7 @@ int main(int argc, const char * argv[]) {
     Iphone *p = [Iphone new];
     [p signalWithNumber:@"13456789"];
     [Iphone brand];
+    [Android brand];
     /*
         继承:
         当B类继承A类, 那么B类就拥有A类所有的属性和方法(类方法/对象方法)

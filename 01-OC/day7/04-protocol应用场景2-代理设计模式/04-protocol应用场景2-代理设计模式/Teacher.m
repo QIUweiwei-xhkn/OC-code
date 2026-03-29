@@ -21,4 +21,7 @@
     NSLog(@"哄婴儿睡觉 %i", baby.sleep);
 }
 
+-(void)dealloc {
+    NSLog(@"%s",__func__);
+}
 @end
